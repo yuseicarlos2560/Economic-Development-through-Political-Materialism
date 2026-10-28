@@ -1,10 +1,12 @@
 # Case Studies: Exploratory Assessment for the Empirical Chapters
 
-**Purpose.** This document surveys candidate cases for testing the three hypotheses of the thesis (see `draft2.tex`, Sections 1 and 4). It uses only the vocabulary of the theoretical framework: *government turnover, ruling coalition, political regime, structure of political power, state apparatus, external alignment, external realignment, systemic power shift, position within the international structure, sphere of influence, dominant power / subordinate state, material endowments, material capabilities,* and *economic disruption*. For each case cluster it asks four questions: (i) what is the major picture, (ii) which hypothesis and which cell of the 2×2 design does it test, (iii) what period must be analyzed, and (iv) how feasible is it to study.
+**Purpose.** This document surveys candidate cases for testing the three hypotheses of the thesis (see `draft2.tex`, Sections 1 and 4). It uses only the vocabulary of the theoretical framework: *government turnover, ruling coalition, political regime, structure of political power, state apparatus, external alignment, external realignment, systemic power shift, position within the international structure, sphere of influence, dominant power / subordinate state, material endowments, material capabilities,* and *major economic discontinuity*. For each case cluster it asks four questions: (i) what is the major picture, (ii) which hypothesis and which cell of the comparative design does it test, (iii) what period must be analyzed, and (iv) how feasible is it to study.
 
-**Selection logic.** The design needs cases in all four cells of the table: domestic political change with and without external realignment, crossed with external realignment with and without domestic political change. It also needs **hard cases** — observations that could falsify the hypotheses — selected deliberately rather than avoided.
+**The dependent variable is signed.** Following the revision of the hypotheses, the outcome is a *major economic discontinuity* — a sharp, sustained break in a country's prior economic trajectory — with two forms: *disruption* (negative: output collapse, inflation, capital flight) and *acceleration* (positive: sustained take-off, convergence). The sign prediction is part of the theory: **severance** from a dominant power's sphere deprives the state of material capabilities (market access, capital, security guarantees) and produces disruption; **entry** into a richer sphere supplies them and produces acceleration.
 
-**A note on magnitudes.** All GDP figures below are approximate peak-to-trough real-output declines from standard sources (IMF, World Bank, Maddison Project, EBRD). They are placeholders for the empirical chapters, not final measurements.
+**Selection logic.** The design needs cases in all cells of the 3×3 table in `draft2.tex`: domestic political change (none / turnover / power-structure transformation) crossed with external realignment (none / severance / entry). It also needs **hard cases** — observations that could falsify the hypotheses — selected deliberately rather than avoided.
+
+**A note on magnitudes.** All GDP figures below are approximate peak-to-trough real-output changes from standard sources (IMF, World Bank, Maddison Project, EBRD). They are placeholders for the empirical chapters, not final measurements.
 
 ---
 
@@ -18,21 +20,21 @@ The dissolution of the USSR produced the largest peacetime output collapses on r
 
 - **External dimension:** simultaneous *external realignment* (republics leaving the Soviet sphere) and *systemic power shift* (Soviet collapse). This is the "both coincide" configuration the framework flags as the most disruptive.
 - **Domestic dimension:** varies by case, which is what makes the cluster useful:
-  - **Baltics (Estonia, Latvia, Lithuania):** genuine *regime change* plus *transformation of the power structure*, followed by rapid realignment into the Western sphere (EU/NATO accession 2004).
+  - **Baltics (Estonia, Latvia, Lithuania):** genuine *regime change* plus *transformation of the power structure*, followed by **entry into a richer sphere** (EU/NATO accession 2004). After the initial severance-driven collapse, they became the fastest convergers in the post-socialist world — the cluster's positive-cell cases: severance → disruption, then entry → acceleration, in one observable sequence.
   - **Belarus:** continuity of the *state apparatus*, no deep power-structure transformation (Lukashenko from 1994 consolidated rather than replaced the existing structure), and **no exit from the Russian sphere**. Shallower disruption and earlier stabilization than Ukraine, despite far less "democratization."
   - **Ukraine:** contested external position (between the Russian and Western spheres), prolonged elite deadlock, deepest collapse (~60%).
   - **Central Asia (Turkmenistan, Uzbekistan):** near-total continuity of rulers, apparatus, and power structure, yet still major disruption — strong evidence that the disruption tracked the external severance, not domestic political change (supports H2).
-- **Extensions:** the 2004 Ukrainian "Orange Revolution" was *government turnover / nominal regime change* without realignment and produced no disruption (supports H1). The 2014 Maidan, by contrast, was turnover **plus** realignment (association with the EU, loss of the Russian sphere, war), followed by a ~16% cumulative GDP contraction in 2014–15 (supports H3). Russia's post-2014 sanctions-driven stagnation adds a further data point on externally imposed constraint.
+- **Extensions:** the 2004 Ukrainian "Orange Revolution" was *government turnover / nominal regime change* without realignment and produced no discontinuity (supports H1). The 2014 Maidan, by contrast, was turnover **plus** realignment (association with the EU, loss of the Russian sphere, war), followed by a ~16% cumulative GDP contraction in 2014–15 (supports H3 — and note the sign: severance from the Russian sphere dominated any gains from the EU association). Russia's post-2014 sanctions-driven stagnation adds a further data point on externally imposed constraint.
 
 ### Period to analyze
 
-Core window **1988–2000** for the collapse; **2000–2015** for the divergence (Baltics vs. Belarus vs. Ukraine) and the 2004/2014 Ukraine contrasts.
+Core window **1988–2000** for the collapse; **2000–2015** for the divergence (Baltic acceleration vs. Belarus stability vs. Ukrainian stagnation) and the 2004/2014 Ukraine contrasts.
 
 ### Feasibility
 
 **High.** World Bank WDI, EBRD Transition Reports, Maddison Project, IMF WEO all cover the region; the qualitative coding (alignment, apparatus continuity) is well documented in a large secondary literature. The main confound is that systemic shift, realignment, and domestic change occurred simultaneously in 1989–91 — which is why the *within-cluster* comparisons (Baltics vs. Belarus vs. Ukraine vs. Central Asia), not Russia alone, carry the evidential weight.
 
-**Verdict: core case cluster.**
+**Verdict: core case cluster — the only cluster that contains the full severance→disruption, entry→acceleration sequence within comparable units.**
 
 ---
 
@@ -44,7 +46,7 @@ Between 1989 and 1993 Cuba lost roughly **35% of GDP** ([ResearchGate/energy stu
 
 ### Framework reading
 
-This is almost a laboratory case for **H2**: major economic disruption with zero domestic political change, tracking the loss of the patron exactly. The later history strengthens it: Cuba's partial recovery in the 2000s coincides with acquiring a new patron (Venezuela under Chávez, ~100,000 bpd of subsidized oil), and its renewed crisis after 2019 coincides with the collapse of that patron — disruption following alignment, again without domestic structural change.
+This is almost a laboratory case for **H2**: major disruption with zero domestic political change, tracking the loss of the patron exactly. The later history strengthens it: Cuba's partial recovery in the 2000s coincides with acquiring a new patron (Venezuela under Chávez, ~100,000 bpd of subsidized oil) — **entry, partial acceleration** — and its renewed crisis after 2019 coincides with the collapse of that patron — **severance, disruption again**, still without domestic structural change. One country, three signed realignments, three matching outcomes.
 
 ### Period to analyze
 
@@ -52,7 +54,7 @@ This is almost a laboratory case for **H2**: major economic disruption with zero
 
 ### Feasibility
 
-**High.** Cuban official statistics are usable for orders of magnitude, and a mature secondary literature (Mesa-Lago, Hernández-Catá, ASCE proceedings) already quantifies the subsidy shock. Coding the (absence of) domestic political change is trivially easy — that is the point of the case.
+**High.** Cuban official statistics are usable for orders of magnitude, and a mature secondary literature (Mesa-Lago, Hernández-Catá, ASCE proceedings) already quantifies the subsidy shock. Coding the (absence of) domestic political change is trivially easy — that is the point of the case. Because the 1989 realignment was **imposed, not chosen**, Cuba also escapes the endogeneity problem that weakens the entry cases (see Section 8) and should carry corresponding causal weight.
 
 **Verdict: core case; arguably the single cleanest test of the whole design.**
 
@@ -62,12 +64,12 @@ This is almost a laboratory case for **H2**: major economic disruption with zero
 
 ### Major picture
 
-The two Koreas share material endowments, population, and history; they diverged because they were placed in opposite spheres of influence in 1945–48. This is the showcase case of Acemoglu & Robinson's institutional theory — which makes it rhetorically valuable to re-analyze: if the framework can explain the Korean divergence at least as well as "inclusive vs. extractive institutions," and can explain what AJR's account *cannot*, the case earns its place.
+The two Koreas share material endowments, population, and history; they diverged because they were placed in opposite spheres of influence in 1945–48. This is the showcase case of Acemoglu & Robinson's institutional theory — which makes it rhetorically valuable to re-analyze: if the framework can explain the Korean divergence at least as well as "inclusive vs. extractive institutions," and can explain what AJR's account *cannot*, the case earns its place. Note that under the signed-outcome revision, the Korean pair is the design's **long-run positive/negative dyad**: the South's entry into the US sphere produced acceleration, the North's dependence on the Soviet sphere produced growth-then-collapse — opposite signs from opposite alignments, holding endowments constant.
 
 What AJR's account struggles with:
 
-- **North Korea 1988–1998:** famine and industrial collapse (mortality estimates range widely, ~240,000 to over 1 million; output fell by roughly a third to a half) occurred with **no domestic political change whatsoever** — the 1994 Kim Il-sung → Kim Jong-il succession was pure *government turnover* within an untouched power structure. The driver was the loss of the Soviet sphere (subsidized oil, fertilizer, markets) — again, external realignment imposed by a systemic shift. This is H2, not an institutions story.
-- **South Korea 1961–1979:** Park Chung-hee's 1961 coup was a *regime change* by any definition, followed not by disruption but by take-off — awkward for any simple "inclusive institutions cause growth" reading, and consistent with H1's claim that domestic political change does not by itself produce disruption. South Korea's growth was underwritten by its position in the US sphere (market access, capital, security guarantee).
+- **North Korea 1988–1998:** famine and industrial collapse (mortality estimates range widely, ~240,000 to over 1 million; output fell by roughly a third to a half) occurred with **no domestic political change whatsoever** — the 1994 Kim Il-sung → Kim Jong-il succession was pure *government turnover* within an untouched power structure. The driver was the loss of the Soviet sphere (subsidized oil, fertilizer, markets) — severance → disruption. This is H2, not an institutions story.
+- **South Korea 1961–1979:** Park Chung-hee's 1961 coup was a *regime change* by any definition, followed not by disruption but by take-off — awkward for any simple "inclusive institutions cause growth" reading, and consistent with H1's claim that domestic political change does not by itself produce discontinuity. South Korea's acceleration was underwritten by its position in the US sphere (market access, capital, security guarantee).
 - **South Korea 1997–98:** the Asian financial crisis produced a sharp but short disruption (−5–7% of GDP in 1998) in a consolidated US-aligned democracy — an externally transmitted shock (capital flight from the regional subsystem), not a domestic political event.
 
 ### Period to analyze
@@ -91,18 +93,18 @@ Venezuela's real GDP contracted by about **75% between 2013 and 2021** — the l
 - **1958–1998:** the Punto Fijo system — a *party-state oligarchy* in almost the literal Trevijano sense: two state-integrated parties (AD, COPEI) alternating in office behind formally democratic institutions. Turnovers were routine; the structure of political power was untouched.
 - **1989:** *El Caracazo* and the first disruption wave — driven by the oil-price collapse and debt overhang (material endowment price shock plus external constraint), **not** by any domestic political change. Consistent with H2's spirit (external conditions, not rulers).
 - **1998–1999:** Chávez's election (*government turnover*) and the 1999 constitution (*nominal regime change*). Over the following years the concentration of power, court-packing, and the politicization of PDVSA and the security forces arguably constitute a *transformation of the power structure* plus *state-apparatus restructuring* — this coding decision is the crux of the case and must be made explicit and rule-based.
-- **2000s:** *external realignment* — Venezuela exits the US sphere in practice (ALBA, deepened Russia/China/Iran ties) while acquiring a patron role toward Cuba and others.
+- **2000s:** *external realignment of the severance type* — Venezuela exits the US sphere in practice (ALBA, deepened Russia/China/Iran ties). Note that the alternative patrons were poorer or more distant than the one abandoned, so on the sign prediction this realignment should not yield acceleration — and it did not.
 - **2013:** Maduro's succession — pure *government turnover*, coalition and structure untouched. The collapse accelerates from 2013–14 with the oil price crash, and from 2017 with US financial and oil sanctions (external constraint imposed by the former dominant power).
 
 ### The comparison group
 
-- **Colombia:** most-similar neighbor (Andean, oil-exporter, US-aligned). Repeated turnover and policy change through the 1990s–2010s, no realignment, no major disruption. The cleanest matched pair for Venezuela (H1 cell and H2 contrast).
-- **Mexico:** oil exporter, US sphere. 1982 debt crisis and 1994–95 peso crisis were externally transmitted (interest-rate and capital-flight shocks); NAFTA entry (1994) was a realignment *into* the US sphere — and note it coincided with a crisis, but a short one (−6% in 1995, recovery by 1996–97). Useful boundary case on what realignment *type* does.
+- **Colombia:** most-similar neighbor (Andean, oil-exporter, US-aligned). Repeated turnover and policy change through the 1990s–2010s, no realignment, no major discontinuity. The cleanest matched pair for Venezuela (H1 cell and H2 contrast).
+- **Mexico:** oil exporter, US sphere. 1982 debt crisis and 1994–95 peso crisis were externally transmitted (interest-rate and capital-flight shocks); NAFTA entry (1994) was a realignment *into* the US sphere — an entry case. The outcome fits the signed prediction with a caveat: no lasting disruption, and a long export/manufacturing expansion afterward, but the 1995 crisis (−6% GDP) shows that entry does not immunize against externally transmitted financial shocks. A boundary case for the acceleration threshold, useful for calibrating it.
 - **Peru — the obligatory hard case.** The 1988–90 hyperinflation (~7,600% in 1990) and ~30% output fall were driven by domestic *policy change* under García, **without external realignment**. This looks like a falsifier of H3 and must be confronted head-on, not buried. The framework's defense: H1–H3 concern turnover, regime change, and alignment — *policy change* is a separate event category (Hall's orders of change), and García's program was a paradigm-level policy shock. But this defense is only credible if the thesis states explicitly, as a scope condition, that **H1 does not claim economies are immune to domestic policy shocks — only to changes of rulers and rules.** Recommended: add this scope condition to the hypotheses chapter.
 
 ### Period to analyze
 
-**1989–2021** for Venezuela (both disruption waves, the 1998–99 and 2013 transitions); **1998–2021** for the Venezuela–Colombia pair; **1985–1992** for the Peru hard case; **1992–1997** for Mexico.
+**1989–2021** for Venezuela (both disruption waves, the 1998–99 and 2013 transitions); **1998–2021** for the Venezuela–Colombia pair; **1985–1992** for the Peru hard case; **1992–2000** for Mexico.
 
 ### Feasibility
 
@@ -112,16 +114,16 @@ Venezuela's real GDP contracted by about **75% between 2013 and 2021** — the l
 
 ---
 
-## 5. The European Union: disruption inside a hierarchy (2007–2020)
+## 5. The European Union: discontinuities inside a hierarchy (2007–2020)
 
 ### Major picture
 
-The Eurozone crisis produced sharply unequal disruption among countries sharing the same regime class (consolidated democracies) and the same formal alignment (EU/NATO): Greece lost ~26% of GDP (2007–2013), while Spain, Portugal, Ireland, and Italy suffered less, and the core suffered little. Within the framework, the Eurozone is a *regional subsystem* organized as a *hierarchy* (Lake): subordinate states borrow in a currency they do not control, and their room for maneuver is set by the dominant members (Germany) and the ECB. The Greek disruption — including the 2015 capitulation after SYRIZA's attempt to defy the creditors — is best read as the disciplining of a *subordinate state* inside the hierarchy: disruption driven by **position within the structure**, not by who governed. Greece had five governments and two de facto regime crises during the collapse; every turnover *followed* the disruption rather than causing it — direct support for H1's causal ordering.
+The Eurozone crisis produced sharply unequal disruption among countries sharing the same regime class (consolidated democracies) and the same formal alignment (EU/NATO): Greece lost ~26% of GDP (2007–2013), while Spain, Portugal, Ireland, and Italy suffered less, and the core suffered little. Within the framework, the Eurozone is a *regional subsystem* organized as a *hierarchy* (Lake): subordinate states borrow in a currency they do not control, and their room for maneuver is set by the dominant members (Germany) and the ECB. The Greek disruption — including the 2015 capitulation after SYRIZA's attempt to defy the creditors — is best read as the disciplining of a *subordinate state* inside the hierarchy: disruption driven by **position within the structure**, not by who governed. Greece had five governments and two de facto regime crises during the collapse; every turnover *followed* the disruption rather than causing it — direct support for H1's causal ordering. In signed terms, 2015 is also a **threatened-severance** case: the disruption peaked when exit from the Eurozone (severance from the dominant relationship) was on the table, and stabilized once Greece remained inside.
 
 Two further EU sub-cases:
 
-- **Hungary and Poland (2010s):** V-Dem and similar indices coded major "democratic backsliding" under Orbán (2010–) and PiS (2015–23). Whatever one makes of those codings — and the thesis's measurement critique ([Little & Meng](https://www.cambridge.org/core/journals/ps-political-science-and-politics/article/measuring-democratic-backsliding/9EE2044CDA598BD815349912E61189D8)) applies — there was **no economic disruption**: growth continued, no output collapse, no capital flight. Alleged regime change with no realignment and no disruption is precisely the H1 cell, and it connects the empirical chapters back to the measurement motivation of the thesis.
-- **Brexit (2016–2020):** a voluntary *external realignment* out of the EU sphere. H2/H3 as currently stated predict disruption; the observed outcome — sterling depreciation, an investment slowdown, a few points of cumulative GDP foregone relative to trend, but **no collapse** — is at most a partial fit. This is a stress test the thesis should keep, not discard (see the asymmetry problem below).
+- **Hungary and Poland (2010s):** V-Dem and similar indices coded major "democratic backsliding" under Orbán (2010–) and PiS (2015–23). Whatever one makes of those codings — and the thesis's measurement critique ([Little & Meng](https://www.cambridge.org/core/journals/ps-political-science-and-politics/article/measuring-democratic-backsliding/9EE2044CDA598BD815349912E61189D8)) applies — there was **no economic discontinuity**: growth continued, no output collapse, no capital flight. Alleged regime change with no realignment and no discontinuity is precisely the H1 cell, and it connects the empirical chapters back to the measurement motivation of the thesis. Poland additionally doubles as a positive-cell case over the longer window: entry into the Western sphere (NATO 1999, EU 2004) followed by the fastest sustained convergence in the region.
+- **Brexit (2016–2020):** a voluntary *external realignment* out of the EU sphere — but of a specific kind: a negotiated severance from a rich sphere with partial continued access. The signed prediction here is disruption *proportional to what was lost*, and the observed outcome — sterling depreciation, an investment slowdown, a few points of cumulative GDP foregone relative to trend, but **no collapse** — is a partial fit: below the "major" threshold if the threshold is set at post-Soviet or Greek magnitudes. Brexit therefore serves as the calibration case for the disruption threshold and a stress test for H2/H3 (see Section 7).
 
 ### Period to analyze
 
@@ -129,62 +131,65 @@ Two further EU sub-cases:
 
 ### Feasibility
 
-**Very high** — Eurostat/OECD data of the best quality available anywhere. The main caveat: outside Greece, magnitudes are moderate, so the operational threshold for "major economic disruption" (to be defined with Rodrik's growth-collapse criteria) will decide what counts.
+**Very high** — Eurostat/OECD data of the best quality available anywhere. The main caveat: outside Greece, magnitudes are moderate, so the operational threshold for "major economic discontinuity" (to be defined with Rodrik's growth-collapse criteria on the negative side and a symmetric acceleration criterion on the positive side) will decide what counts.
 
-**Verdict: supporting cluster — Greece for the hierarchy mechanism, Hungary/Poland for H1 and the measurement link, Brexit as the stress test.**
+**Verdict: supporting cluster — Greece for the hierarchy mechanism, Hungary/Poland for H1 and the measurement link (plus Poland's long-run acceleration), Brexit as the threshold-calibration stress test.**
 
 ---
 
 ## 6. Comparison matrix
 
-| Case | Domestic events (framework taxonomy) | External realignment? | Disruption (magnitude, window) | Design cell | Feasibility | Role |
+| Case | Domestic events (framework taxonomy) | Realignment (type) | Discontinuity (sign, magnitude, window) | Design cell | Feasibility | Role |
 |---|---|---|---|---|---|---|
-| Russia | Regime change + power-structure transformation | Yes (sphere loss + systemic shift) | ~−40–45% GDP, 1989–98 | Both change (H3) | High | Core (within cluster) |
-| Ukraine | Regime change, contested position | Yes | ~−60% GDP, 1989–99; −16% 2014–15 | Both change (H3) | High | Core (within cluster) |
-| Belarus | Turnover, apparatus continuity | No exit from Russian sphere | Shallower, shorter | Neither fully (H1/H2 contrast) | High | Core (within cluster) |
-| Baltics | Regime change + transformation | Yes — but *entry* into Western sphere | Sharp then fast recovery | Both change | High | Core (within cluster) |
-| Central Asia | Near-total continuity | Yes (sphere severed) | Major | Realignment only (H2) | Medium–High | Core (within cluster) |
-| Cuba | None | Yes (patron lost 1989; gained 2000s; lost 2019) | ~−35–40% GDP, 1989–93 | Realignment only (H2) | High | **Core** |
-| North Korea | Turnover only (1994) | Yes (patron lost) | ~−33–50% output, famine | Turnover + realignment (H3) | **Low** (estimates) | Shadow case |
-| South Korea | Coup 1961; democratization 1987; crisis 1997 | Stable US sphere | None from turnover; −5–7% 1998 (external shock) | H1 + boundary | High | Supporting |
-| Venezuela | Turnover 1998, nominal regime change 1999, contested transformation; turnover 2013 | Yes (exit from US sphere, 2000s) | ~−75% GDP, 2013–21; −19% per capita 2001–02 | Both / contested | Very high | **Core pair w/ Colombia** |
-| Colombia | Turnover, policy change | No | None major | Turnover only (H1) | Very high | **Core pair w/ Venezuela** |
-| Peru | Turnover 1990, regime change 1992 (*autogolpe*) | No | ~−30% GDP, hyperinflation 1988–90 | **Hard case: disruption without realignment** | Very high | Hard case (must explain) |
-| Mexico | Turnover 1994 | Yes — *entry* (NAFTA) | −6% 1995, fast recovery | Boundary | Very high | Supporting |
-| Greece | Repeated turnover; technocratic interlude | Within hierarchy (no exit until 2015 standoff) | ~−26% GDP, 2007–13 | Position within structure | Very high | Supporting |
-| Hungary / Poland | Coded "backsliding" | No | None | Turnover/“regime change” only (H1) | Very high | Supporting + measurement link |
-| UK (Brexit) | Turnover 2016, 2019 | Yes — voluntary exit | Moderate (foregone growth, no collapse) | **Stress test for H2/H3** | Very high | Stress test |
+| Russia | Regime change + power-structure transformation | Severance + systemic shift | Disruption, ~−40–45% GDP, 1989–98 | Both change (H3) | High | Core (within cluster) |
+| Ukraine | Regime change, contested position | Severance; partial entry 2014 | Disruption, ~−60% GDP, 1989–99; −16% 2014–15 | Both change (H3) | High | Core (within cluster) |
+| Belarus | Turnover, apparatus continuity | None (stayed in Russian sphere) | Shallower, shorter contraction | Neither (H1/H2 contrast) | High | Core (within cluster) |
+| Baltics | Regime change + transformation | Severance 1991, then **entry** (EU/NATO 2004) | Disruption then **acceleration** (fastest convergence) | Both change; full sign sequence | High | Core (within cluster) |
+| Central Asia | Near-total continuity | Severance | Disruption, major | Realignment only (H2) | Medium–High | Core (within cluster) |
+| Cuba | None | Severance 1989; entry (Venezuela) 2000s; severance 2019 | Disruption ~−35–40%, 1989–93; recovery 2000s; renewed crisis 2019– | Realignment only (H2), three times | High | **Core** |
+| North Korea | Turnover only (1994) | Severance | Disruption, ~−33–50% output, famine | Turnover + realignment (H3) | **Low** (estimates) | Shadow case |
+| South Korea | Coup 1961; democratization 1987; crisis 1997 | Entry (US sphere, long-run); none 1997 | **Acceleration** 1961–97; brief disruption 1998 (external shock) | H1 + entry cell | High | Supporting |
+| Venezuela | Turnover 1998, nominal regime change 1999, contested transformation; turnover 2013 | Severance (exit from US sphere, 2000s) | Disruption, ~−75% GDP, 2013–21; −19% per capita 2001–02 | Both / contested | Very high | **Core pair w/ Colombia** |
+| Colombia | Turnover, policy change | None | None major | Turnover only (H1) | Very high | **Core pair w/ Venezuela** |
+| Peru | Turnover 1990, regime change 1992 (*autogolpe*) | None | Disruption, ~−30% GDP, hyperinflation 1988–90 | **Hard case: disruption without realignment** | Very high | Hard case (must explain) |
+| Mexico | Turnover 1994 | **Entry** (NAFTA) | Brief disruption 1995 (−6%), then long export expansion | Boundary for acceleration threshold | Very high | Supporting |
+| Greece | Repeated turnover; technocratic interlude | Threatened severance inside hierarchy | Disruption, ~−26% GDP, 2007–13 | Position within structure | Very high | Supporting |
+| Hungary / Poland | Coded "backsliding" | None (Poland: entry 1999/2004, long window) | None for Hungary; **acceleration** for Poland long-run | Turnover/"regime change" only (H1); Poland also entry cell | Very high | Supporting + measurement link |
+| China | Turnover/coalition change 1976–78; power structure intact | Rapprochement with US sphere (1972–79) | **Acceleration**, 1978–present | **Entry with no structural change (H2 positive)** | High | Supporting (positive cell) |
+| UK (Brexit) | Turnover 2016, 2019 | Negotiated severance, partial access retained | Below-threshold negative (foregone growth, no collapse) | **Stress test / threshold calibration** | Very high | Stress test |
 
 ---
 
-## 7. The most important finding of this survey: the asymmetry problem
+## 7. The signed-outcome pattern (formerly "the asymmetry problem")
 
-The cases collectively expose a flaw in the current symmetric wording of H2 and H3 ("entry into **or exit from** a sphere of influence"). The pattern in the data is **asymmetric**:
+The first version of this document flagged an "asymmetry problem" for the hypotheses as originally worded (symmetric "entry into or exit from" a sphere). The case survey showed a strongly asymmetric pattern, and the hypotheses have since been revised to make that pattern the theory's central sign prediction:
 
 - **Severance from a patron or sphere → disruption, reliably:** USSR successor states (1989), Cuba (1989–93, 2019–), North Korea (1991–98), Venezuela (post-2014 oil price + post-2017 sanctions), Greece (threatened expulsion from the Eurozone core, 2010–15).
-- **Entry into a sphere → no disruption:** the Baltics and later Eastern EU members joining NATO/EU, Mexico joining NAFTA, Cuba *gaining* Venezuelan patronage in the 2000s (recovery, not disruption).
-- **Voluntary exit with negotiated continued access → moderate effects:** Brexit.
+- **Entry into a richer sphere → acceleration:** the Baltics and Poland (EU/NATO), South Korea (US sphere, 1953–97), China (US rapprochement, 1978–), Mexico (NAFTA, with the 1995 caveat), Cuba's Venezuelan-patronage recovery (2000s).
+- **No realignment → no major discontinuity, regardless of turnover:** Colombia, Hungary, Belarus (stability), Ukraine 2004.
+- **Negotiated partial severance → proportional, sub-threshold effects:** Brexit.
 
-The theoretically natural reading, in the framework's own terms: disruption tracks the **loss of material capabilities previously supplied through a dominant-power relationship** (subsidies, market access, credit, security guarantee), not realignment per se. This connects directly to Mearsheimer's endowments-to-capabilities conversion and to Lake's relational hierarchy: what hurts a subordinate state is the patron withdrawing the relationship's benefits.
+The theoretically natural reading, in the framework's own terms: discontinuities track **changes in the material capabilities channelled through a dominant-power relationship** — their withdrawal (disruption) or provision (acceleration) — not realignment in the abstract, and not domestic political labels. This connects directly to Mearsheimer's endowments-to-capabilities conversion and to Lake's relational hierarchy, and it is now stated in H2.
 
-**Recommendation:** reformulate H2/H3 in the next draft to distinguish *severance* (loss of a patron/sphere) from *entry* (acquiring one), or explicitly scope the hypotheses to severance-type realignments. This is a substantive change to the hypotheses and should be decided by you — flagged here rather than made unilaterally, since the instruction for this document was to assess cases against the existing framework.
+**Two standing cautions.** (i) *Endogeneity of entry:* richer spheres tend to admit states that are already reforming, so entry-cell cases carry less causal weight than severance-cell cases, where realignment was imposed (Cuba, North Korea, the post-Soviet republics). The design should treat severance cases as the identification anchor. (ii) *Threshold calibration:* "major" must be defined symmetrically on both signs (a Rodrik-style collapse criterion for disruption; a Hausmann–Pritchett–Rodrik-style acceleration criterion for acceleration), and Brexit/Mexico-1995 are the cases that will test where the thresholds sit.
 
 ---
 
 ## 8. Recommended empirical design
 
 **Core cases (load-bearing):**
-1. **Cuba, 1985–1995** — the cleanest H2 test (realignment without domestic change).
+1. **Cuba, 1985–1995** — the cleanest H2 test (severance without domestic change, imposed from outside).
 2. **Venezuela vs. Colombia, 1998–2021** — the matched pair for H1 and H2, with the 2013 succession isolating turnover from structural change.
-3. **Post-Soviet within-cluster comparison, 1988–2000** (Belarus vs. Baltics vs. Ukraine vs. Central Asia) — variation on both dimensions holding the systemic shock constant.
+3. **Post-Soviet within-cluster comparison, 1988–2004** (Belarus vs. Baltics vs. Ukraine vs. Central Asia) — variation on both dimensions holding the systemic shock constant, including the full severance→disruption / entry→acceleration sign sequence in the Baltics.
 
-**Supporting cases:** South Korea (H1 and the AJR contest), Greece (hierarchy mechanism), Hungary/Poland (H1 plus the measurement link to Little & Meng).
+**Supporting cases:** South Korea (H1, the positive cell, and the AJR contest), China 1976–1989 (acceleration with an intact power structure — the strongest positive-cell answer to the institutional theory), Poland long-run (entry → acceleration, plus the 2015–23 H1 window), Greece (hierarchy mechanism), Hungary (H1 plus the measurement link to Little & Meng).
 
-**Hard cases retained by design:** Peru 1985–92 (policy-driven disruption without realignment) and Brexit (realignment without collapse). These discipline the hypotheses and pre-empt the obvious referee objections.
+**Hard cases retained by design:** Peru 1985–92 (policy-driven disruption without realignment — requires the policy-change scope condition), Brexit (sub-threshold severance), and Mexico 1994–97 (entry with a short financial crisis). These discipline the hypotheses and pre-empt the obvious referee objections.
 
 **Data sources:** World Bank WDI and IMF WEO (output, inflation), Maddison Project (long-run levels), EBRD Transition Reports (post-Soviet), Archigos (leader turnover), ATOP/COW (alliance and alignment coding), national central banks (Venezuela, Cuba with caveats). V-Dem/Polity only where unavoidable, and with the thesis's own measurement critique applied to their use.
 
 **Coding rules to publish before the empirical chapters:**
-1. An operational threshold for *major economic disruption* (e.g., a Rodrik-style growth collapse: output contraction or growth deceleration beyond a stated bound).
+1. Symmetric operational thresholds for *major economic discontinuity*: a Rodrik-style growth-collapse criterion for disruption and a Hausmann–Pritchett–Rodrik-style criterion for acceleration.
 2. Rules for distinguishing *nominal regime change* from *transformation of the power structure* (separation of powers, party–state fusion, control of rulers) — the Venezuela coding depends on this.
-3. Rules for coding *external realignment*, separating severance from entry, following Keal's definition of a sphere of influence (predominant influence, constrained independence) rather than alliance formalities alone.
+3. Rules for coding *external realignment* by type — severance vs. entry vs. negotiated partial exit — following Keal's definition of a sphere of influence (predominant influence, constrained independence) rather than alliance formalities alone.
+4. A **timing rule**: outcomes must follow, not precede, the realignment they are attributed to (the discipline that keeps the endogeneity problem visible rather than hidden).
