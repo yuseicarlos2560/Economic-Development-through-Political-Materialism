@@ -175,7 +175,56 @@ No domestic political change & No major discontinuity & Disruption ($H_2$, $H_3$
 Three features make these hypotheses falsifiable. First, the event categories are defined independently of the outcome, so cases can be classified without circularity. Second, $H_1$ fails if matched cases show a major discontinuity following turnover that left the power structure and external alignment untouched. Third, $H_2$ and $H_3$ fail if major discontinuities appear without realignment, if realignment produces no discontinuity, or if the sign is wrong---acceleration after severance, or disruption after entry into a richer sphere. It would be tempting to state $H_3$ as a biconditional---discontinuity occurs if and only if domestic change coincides with external realignment---but that stronger claim does not follow from $H_1$ and $H_2$. $H_3$ is therefore advanced as a separate empirical prediction, to be tested on matched pairs of countries. Two coding rules discipline the design: outcomes must follow, not precede, the realignment they are attributed to; and the threshold for acceleration is set symmetrically to that for disruption.
 
 % =========================================================================
-% 5. CONCLUSIONS & LIMITATIONS
+% 5. METHODOLOGY
+% =========================================================================
+\section{Methodology}
+\label{sec:methodology}
+
+The empirical strategy has two layers: comparative case analysis, which carries the causal narrative, and statistical analysis, which summarizes the same predictions over a larger number of observations. Both layers test the same hypotheses with the same coding rules, so that a failure in either layer counts against the theory.
+
+\subsection{Comparative case analysis}
+
+Cases are selected as matched pairs of countries with comparable material endowments (Section~\ref{sec:hypotheses}) and coded according to the event taxonomy of Section~\ref{sec:framework} and the outcome definition of Section~\ref{sec:framework}: a \emph{disruption} threshold in the spirit of \textcite{rodrik_1999} and a symmetric \emph{acceleration} threshold in the spirit of \textcite{hausmann_pritchett_rodrik_2005}, both fixed before the cases are coded. Within each case, process tracing establishes the sequence of events, and the timing rule of Section~\ref{sec:hypotheses} is enforced: an outcome is attributed to a realignment only if it follows it. The comparative design and its falsification criteria are those of Table~\ref{tab:design}.
+
+\subsection{Statistical analysis}
+
+The statistical layer proceeds in two steps. The first step is descriptive and involves no model: country-years are classified into the cells of Table~\ref{tab:design}, and we report the frequency of major economic discontinuities per cell together with mean growth following each type of realignment. If the theory is correct, discontinuities should concentrate in the severance and entry columns, with opposite signs, while the no-realignment column remains quiet regardless of domestic political events.
+
+The second step is a linear regression on a country-year panel, extending the specification of \textcite{acemoglu_naidu_restrepo_robinson_2019}: we keep their skeleton---real GDP per capita on country fixed effects, year fixed effects, and lags of the political variable---but replace their expert-coded democracy index with event variables coded from observable facts:
+\begin{equation}
+\begin{split}
+g_{it} = \alpha_i + \lambda_t &+ \beta_1 \mathrm{Severance}_{it} + \beta_2 \mathrm{Entry}_{it} + \beta_3 \mathrm{Turnover}_{it} \\
+&+ \beta_4 \mathrm{RegimeChange}_{it} + \beta_5 \mathrm{PowerStructure}_{it} + \gamma' X_{it} + \varepsilon_{it},
+\end{split}
+\label{eq:main}
+\end{equation}
+where $g_{it}$ is real GDP per capita growth in country $i$ in year $t$; $\alpha_i$ and $\lambda_t$ are country and year fixed effects; the event indicators equal one in the year of the event and are also included with lags, so that effects can materialize over several years \parencite{acemoglu_naidu_restrepo_robinson_2019}; and $X_{it}$ collects controls for the material channel (oil rents as a share of GDP, population, investment share). Standard errors are clustered by country.
+
+The hypotheses translate into restrictions on the coefficients. $H_1$ predicts $\beta_3 = \beta_4 = 0$: turnover and nominal regime change alone have no effect. $H_2$ predicts $\beta_1 < 0$ (severance produces disruption) and $\beta_2 > 0$ (entry into a richer sphere produces acceleration). $H_3$ is examined by interacting the domestic event indicators with the realignment indicators. The coefficient on power-structure transformation, $\beta_5$, is left free, since the theory makes no claim about that row of Table~\ref{tab:design}.
+
+The sample is restricted to the regions covered by the case survey---Latin America, the post-Soviet space, East Asia, and Europe---over 1960--2019; extending the panel to a global sample is left for later work. Robustness checks include alternative outcome thresholds, the exclusion of the systemic-shock years 1989--1991, and synthetic-control estimates for the two most extreme cases, Venezuela and Cuba \parencite{abadie_diamond_hainmueller_2010}.
+
+% =========================================================================
+% 6. DATA
+% =========================================================================
+\section{Data}
+\label{sec:data}
+
+The analysis combines six groups of sources, all public.
+
+\begin{itemize}
+    \item \emph{Economic outcomes.} Real GDP per capita and its growth, inflation, and capital flows come from the World Bank's World Development Indicators \parencite{worldbank_wdi} and the IMF's World Economic Outlook \parencite{imf_weo}, with two coverage caveats: the IMF does not monitor Cuba or North Korea, which are not member countries, so Cuban outcomes rely on ECLAC's CEPALSTAT database \parencite{eclac_cepalstat} and national sources; and WEO figures for Venezuela are staff estimates, since no Article IV consultation has taken place since 2004. Long-run levels come from the Maddison Project Database \parencite{bolt_vanzanden_2024}, which covers all case countries; its series for the post-Soviet republics begin in 1990, with earlier years available only for the USSR as a whole.
+    \item \emph{Domestic political events.} Government turnover and its manner (elections, coups, successions) are coded from the Archigos database of political leaders \parencite{goemans_gleditsch_chiozza_2009}, which records every effective leader's entry into and exit from office for 1875--2015; turnover after 2015 is coded by hand from constitutional records. Regime changes and transformations of the power structure are coded from primary constitutional and legal documents.
+    \item \emph{International alignment.} Alliance membership and its changes are coded from the ATOP dataset, which covers all formal alliance treaties in 1815--2018 \parencite{leeds_etal_2002}, and the Correlates of War formal alliance dataset, covering 1816--2012 \parencite{gibler_sarkees_2004}, supplemented by the historical record of patron--client relationships (for example, the Soviet--Cuban and Venezuelan--Cuban subsidy agreements).
+    \item \emph{Material conditions and controls.} Geography, population, natural-resource rents (oil, gas, and minerals as shares of GDP), and investment come from the World Development Indicators \parencite{worldbank_wdi}.
+    \item \emph{Regional sources.} EBRD \emph{Transition Reports}, published annually since 1994 \parencite{ebrd_transition}, for the post-Soviet cluster; national statistical offices and central banks for Venezuela (BCV) and Cuba (ONEI), used with documented caveats where official reporting is interrupted.
+    \item \emph{Deliberately excluded.} Expert-coded indices (V-Dem, Polity) are not used as explanatory variables, given the measurement problems discussed in Section~\ref{sec:background}; they appear only as objects of comparison.
+\end{itemize}
+
+The panel is unbalanced: coverage for the post-Soviet republics begins in 1990--1991, alliance data end in 2012 (COW) or 2018 (ATOP), and some series for Venezuela and Cuba contain gaps; all such gaps will be documented in the replication materials. All coding decisions and the full dataset will be published with the thesis.
+
+% =========================================================================
+% 7. LIMITATIONS AND CONCLUSION
 % =========================================================================
 \section{Limitations and Conclusion}
 \label{sec:discussion}
