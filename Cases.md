@@ -60,7 +60,7 @@ This is almost a laboratory case for **H2**: major disruption with zero domestic
 
 ---
 
-## 3. The Korean pair (1945–present; key windows 1988–1998 and 1961–1979)
+## 3. East Asia: the Korean pair and Vietnam (1945–present; key windows 1988–1998, 1961–1979, and 1985–2007)
 
 ### Major picture
 
@@ -82,6 +82,27 @@ What AJR's account struggles with:
 
 **Verdict: the pair is a strong supporting case; North Korea alone is not feasible as a primary quantitative case.**
 
+### Vietnam (1985–2007): the positive cell with an intact power structure
+
+#### Major picture
+
+Vietnam was unified in 1975 under a party-state whose structure of political power has not changed since. Đổi Mới (1986) was a paradigm-level *policy change* in Hall's sense — not a regime change, not a power-structure transformation. Externally, Vietnam sat inside the Soviet sphere (CMEA member from 1978, dependent on Soviet aid and subsidized trade) and then realigned in two steps: **severance** in 1989–91 (imposed: Soviet aid cuts and the CMEA's collapse) and **entry** into the US-led system in 1994–95 (embargo lifted 1994, diplomatic normalization 1995), consolidated by WTO accession in 2007.
+
+#### Framework reading
+
+- **Entry cell, clean:** entry into the richer sphere was followed by sustained acceleration — roughly 6–7% annual GDP growth from 1990 to 2019 — with the power structure untouched throughout. This fills the positive cell without the caveats attached to South Korea (power-structure change in 1987) and Poland (regime change in 1989).
+- **Severance caveat, stated honestly:** the 1989–91 Soviet severance did **not** produce a Rodrik-scale collapse in Vietnam — the mid-1980s inflation crisis preceded the severance, and Đổi Mới had already begun reorienting the economy toward East Asian markets. Vietnam therefore enters the design as an entry case and as a **calibration case for the severance threshold**, not as severance evidence; the difference from Cuba (severance → −35% GDP) is itself informative about how much capability dependence a severance must destroy to disrupt.
+
+#### Period to analyze
+
+**1985–2007** (Đổi Mới, severance, normalization), with the acceleration window **1990–2019**.
+
+#### Feasibility
+
+**High.** WDI coverage from the mid-1980s; the Soviet-aid dependence and the normalization dates are well documented.
+
+**Verdict: supporting case; the design's positive-cell filler with an intact power structure.**
+
 ---
 
 ## 4. Venezuela against Colombia, Peru, and Mexico (1989–2021)
@@ -93,7 +114,7 @@ Venezuela's real GDP contracted by about **75% between 2013 and 2021** — the l
 - **1958–1998:** the Punto Fijo system — a *party-state oligarchy* in almost the literal Trevijano sense: two state-integrated parties (AD, COPEI) alternating in office behind formally democratic institutions. Turnovers were routine; the structure of political power was untouched.
 - **1989:** *El Caracazo* and the first disruption wave — driven by the oil-price collapse and debt overhang (material endowment price shock plus external constraint), **not** by any domestic political change. Consistent with H2's spirit (external conditions, not rulers).
 - **1998–1999:** Chávez's election (*government turnover*) and the 1999 constitution (*nominal regime change*). Over the following years the concentration of power, court-packing, and the politicization of PDVSA and the security forces arguably constitute a *transformation of the power structure* plus *state-apparatus restructuring* — this coding decision is the crux of the case and must be made explicit and rule-based.
-- **2000s:** *external realignment of the severance type* — Venezuela exits the US sphere in practice (ALBA, deepened Russia/China/Iran ties). Note that the alternative patrons were poorer or more distant than the one abandoned, so on the sign prediction this realignment should not yield acceleration — and it did not.
+- **2000s:** *external realignment of the severance type* — Venezuela exits the US sphere in practice (ALBA, deepened ties with Russia and Iran). Note that the alternative partners were poorer or more distant than the one abandoned, so on the sign prediction this realignment should not yield acceleration — and it did not.
 - **2013:** Maduro's succession — pure *government turnover*, coalition and structure untouched. The collapse accelerates from 2013–14 with the oil price crash, and from 2017 with US financial and oil sanctions (external constraint imposed by the former dominant power).
 
 ### The comparison group
@@ -149,13 +170,13 @@ Two further EU sub-cases:
 | Cuba | None | Severance 1989; entry (Venezuela) 2000s; severance 2019 | Disruption ~−35–40%, 1989–93; recovery 2000s; renewed crisis 2019– | Realignment only (H2), three times | High | **Core** |
 | North Korea | Turnover only (1994) | Severance | Disruption, ~−33–50% output, famine | Turnover + realignment (H3) | **Low** (estimates) | Shadow case |
 | South Korea | Coup 1961; democratization 1987; crisis 1997 | Entry (US sphere, long-run); none 1997 | **Acceleration** 1961–97; brief disruption 1998 (external shock) | H1 + entry cell | High | Supporting |
+| Vietnam | Policy change 1986 (Đổi Mới); power structure intact | Severance 1989–91 (Soviet aid); **entry** 1994–95 (US normalization), WTO 2007 | Severance absorbed below threshold; **acceleration** ~6–7%, 1990–2019 | **Entry with no structural change (H2 positive)**; severance calibration | High | Supporting (positive cell) |
 | Venezuela | Turnover 1998, nominal regime change 1999, contested transformation; turnover 2013 | Severance (exit from US sphere, 2000s) | Disruption, ~−75% GDP, 2013–21; −19% per capita 2001–02 | Both / contested | Very high | **Core pair w/ Colombia** |
 | Colombia | Turnover, policy change | None | None major | Turnover only (H1) | Very high | **Core pair w/ Venezuela** |
 | Peru | Turnover 1990, regime change 1992 (*autogolpe*) | None | Disruption, ~−30% GDP, hyperinflation 1988–90 | **Hard case: disruption without realignment** | Very high | Hard case (must explain) |
 | Mexico | Turnover 1994 | **Entry** (NAFTA) | Brief disruption 1995 (−6%), then long export expansion | Boundary for acceleration threshold | Very high | Supporting |
 | Greece | Repeated turnover; technocratic interlude | Threatened severance inside hierarchy | Disruption, ~−26% GDP, 2007–13 | Position within structure | Very high | Supporting |
 | Hungary / Poland | Coded "backsliding" | None (Poland: entry 1999/2004, long window) | None for Hungary; **acceleration** for Poland long-run | Turnover/"regime change" only (H1); Poland also entry cell | Very high | Supporting + measurement link |
-| China | Turnover/coalition change 1976–78; power structure intact | Rapprochement with US sphere (1972–79) | **Acceleration**, 1978–present | **Entry with no structural change (H2 positive)** | High | Supporting (positive cell) |
 | UK (Brexit) | Turnover 2016, 2019 | Negotiated severance, partial access retained | Below-threshold negative (foregone growth, no collapse) | **Stress test / threshold calibration** | Very high | Stress test |
 
 ---
@@ -165,7 +186,7 @@ Two further EU sub-cases:
 The first version of this document flagged an "asymmetry problem" for the hypotheses as originally worded (symmetric "entry into or exit from" a sphere). The case survey showed a strongly asymmetric pattern, and the hypotheses have since been revised to make that pattern the theory's central sign prediction:
 
 - **Severance from a patron or sphere → disruption, reliably:** USSR successor states (1989), Cuba (1989–93, 2019–), North Korea (1991–98), Venezuela (post-2014 oil price + post-2017 sanctions), Greece (threatened expulsion from the Eurozone core, 2010–15).
-- **Entry into a richer sphere → acceleration:** the Baltics and Poland (EU/NATO), South Korea (US sphere, 1953–97), China (US rapprochement, 1978–), Mexico (NAFTA, with the 1995 caveat), Cuba's Venezuelan-patronage recovery (2000s).
+- **Entry into a richer sphere → acceleration:** the Baltics and Poland (EU/NATO), South Korea (US sphere, 1953–97), Vietnam (US normalization 1995, WTO 2007), Mexico (NAFTA, with the 1995 caveat), Cuba's Venezuelan-patronage recovery (2000s).
 - **No realignment → no major discontinuity, regardless of turnover:** Colombia, Hungary, Belarus (stability), Ukraine 2004.
 - **Negotiated partial severance → proportional, sub-threshold effects:** Brexit.
 
@@ -182,7 +203,7 @@ The theoretically natural reading, in the framework's own terms: discontinuities
 2. **Venezuela vs. Colombia, 1998–2021** — the matched pair for H1 and H2, with the 2013 succession isolating turnover from structural change.
 3. **Post-Soviet within-cluster comparison, 1988–2004** (Belarus vs. Baltics vs. Ukraine vs. Central Asia) — variation on both dimensions holding the systemic shock constant, including the full severance→disruption / entry→acceleration sign sequence in the Baltics.
 
-**Supporting cases:** South Korea (H1, the positive cell, and the AJR contest), China 1976–1989 (acceleration with an intact power structure — the strongest positive-cell answer to the institutional theory), Poland long-run (entry → acceleration, plus the 2015–23 H1 window), Greece (hierarchy mechanism), Hungary (H1 plus the measurement link to Little & Meng).
+**Supporting cases:** South Korea (H1, the positive cell, and the AJR contest), Vietnam 1985–2007 (entry with an intact power structure; severance-absorption caveat), Poland long-run (entry → acceleration, plus the 2015–23 H1 window), Greece (hierarchy mechanism), Hungary (H1 plus the measurement link to Little & Meng).
 
 **Hard cases retained by design:** Peru 1985–92 (policy-driven disruption without realignment — requires the policy-change scope condition), Brexit (sub-threshold severance), and Mexico 1994–97 (entry with a short financial crisis). These discipline the hypotheses and pre-empt the obvious referee objections.
 
