@@ -1,0 +1,94 @@
+episode_id,iso3,type,rules,start_year,end_year,depth_pct,qualifier,D4_sudden_stop
+D001,ALB,disruption,D1,1986,1994,-39.9,,False
+D002,ARG,disruption,D1,1997,2003,-21.9,,False
+D003,ARM,disruption,D1+D2+D3,1986,1996,-51.8,inflation 3732%; inflation 3374%,False
+D004,ARM,disruption,D2,2008,2010,,,False
+D005,AUT,disruption,D2,1951,1953,,,False
+D006,AZE,disruption,D1+D2+D3,1990,1998,-60.9,inflation 1128%; inflation 1662%,False
+D007,AZE,disruption,D2,2008,2012,,,False
+D008,BGR,disruption,D1+D2+D3,1988,1999,-22.1,inflation 1058%,False
+D009,BLR,disruption,D1+D2+D3,1990,1997,-34.7,inflation 970%; inflation 1190%; inflation 2221%; inflation 709%,False
+D010,BOL,disruption,D1,1951,1957,-20.5,,False
+D011,BOL,disruption,D1+D2+D3,1978,1987,-20.8,inflation 1281%; inflation 11750%,False
+D012,BRA,disruption,D2,1963,1965,,,False
+D013,BRA,disruption,D2,1981,1983,,,False
+D014,BRA,disruption,D3,1988,1994,,inflation 629%; inflation 1431%; inflation 2948%; inflation 952%; inflation 1927%; inflation 2076%,False
+D015,CHL,disruption,D1+D3,1970,1976,-21.4,inflation 505%,False
+D016,CHL,disruption,D1,1981,1984,-18.3,,False
+D017,CRI,disruption,D1+D2,1979,1983,-15.9,,False
+D018,CUB,disruption,D2,1968,1970,,,False
+D019,CUB,disruption,D1+D2,1985,1996,-36.8,,False
+D020,CUB,disruption,D2,2008,2010,,,False
+D021,CYP,disruption,D1+D2,1972,1975,-17.8,,False
+D022,CYP,disruption,D1,2008,2013,-17.3,,False
+D023,DEU,disruption,D1,1945,1949,-50.9,,False
+D024,DEU,disruption,D2,1952,1954,,,False
+D025,DOM,disruption,D1,1964,1965,-15.0,,False
+D026,ECU,disruption,D2,1977,1979,,,False
+D027,EST,disruption,D1+D2,1990,1995,-28.2,,False
+D028,EST,disruption,D1,2007,2010,-18.6,,False
+D029,FIN,disruption,D2,1974,1977,,,False
+D030,FIN,disruption,D2,1990,1992,,,False
+D031,FRA,disruption,D2,1950,1953,,,False
+D032,GEO,disruption,D1+D2,1985,1996,-76.7,,False
+D033,GRC,disruption,D2,1950,1952,,,False
+D034,GRC,disruption,D2,1980,1982,,,False
+D035,GRC,disruption,D1+D2,2006,2015,-26.2,,False
+D036,GTM,disruption,D1+D2,1980,1986,-17.6,,False
+D037,GUY,disruption,D1,1961,1963,-15.1,,False
+D038,GUY,disruption,D1+D2,1977,1986,-22.9,,False
+D039,HND,disruption,D2,1998,2003,,,False
+D040,HRV,disruption,D2,1980,1983,,,False
+D041,HRV,disruption,D1+D2+D3,1989,1995,-33.5,inflation 1400%; inflation 625%; inflation 1500%,False
+D042,HTI,disruption,D1+D2,1988,1996,-26.5,,False
+D043,HUN,disruption,D2,1966,1970,,,False
+D044,HUN,disruption,D1,1987,1993,-17.1,,False
+D045,IRL,disruption,D2,2001,2003,,,False
+D046,ISL,disruption,D2,2008,2010,,,False
+D047,JAM,disruption,D1+D2,1972,1980,-23.5,,False
+D048,JAM,disruption,D2,1996,1998,,,False
+D049,JPN,disruption,D1,1945,1950,-26.3,,False
+D050,KAZ,disruption,D1+D2+D3,1990,1997,-37.0,inflation 1662%; inflation 1877%,False
+D051,KGZ,disruption,D1+D2+D3,1988,1997,-51.2,inflation 1086%,False
+D052,KOR,disruption,D1,1949,1951,-16.7,,False
+D053,LTU,disruption,D1+D2+D3,1990,1996,-43.2,inflation 1021%,False
+D054,LVA,disruption,D1+D3,1990,1996,-41.4,inflation 952%,False
+D055,LVA,disruption,D1+D2,2007,2010,-18.0,,False
+D056,MDA,disruption,D1+D2+D3,1990,1998,-59.6,inflation 1027%; inflation 1614%,False
+D057,MLT,disruption,D2,1979,1983,,,False
+D058,MNG,disruption,D1+D2,1987,1995,-23.8,,False
+D059,NIC,disruption,D1+D3,1974,1992,-35.9,inflation 571%; inflation 885%; inflation 13110%; inflation 4775%; inflation 7429%; inflation 3004%,False
+D060,NLD,disruption,D2,1950,1952,,,False
+D061,PAN,disruption,D1,1945,1951,-23.6,,False
+D062,PAN,disruption,D1,1983,1989,-19.1,,False
+D063,PER,disruption,D2,1976,1978,,,False
+D064,PER,disruption,D1+D2+D3,1985,1993,-31.2,inflation 667%; inflation 3399%; inflation 7482%,False
+D065,POL,disruption,D2,1979,1981,,,False
+D066,POL,disruption,D3,1990,1990,,inflation 568%,False
+D067,PRK,disruption,D1,1990,1998,-26.1,,False
+D068,PRY,disruption,D1,1946,1948,-16.0,,False
+D069,PRY,disruption,D2,1998,2000,,,False
+D070,ROU,disruption,D1+D2,1948,1953,-36.7,,False
+D071,ROU,disruption,D1+D2,1989,1993,-19.1,,False
+D072,RUS,disruption,D1+D2+D3,1989,1998,-38.1,inflation 1569%; inflation 874%,False
+D073,SLV,disruption,D1+D2,1976,1985,-32.5,,False
+D074,SUR,disruption,D2,1968,1972,,,False
+D075,SUR,disruption,D2,2014,2016,,,False
+D076,SVK,disruption,D1,1990,1993,-20.4,,False
+D077,SVN,disruption,D2,1980,1982,,,False
+D078,SVN,disruption,D3,1989,1990,,inflation 1281%; inflation 552%,False
+D079,TJK,disruption,D1+D2+D3,1986,1999,-68.9,inflation 2601%; inflation 612%,False
+D080,TKM,disruption,D1+D3,1989,1998,-43.3,inflation 3102%; inflation 1748%; inflation 1005%; inflation 992%,False
+D081,TTO,disruption,D1+D2,1980,1990,-29.4,,False
+D082,TTO,disruption,D2,2007,2009,,,False
+D083,TTO,disruption,D2,2015,2017,,,False
+D084,UKR,disruption,D1+D2+D3,1987,1999,-52.0,inflation 1210%; inflation 4735%; inflation 891%,False
+D085,URY,disruption,D1,1979,1985,-21.0,,False
+D086,URY,disruption,D1+D2,1998,2002,-15.3,,False
+D087,UZB,disruption,D1+D3,1988,1996,-27.6,inflation 645%; inflation 534%; inflation 1568%,False
+D088,VEN,disruption,D1+D2,1978,1985,-23.3,,False
+D089,VEN,disruption,D1,1988,1989,-16.1,,False
+D090,VEN,disruption,D1,1997,2003,-22.7,,False
+D091,VEN,disruption,D1+D2+D3,2011,2019,-60.1,inflation 65374%; inflation 19906%,False
+D092,VNM,disruption,D1+D2,1962,1970,-21.9,,False
+D093,VNM,disruption,D1,1973,1975,-15.1,,False

@@ -96,6 +96,7 @@ The critical case is the **structure of political power**. H1 states a null *con
 - **Disruption (negative):** Rodrik-style collapse criterion — real GDP per capita contraction ≥ 15% peak-to-trough within ≤ 5 years, **or** deceleration ≥ 3 pp below the prior 5-year average sustained ≥ 3 years; hyperinflation (≥ 500% annual) or a sudden stop qualify independently. (Calibration anchors: Greece −26% in; Spain and Brexit below or near the threshold — the calibration cases exist precisely to fix these bounds.)
 - **Acceleration (positive):** Hausmann–Pritchett–Rodrik-style — growth ≥ 3.5% per year sustained ≥ 8 years, ≥ 2 pp above the prior growth regime, with post-acceleration output above the pre-acceleration maximum.
 - Both thresholds are fixed **before** case coding and are symmetric by construction, as required by `draft2.tex` §4.
+- **Episode segmentation (added 2026-10-30):** the panel disruption indicator is the union of all flagged country-years. For the episode table, an episode ends after 3+ consecutive clean (unflagged) years; contiguous flagged runs are one episode. Decided after Venezuela's drawdown windows chained 1978–2019 into a single 41-year "episode," which is unusable for matching to realignments. The panel indicator is unaffected by segmentation.
 
 ### 7.1 Source hierarchy and splicing rules (added 2026-10-30)
 
