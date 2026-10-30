@@ -97,6 +97,23 @@ The critical case is the **structure of political power**. H1 states a null *con
 - **Acceleration (positive):** Hausmann–Pritchett–Rodrik-style — growth ≥ 3.5% per year sustained ≥ 8 years, ≥ 2 pp above the prior growth regime, with post-acceleration output above the pre-acceleration maximum.
 - Both thresholds are fixed **before** case coding and are symmetric by construction, as required by `draft2.tex` §4.
 
+### 7.1 Source hierarchy and splicing rules (added 2026-10-30)
+
+The outcome series is built from WDI first, Maddison 2023 for gaps (Cuba, North Korea, pre-1990 post-Soviet states), WEO for politically censored years (Venezuela's collapse; staff estimates flagged). Three reasons:
+
+1. **Threshold calibration.** The numeric thresholds come from Hausmann, Pritchett & Rodrik (2005) and Rodrik (1999), whose screens run on WDI-family national accounts. Applying their numbers to series with different statistical properties would use a ruler calibrated for another instrument.
+2. **Levels across sources are not comparable.** WDI reports constant 2015 USD, Maddison 2011 PPP dollars; the Maddison/WDI level ratio for identical country-years ranges from 0.44 to 13.84 in our sample (median 1.32). Splicing levels would manufacture fake "disruptions" at the seam. A fixed hierarchy removes that discretion (Treier & Jackman 2008; Little & Meng 2024 applied to ourselves).
+3. **Growth rates are far more robust to source choice than levels**, because base-year and PPP differences cancel in the ratio. Verified on our own data before any episode coding: across 3,398 country-years where WDI and Maddison overlap (70 of our 73 countries), growth-rate correlation is 0.90, median absolute difference 0.49 pp, sign disagreement 6.2%. Cross-source and cross-vintage growth discrepancies of this size are documented in the literature (Johnson, Larson, Papageorgiou & Subramanian 2013; Feenstra, Inklaar & Timmer 2015), which is why the robustness rule below exists.
+
+**Splicing rules:**
+
+- (a) Provenance flag per cell (which source supplied it).
+- (b) Seam rule: a growth rate for year *t* is computed only when the same source covers *t* and *t−1*; otherwise the cell is marked as a seam and the rate taken from the source that has both years.
+- (c) Level-based checks (acceleration rule 4: post-output above pre-max) computed strictly within a single source per episode.
+- (d) Robustness: the episode screen is re-run on WDI-only and Maddison-only versions for overlapping countries; any episode that flips is flagged in the paper's robustness section, not silently absorbed.
+
+**Why fill gaps at all:** missing data are not random — Cuba and North Korea are absent from WDI/WEO because of the same political conditions that make them theoretically central. Dropping them would censor key cases on the treatment itself; documented secondary estimates with provenance flags are the lesser error.
+
 ## 8. Window and coverage
 
 - **Coding window: 1945–2019** (case narratives may extend to 2023). The panel regression starts in 1960 (WDI availability); the 1945 start supplies pre-period baselines and early canonical episodes (e.g., Yugoslavia 1948).

@@ -10,3 +10,11 @@
 *.run.xml
 *-SAVE-ERROR
 *.synctex.gz
+
+# macOS / environment
+.DS_Store
+venv/
+__MACOSX/
+
+# Raw data is re-downloadable and too large for GitHub (see docs/DATA_SOURCES.md)
+data_raw/

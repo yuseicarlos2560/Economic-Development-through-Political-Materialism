@@ -1,0 +1,74 @@
+iso3,country,region,coding_start,coding_end,notes
+ARG,Argentina,Latin America,1945,2019,
+BOL,Bolivia,Latin America,1945,2019,
+BRA,Brazil,Latin America,1945,2019,
+CHL,Chile,Latin America,1945,2019,
+COL,Colombia,Latin America,1945,2019,
+CRI,Costa Rica,Latin America,1945,2019,
+CUB,Cuba,Latin America,1945,2019,WEO does not cover; use CEPALSTAT/ONEI
+DOM,Dominican Republic,Latin America,1945,2019,
+ECU,Ecuador,Latin America,1945,2019,
+SLV,El Salvador,Latin America,1945,2019,
+GTM,Guatemala,Latin America,1945,2019,
+GUY,Guyana,Latin America,1945,2019,
+HTI,Haiti,Latin America,1945,2019,
+HND,Honduras,Latin America,1945,2019,
+JAM,Jamaica,Latin America,1945,2019,
+MEX,Mexico,Latin America,1945,2019,
+NIC,Nicaragua,Latin America,1945,2019,
+PAN,Panama,Latin America,1945,2019,
+PRY,Paraguay,Latin America,1945,2019,
+PER,Peru,Latin America,1945,2019,
+SUR,Suriname,Latin America,1945,2019,
+TTO,Trinidad and Tobago,Latin America,1945,2019,
+URY,Uruguay,Latin America,1945,2019,
+VEN,Venezuela,Latin America,1945,2019,WEO figures are staff estimates (no Article IV since 2004)
+ALB,Albania,Europe,1945,2019,
+AUT,Austria,Europe,1945,2019,
+BEL,Belgium,Europe,1945,2019,
+BGR,Bulgaria,Europe,1945,2019,
+HRV,Croatia,Europe,1945,2019,series begin 1990s (successor state)
+CYP,Cyprus,Europe,1945,2019,
+CZE,Czechia,Europe,1945,2019,series begin 1993 (successor state)
+DNK,Denmark,Europe,1945,2019,
+FIN,Finland,Europe,1945,2019,
+FRA,France,Europe,1945,2019,
+DEU,Germany,Europe,1945,2019,FRG/GDR before 1990
+GRC,Greece,Europe,1945,2019,
+HUN,Hungary,Europe,1945,2019,
+ISL,Iceland,Europe,1945,2019,
+IRL,Ireland,Europe,1945,2019,
+ITA,Italy,Europe,1945,2019,
+LUX,Luxembourg,Europe,1945,2019,
+MLT,Malta,Europe,1945,2019,
+NLD,Netherlands,Europe,1945,2019,
+NOR,Norway,Europe,1945,2019,
+POL,Poland,Europe,1945,2019,
+PRT,Portugal,Europe,1945,2019,
+ROU,Romania,Europe,1945,2019,
+SVK,Slovakia,Europe,1945,2019,series begin 1993 (successor state)
+SVN,Slovenia,Europe,1945,2019,series begin 1990s (successor state)
+ESP,Spain,Europe,1945,2019,
+SWE,Sweden,Europe,1945,2019,
+CHE,Switzerland,Europe,1945,2019,
+GBR,United Kingdom,Europe,1945,2019,
+RUS,Russia,Post-Soviet,1945,2019,series begin 1990 (Maddison) / 1992 (WDI); USSR before
+UKR,Ukraine,Post-Soviet,1945,2019,series begin 1990
+BLR,Belarus,Post-Soviet,1945,2019,series begin 1990
+EST,Estonia,Post-Soviet,1945,2019,series begin 1990
+LVA,Latvia,Post-Soviet,1945,2019,series begin 1990
+LTU,Lithuania,Post-Soviet,1945,2019,series begin 1990
+MDA,Moldova,Post-Soviet,1945,2019,series begin 1990
+GEO,Georgia,Post-Soviet,1945,2019,series begin 1990
+ARM,Armenia,Post-Soviet,1945,2019,series begin 1990
+AZE,Azerbaijan,Post-Soviet,1945,2019,series begin 1990
+KAZ,Kazakhstan,Post-Soviet,1945,2019,series begin 1990
+KGZ,Kyrgyzstan,Post-Soviet,1945,2019,series begin 1990
+TJK,Tajikistan,Post-Soviet,1945,2019,series begin 1990
+TKM,Turkmenistan,Post-Soviet,1945,2019,series begin 1990
+UZB,Uzbekistan,Post-Soviet,1945,2019,series begin 1990
+JPN,Japan,East Asia,1945,2019,
+KOR,South Korea,East Asia,1945,2019,series begin 1953 (WDI 1960)
+PRK,North Korea,East Asia,1945,2019,estimates only (Bank of Korea reconstructions); shadow case
+VNM,Vietnam,East Asia,1945,2019,WDI series from mid-1980s
+MNG,Mongolia,East Asia,1945,2019,
