@@ -15,6 +15,7 @@ Project-generated files: `data_clean/countries.csv` (73 countries, 4 regions, Ch
 | Archigos 4.1 (leaders) | `data_raw/Archigos_4.1_stata14.dta`, `archigos_4_1.csv` (3,409 leader spells) | v4.1 | 1875–2015 | Leader entry/exit/manner of exit: domestic-leadership-change control | goemans_gleditsch_chiozza_2009 |
 | COW Formal Interstate Alliances v4.1 | `data_raw/version4.1_csv/*.csv` | v4.1 | 1816–2012 | Alliance membership: binary realignment coding (severance/entry) | gibler_sarkees_2004 |
 | UN Ideal Points (Bailey–Strezhnev–Voeten) | `data_raw/UN_IdealPoints_Jul2025.tab`, `.csv` (11,440 obs) | Jul 2025 release | 1946–2024, 199 countries | Continuous alignment measure: distance from US/USSR-Russia ideal points; extends beyond alliance data | bailey_strezhnev_voeten_2017 |
+| DPI2020 (Database of Political Institutions) | `data_raw/DPI2020.csv` (+ dictionary) | DPI2020 via IDB CKAN API, downloaded 2026-11-02 | 1975–2020, 182 countries; 73/73 of ours covered (Romania = ROM) | Coalition change: party of chief executive (`execme`) and orientation (`execrlc`) | cruz_keefer_scartascini_2021 |
 
 ## Requires manual action (not scriptable)
 

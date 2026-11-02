@@ -1,0 +1,52 @@
+iso3,year,turnover,leader_in,irregular_exit,basis,verified
+ARG,2019,1,Alberto Fernández,0,won 2019 presidential election,False
+ARM,2018,1,Nikol Pashinyan,1,became PM after Velvet Revolution protests forced Sargsyan out,False
+AUT,2017,1,Sebastian Kurz,0,won 2017 legislative election,False
+BEL,2019,1,Sophie Wilmès,0,replaced Michel as PM Oct 2019,False
+BGR,2017,1,Boyko Borisov,0,returned as PM after 2017 election,False
+BOL,2019,1,Jeanine Áñez,1,Morales resigned under military pressure Nov 2019,False
+BRA,2019,1,Jair Bolsonaro,0,won 2018 presidential election,False
+CHE,,0,,0,collective executive; Archigos rotation not meaningful,False
+CHL,2018,1,Sebastián Piñera,0,won 2017 presidential election,False
+COL,2018,1,Iván Duque,0,won 2018 presidential election,False
+CRI,2018,1,Carlos Alvarado,0,won 2018 presidential election,False
+CUB,2018,1,Miguel Díaz-Canel,0,succeeded Raúl Castro as president Apr 2018,False
+CZE,2017,1,Andrej Babiš,0,became PM Dec 2017,False
+DNK,2019,1,Mette Frederiksen,0,won 2019 general election,False
+ECU,2017,1,Lenín Moreno,0,won 2017 presidential election,False
+ESP,2018,1,Pedro Sánchez,0,no-confidence motion removed Rajoy Jun 2018,False
+EST,2016,1,Jüri Ratas,0,became PM Nov 2016,False
+FIN,2019,1,Antti Rinne,0,became PM Jun 2019,False
+FRA,2017,1,Emmanuel Macron,0,won 2017 presidential election,False
+GBR,2016,1,Theresa May,0,succeeded Cameron after Brexit referendum,False
+GBR,2019,1,Boris Johnson,0,succeeded May Jul 2019,False
+GRC,2019,1,Kyriakos Mitsotakis,0,won 2019 legislative election,False
+GTM,2016,1,Jimmy Morales,0,won 2015 presidential election (took office Jan 2016),False
+HRV,2016,1,Andrej Plenković,0,became PM Oct 2016,False
+HTI,2017,1,Jovenel Moïse,0,won 2016 presidential election (took office Feb 2017),False
+IRL,2017,1,Leo Varadkar,0,succeeded Kenny as Taoiseach Jun 2017,False
+ISL,2017,1,Katrín Jakobsdóttir,0,became PM Nov 2017,False
+ITA,2018,1,Giuseppe Conte,0,became PM Jun 2018,False
+JAM,2016,1,Andrew Holness,0,won 2016 general election,False
+KAZ,2019,1,Kassym-Jomart Tokayev,0,Nazarbayev resigned Mar 2019,False
+KGZ,2017,1,Sooronbay Jeenbekov,0,won 2017 presidential election,False
+KOR,2017,1,Moon Jae-in,1,Park Geun-hye impeached and removed Mar 2017,False
+LVA,2019,1,Krišjānis Kariņš,0,became PM Jan 2019,False
+MEX,2018,1,Andrés Manuel López Obrador,0,won 2018 presidential election,False
+PAN,2019,1,Laurentino Cortizo,0,won 2019 presidential election,False
+PER,2018,1,Martín Vizcarra,1,Kuczynski resigned under impeachment pressure Mar 2018,False
+POL,2017,1,Mateusz Morawiecki,0,replaced Szydło as PM Dec 2017,False
+PRY,2018,1,Mario Abdo Benítez,0,won 2018 presidential election,False
+ROU,2017,1,Mihai Tudose,0,Grindeanu fell to no-confidence Jun 2017,False
+ROU,2018,1,Viorica Dăncilă,0,became PM Jan 2018,False
+SLV,2019,1,Nayib Bukele,0,won 2019 presidential election,False
+SVK,2018,1,Peter Pellegrini,0,Fico resigned after Kuciak murder Mar 2018,False
+SVN,2018,1,Marjan Šarec,0,became PM Sep 2018,False
+UKR,2019,1,Volodymyr Zelensky,0,won 2019 presidential election,False
+UZB,2016,1,Shavkat Mirziyoyev,0,Karimov died in office Sep 2016,False
+GEO,,0,,0,deferred: effective leader ambiguous (PM vs president) after 2013 constitution,False
+LTU,,0,,0,deferred: president changed 2019 but PM continuity; effective leader ambiguous,False
+MDA,,0,,0,deferred: president (2016) vs PM (2019) effective-leader ambiguity,False
+MNG,,0,,0,deferred: president changed 2017 but PM holds executive; ambiguity,False
+VEN,,0,,0,no effective-leader change 2016-2019 (Maduro; Guaidó never held effective power),False
+VNM,,0,,0,Trọng remained General Secretary; collective leadership rotation not coded,False
