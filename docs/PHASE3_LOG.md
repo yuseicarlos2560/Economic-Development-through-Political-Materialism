@@ -239,3 +239,352 @@ cannot be attributed to it (timing rule both ways). New convention: threat
 episodes enter the table but are excluded from the Severance regressor
 (robustness may include them). Sub-sphere nuance recorded (eurozone vs EU/US
 sphere). CALIBRATION PHASE COMPLETE: 17 episodes, conventions fixed.
+
+## 2026-11-03 — Step 3 full sweep: design decisions registered (CP §6.2)
+
+Before the sweep, four open design questions were put to the user and decided:
+1. **Patron set** (CP previously undefined — only calibration episodes gave it
+   content): US-led Western sphere as ONE sphere (UK/EU subordinate members,
+   Lake 2009; Walt 1987; Buzan & Wæver 2003), USSR/Russia sphere (Waltz 1979;
+   Mearsheimer 2001), and China from **2013** (BRI launch; Gilpin 1981;
+   sensitivity at 2008 in affected case notes; PRK's 1961 treaty handled in
+   its shadow-case note).
+2. **EU entries:** all EEC/EU accessions meeting R1–R3 are coded as entry
+   episodes (GRC 1981, ESP/PRT 1986, AUT/FIN/SWE 1995, post-socialist waves)
+   — R3 is mechanical; excluding them would be selection on convenience.
+3. **Working order:** screen first — the CP defined the *coding* methodology
+   (§6.1 four judgments) but not candidate generation; a mechanical,
+   outcome-blind screen (registered as CP §6.2) now generates the candidate
+   list, then region batches are coded with user review per batch.
+4. **ALBA / Venezuela-as-patron:** not sphere holders; recorded as context
+   only. Cuba–Venezuela 2000s resolved by CONSISTENT EXCLUSION: patron–client
+   subsidy relationship documented for the narrative layer (Step 8), not a
+   coded sphere entry. Reconciling notes added to `docs/Cases.md` (Cuba
+   framework reading and §7 signed-outcome pattern).
+
+All four registered as **CP §6.2**. Next: Phase A construction — DOTS filter
+(73 countries × patrons, incl. E002's pending Δ-trade cell), ATOP/GSDB
+signals, bloc-date table, R5 regional medians, UN ideal-point distances,
+then `code/screen_realignment.py`.
+
+## 2026-11-03 — Step 3 Phase A COMPLETE: inputs built, screen run
+
+Six mechanical inputs built and cross-checked, then the §6.2 screen.
+
+**Outputs.**
+- `data_clean/trade_shares.csv` (`code/build_trade_shares.py`): 24,516 rows,
+  73 countries × {USA, USSR/RUS, CHN, DEU*, GBR*, FRA*} × 1948–2023; exports
+  FOB + imports CIF over World total. E016 pattern reproduced (VEN-USA 45.7%
+  2000 → 32.7% 2017 → 12.6% 2019; E016 used export share, this uses total
+  trade — same break). E002's pending DOTS cell filled (ESP-USA ~11–15%,
+  1952–55). CUB-USA 0.64–0.73 in 1948–57 confirms E003's "~2/3 pre-1959".
+- `data_clean/alliance_signals.csv` (`code/build_alliance_signals.py`): 637
+  patron-co-membership spells from ATOP 5.1 (COW↔ISO3 via the ideal-points
+  file; predecessor fan-out CS→CZE/SVK≤1992, YU→HRV/SVN≤1991, GDR→DEU≤1990;
+  post-Soviet republics do NOT inherit USSR memberships — incorporation, not
+  alliance). COW cross-check 1945–2012: 99.6% of COW dyad-years (3,263/3,275)
+  are inside ATOP; ATOP-only dyads = WWII coalitions and executive agreements
+  COW excludes by design (e.g. US–Spain 1963, per E002); COW-only: GEO–USSR,
+  TKM–CHN (flagged for region batches).
+- `data_clean/sanctions_signals.csv` (`code/build_sanctions_signals.py`): 405
+  patron-sender cases vs 62 panel targets (senders USA/USSR-RUS/CHN/EU*/
+  US-led regimes; multi-target strings split; "Soviet Union"→RUS continuity).
+  Calibration IDs reproduced (VEN 802/827/1051/1098; CUB 51/59/65/74/443;
+  LTU 385). GRC has no 2014–16 case — E017 holds. Bloc-target cases
+  ("Comecon" 1950–94, incl. CoCom) noted for region batches, not fanned out.
+- `data_clean/bloc_membership.csv` (hand-built, treaty-record dates): 113
+  rows, 8 blocs (NATO, EU/EEA, WarsawPact, CMEA, OAS, EAEU, CSTO, ALBA[n/a]),
+  63 countries; validated (panel-only ISO3, entry<exit).
+- `data_clean/r5_reference.csv` (`code/build_r5_reference.py`): regional
+  GDP-pc medians (our regions, our panel) + patron series (USA, USSR→RUS
+  splice at 1991, CHN), Maddison 1945–2022. Reproduces the calibration
+  anchors exactly (E002: 16,917 vs 6,594; E013: 48,493 vs 7,782; E004: USSR
+  6,288 in 1960).
+- `data_clean/idealpoint_distances.csv`
+  (`code/build_idealpoint_distances.py`): 12,572 dyad-years vs the three
+  patrons (idealpointfp; COW 2/365/710). Calibration signatures reproduced
+  (CUB–USSR 0.12→2.7, 1985–92; EST–USA ~1.5–1.8 from 1991).
+- `data_clean/realignment_candidates.csv` + `sphere_roster_screen.csv`
+  (`code/screen_realignment.py`): **118 candidates (109 new, 9 calibration
+  overlaps)** from 1,016 screened events; roster = 6,747 country-year-sphere
+  rows (F1/F3 active basis). New candidates by patron: USA 68, USSR/RUS 40,
+  CHN 1 (TKM 2013–14).
+
+**Screen conventions fixed today (ratification requested at Phase B start):**
+1. Security blocs (NATO, Warsaw Pact, CSTO) feed **F1, not F3** — one act of
+   accession is the security guarantee itself; counting it as two families
+   would violate R2/R3's distinct-ties logic. F3 = economic-institutional
+   blocs (CMEA, EU/EEA, OAS, EAEU).
+2. Omnibus multilateral consultative acts (>30 members, no defense/offense
+   obligation — e.g. CSCE 1975) excluded from F1 events.
+3. Economic-bloc entries/exits (EU/EEA, CMEA, EAEU) are **auto-candidates**
+   (35 of 118): the F2 aid/trade tie is constitutive of membership
+   (structural funds/CAP, CMEA transfers), DOTS never shows it, so the
+   ≥2-families screen would otherwise miss exactly the cases the user
+   ordered coded (EU accessions). Flagged `auto` in the file; the four
+   judgments still apply in Phase B. DOTS evidence confirms the point: DEU*
+   share shows no break at accession (GRC ~17% flat 1976–85; ESP 8→15%
+   gradually 1981–90).
+4. F2 break rule: |share_t − share_{t−3}| ≥ 12pp with larger side ≥ 8%;
+   Western sphere screened vs USA **and** DEU* (EU-core proxy).
+5. CHN events pre-2013 dropped per §6.2 (119 events; 2008–12 sensitivity
+   noted where relevant).
+
+**Known blind spots (to be caught in Phase B roster review, not the screen):**
+- Informal Soviet-sphere entries (Nicaragua 1979): no treaty/bloc, CMEA
+  blindness — roster + case record carry them.
+- KOR 1953 entry (Cases.md §7 expects it): single-family F1 at screen level;
+  US aid 1953+ is the F2-family tie to document in the East Asia batch.
+- LatAm 1947–48 Rio/OAS blocks = hemisphere entry into the US sphere at the
+  window edge; Phase B decides initial-condition vs episode treatment.
+
+**Phase A is outcome-blind throughout:** no outcome series was read by any
+script above. Next: Phase B region batch 1 — post-Soviet (14 countries).
+
+## 2026-11-03 — Phase A validation: screen vs analytical calibration coding
+
+Systematic contrast of `realignment_candidates.csv` against the 15 panel
+calibration episodes (E001/E006/E007 are non-panel by design).
+
+**Reproduced — 9/15:** E003 (screen 1960–63, F1+F3+F4); E005 and E008 (1991,
+CMEA exit auto-candidates); E012 (1990–92, F1+F4 — LTU surfaced by the Soviet
+blockade GSDB 385); E013–E015 (2003–04, F1+F3); E016 (2015–17 and 2017–21 —
+the screen sees the enforcement/consummation phase of the interval, exactly
+what interval coding predicts). Direction matches in all nine.
+
+**Missed — 5/15, each with a specific documented cause:**
+- E002 (ESP 1953): the Pact of Madrid was an *executive agreement*; ATOP's
+  first US–Spain treaty is 1963. Screen F1 is blind to sub-treaty ties;
+  F2 aid flows (~1% GDP/yr) are not in DOTS shares.
+- E004 (CUB 1960 USSR): informal sphere — no treaty ever existed, CMEA only
+  1972, and DOTS is blind to CMEA trade. The Keal/Hast informal-sphere class
+  is document-coded by design.
+- E009 (VNM 1994–95 USA): economic-order entry — F1 absent *by the episode's
+  own coding*; ASEAN is not a sphere bloc; GSDB 201 *ending* is not an event.
+  Consistent with the episode's medium-confidence flag.
+- E010/E011 (EST/LVA 1990–94): exit from *incorporation*, not from an
+  alliance/bloc — no ATOP spell exits, no bloc exits, and the trade collapse
+  predates DOTS coverage (EST 1993 opens at 19.7%, already post-collapse, no
+  ≥12pp/3yr break). Russian sanctions 1992–93 (GSDB 446–52) give only F4 —
+  single family, below the screen rule.
+
+**Correct negative:** E017 (GRC 2015 threat) — no candidate, as coded.
+
+**Interpretation (registered for Phase B):** screen and analytical coding
+agree wherever the underlying *databases* carry the ties; misses concentrate
+in exactly the classes CP §6 reserves for documentary coding (informal
+spheres, incorporation exits, sub-treaty agreements, economic-order entries).
+Consequences: (1) the screen is a recall *floor*, not an exhaustive list —
+Phase B codes the post-Soviet 1990–91 severances from the documentary record
+(independence declarations, CMEA/WP dissolution, troop withdrawals,
+ruble-zone exit; R4 imposed-by-collapse is mechanical), with the screen as
+corroboration, exactly as E010–E012 were coded in calibration; (2) long
+intervals surface in the screen at their consummation phase — interval
+coding remains Phase B's job; (3) aid flows (F2-family) are documented per
+episode in Phase B, as the screen processes trade shares only.
+
+## 2026-11-03 — Phase B batch 1 (post-Soviet, 15 countries) coded
+
+**Preparatory fix:** bloc table was missing the 1992 Tashkent CST (the
+CSTO's predecessor — the AZE/GEO/UZB 1999 non-renewals are
+severance-relevant) and the CIS (the institutional-continuity framework that
+decides the BLR/KAZ/ARM negative cells). 26 rows added with treaty-record
+dates; CST classified security-bloc (F1), CIS institutional (F3); screen
+re-run (128 candidates, roster continuity now correct for ARM/KAZ/etc. from
+1992).
+
+**New episodes (4):**
+- **E018 UKR 2014–16, severance, high.** Kharkiv Pact denounced 2014, CIS
+  participation ceased 2014, RUS trade share 27.3%→11.6% (2013–16), GSDB
+  1031; chosen (mixed: patron enforcement); 1997 treaty non-renewal 2018–19
+  coded as formal tail (E008 convention). Outcome −13.9% peak-to-trough,
+  BELOW D1 — sub-threshold recorded honestly.
+- **E019 GEO 2006–09, severance, high.** 2006 embargo (GSDB 780/781),
+  bases returned 2007, Aug 2008 war, CIS exit 18 Aug 2009. UN divergence
+  EARLY (2003–05, country-driven per E016). Outcome 2009 ~−3.7% (GFC
+  confound) — sub-threshold recorded honestly.
+- **E020 AZE 1991–99, severance, MEDIUM — user decision requested.**
+  No bases from 1991, CST 1993→non-renewal 1999, oil reorientation
+  (Contract of the Century 1994, BTC 1998); CIS never left (F3 intact);
+  **UN validation FAILS** (distance falls 0.81→0.15, Aliyev balancing —
+  published per E009 convention). Alternative defensible coding:
+  sub-threshold gradual exit (as UZB). Borderline, flagged.
+- **E021 TKM 1991–95, severance by neutrality, high (medium on interval
+  end).** Own armed forces 1992, never CST, ruble exit 1993, UN-recognized
+  neutrality 12 Dec 1995; UN divergence 1992–96 then re-convergence (gas
+  normalization). TKM–CHN gas dependence (63.6% by 2019) + consultative
+  ATOP 6085 = single-family, NOT consummated entry per R3 — E009 subtype,
+  flagged for the reliability subset.
+
+**No-episode determinations (documented in
+`case_notes/PostSoviet_batch_note.md`):** BLR, ARM, KAZ, KGZ, TJK = Russian
+sphere continuity throughout (UN distances 0.02–0.7, trade shares stable;
+screen candidates rejected as continuation signals — entry into successor
+institutions is not a realignment). MDA contested but sub-threshold
+(Transnistria troops remain; EU AA unconsummated). UZB oscillation within
+the sphere (single-family moves only). RUS = the patron (RUS–USA 1991–92
+candidate rejected).
+
+**Outcome record (read AFTER dates were fixed):** all no-episode republics
+show 1986–99 threshold disruptions (BLR −34.7%, KAZ −37.0%, ARM −51.8%,
+MDA −59.6%, UZB −27.6%) — transition collapses without severance inside the
+R6 window, recorded neutrally for Step 6 (capability-flows channel, E005
+convention; no conclusion drawn here).
+
+**Batch status:** 21 episodes total. Conventions exercised: formal-tail
+(E008), country-driven divergence (E016), chosen-mixed voluntariness
+(E016/Baltics), unconsummated entries (E017), validation-flag publication
+(E009). **User review pending** — particularly E020 (borderline) and the
+MDA/UZB sub-threshold determinations. Next batch: Europe.
+
+## 2026-11-03 — Phase B batch 2 (Europe, 29 countries) coded
+
+**New episodes (38): E022–E059**, documented in seven case notes
+(`case_notes/EURO_formation_Western.md`, `EURO_formation_Soviet.md`,
+`PostSocialist_severance_1989.md`, `ALB_1960.md`, `FIN_1991.md`,
+`PostSocialist_entry_Western.md`, `EURO_batch_note.md`).
+
+1. **Western formation block (E022–E033, entries 1947–55, chosen, R6=0,
+   medium confidence)** — Truman Doctrine Mar 1947 / ERP+OEEC Apr 1948 /
+   Washington Treaty Apr 1949 (ATOP 3180); GRC [1947,1952] (informal F1+F2
+   by 1947–48, NATO 1952 formal tail, E002 convention); DEU [1949,1955]
+   (occupation guarantee + ERP, NATO 1955; EEC 1957 tail). Block note:
+   judgments stated once, deviations per row. R5 richer verified (1947:
+   14,312 vs 5,925). Window-edge finding: prior regime pre-1945 undefined →
+   episode-level outcome test structurally indeterminate; registered
+   pre-Step-6 (not ex-post selection). ISL/LUX/PRT/IRL A-episodes checked,
+   unrelated.
+2. **Soviet formation block (E034–E040, entries 1945–49, R6=0)** —
+   bilateral treaties (ATOP 3025/3120/3115/3135/2563), Cominform 1947, CMEA
+   Jan 1949 (ALB Feb 1949; WP 1955 = formal tail). **R4 imposed-entry class,
+   first use** (occupation + takeovers); E040 ALB the chosen exception
+   (indigenous partisan victory, no Soviet troops). **R5=0 poorer sphere
+   (1949: 4,181 vs 5,426) — coded, outside the H2 sign test.** ROU D070
+   (−36.7%, 1948–53) FOLLOWS the imposed entry — adverse-flows pattern
+   recorded neutrally. GDR recorded as context (not in panel; screen
+   fan-out artifact documented).
+3. **Post-socialist severances (E041–E046, 1989–92, R6=1)** — WP dissolved
+   1 Jul 1991 (military structures 25 Feb 1991), CMEA dissolved 28 Jun
+   1991, world-price shift 1 Jan 1991, troops out 1991–93 (tails noted).
+   UN validation passes 4/4 with data (POL 0.18→1.34, HUN 0.17→1.15, ROU
+   0.01→1.14, BGR 0.17→1.03, 1990→91; convergence to USA 1980s→91);
+   CZE/SVK validation-limited (ideal points from 1993; SVK Mečiar-era
+   Russia-proximity corroborates E052's delayed interval). Voluntariness:
+   chosen-mixed for POL/HUN/CZE/SVK/ROU; **BGR IMPOSED** (loyalist
+   republic — BSP won the Jun 1990 election; exit driven by the patron's
+   dissolution). Outcomes follow (POL D3 hyperinflation 568% 1990 ✓; HUN/
+   SVK/ROU/BGR transition recessions ✓ per E005 convention); **CZE honest
+   exception: no threshold disruption (~−12% < D1) — sub-threshold
+   recorded, not adjusted** (non-confirming severance-side case for Step 6).
+4. **E047 ALB 1960–68 severance, chosen (mixed: patron enforcement)** —
+   GSDB-R5 56/64 (specialists/credits withdrawn 1960–61), Vlora base Jun
+   1961, CMEA participation ends end-1961, WP denounced 13 Sep 1968
+   (formal tail, E001 convention). UN passes (~0.01→0.15→0.39,
+   country-driven). No disruption 1960–68 (Chinese replacement, E003/E006
+   class); D001 (1986–94) NOT attributable. Sub-threshold recorded. China
+   pre-2013 = context (§6.2).
+5. **E048 FIN 1991–92 severance (imposed, patron collapse, R6=1) + E058
+   FIN 1991–95 entry (chosen, R6=1), paired note** — membership coded as
+   constraint set (YYA, ATOP 3140); replaced 20 Jan 1992 (military articles
+   dropped); Soviet trade collapse 1991. UN patron-driven convergence
+   (E005 convention). D030 timing mixed, recorded honestly (banking channel
+   flagged for Step 7). E058: EEA 1994 → EU Jan 1995; F1 absent by design —
+   E009 subtype; A019 inside ✓.
+6. **Post-socialist entries (E049–E057, E059; chosen, richer)** — EA/SAA
+   anchor → NATO → EU. **Consummation rule registered** (association F2/F3
+   + security guarantee F1 = consummated: ALB/HRV 2009; association alone
+   = unconsummated: UKR/GEO/MDA). SVK interval starts 1993 (Mečiar delay,
+   UN-corroborated); SVN 1996 (succession-delayed EA). R6=1 for E049–E051
+   and E057 (process opens inside the shift window), else 0. Accelerations
+   inside intervals for 8/10 episodes with A-episodes; **HRV A026
+   (1998–2007) precedes [2001,2013] — NOT attributable (E009 honesty)**;
+   MLT A042/A043 not attributable. **E059 MLT medium confidence, flagged**:
+   re-entry coding (Mintoff-era distancing 1971–87, discrete 1987–90
+   return), E009 subtype, CYP asymmetry documented.
+
+**New conventions (registered, user ratification pending):**
+(1) deepening ≠ entry — EU/NATO accession by a country already inside the
+Western sphere is intra-sphere deepening, no episode (ESP 1986, GRC 1981,
+PRT 1986, DNK/IRL/GBR 1973, AUT/SWE 1995, CYP 2004, NOR-EEA 1994, CHE
+never; FRA 1966 = single-family partial, no episode);
+(2) succession ≠ sphere severance — Yugoslavia not a sphere holder
+post-1948 → SVN/HRV 1991 = succession context (war collapses D041,
+D077/D078 recorded as context);
+(3) window-edge formation blocks = interval entries with structurally
+indeterminate episode-level outcome test, registered pre-Step-6;
+(4) R4 imposed class extended to imposed entries (Soviet block);
+(5) R5=0 poorer-sphere entries coded but outside the H2 sign test;
+(6) entry consummation rule (association + security guarantee).
+
+**Rejected screen candidates** (batch note): NOR–RUS 2013–14 (pressure on
+a NATO member), POL–USA 1961–62 (wrong-direction dyad), ROU–USA 1988–90
+(MFN suspension), DEU–USSR 1990 (GDR fan-out artifact), DEU–USA 1975–77
+(Ostpolitik diversification), FRA/BEL/etc. 1949–51 (WWII/CSCE noise; the
+formation block covers the real event).
+
+**Batch status:** 59 episodes total (E001–E059). **User review pending** —
+E059 MLT (medium confidence), E020 AZE (carried from batch 1), MDA/UZB
+determinations, formation-block conventions (3)–(6). Next batch: Latin
+America (24 countries).
+
+## 2026-11-03 — Phase B batch 3 (Latin America, 24 countries) coded
+
+**New episodes (9): E060–E068**, documented in five case notes
+(`case_notes/LATAM_formation_initial_condition.md`, `NIC_1979.md`,
+`Caribbean_entries.md`, `CHL_1970.md`, `LATAM_batch_note.md`).
+
+1. **1947–48 Rio/OAS block (20 screen candidates) → initial condition, no
+   episodes.** ATOP shows F1 *continuity* (Act of Chapultepec 1945 [3010] →
+   Rio Treaty 1947 [3075] + OAS Charter 1948 [3150]); trade dominance vs
+   USA already in place at the window edge (CUB 0.64–0.73, Phase A). The
+   acts institutionalize a pre-existing informal sphere (Keal/Hast class) —
+   deepening, not entry. Roster: all 20 = US-sphere members from 1945.
+   Consistent with Europe (there the acts constituted NEW memberships) and
+   with CUB E003's presupposed membership. **Convention 7 registered.**
+2. **E060–E063 NIC 1979–93, the showcase cycle of the batch.** E060 entry
+   USSR [1979,1981] — the Phase-A-registered ROSTER CATCH (informal class:
+   no treaty/bloc ever; missions/arms + credits/oil; chosen; R5 richer:
+   10,316 vs 6,385). E061 severance USA [1981,1985] — imposed
+   (patron-initiated rupture, E003 class): aid suspended Apr 1981, Contra
+   Dec 1981, total embargo May 1985 (GSDB 296/306), harbor mining 1984 =
+   guarantee inverted; Rio Treaty formal tail to 2014. E062 severance USSR
+   [1990,1991] — imposed (patron collapse, R6=1). E063 re-entry USA
+   [1990,1993] — chosen (embargo lifted Mar 1990, aid resumes, share
+   0.02→0.31 by 1993; R6=1). UN validation passes on all four (NIC–USSR
+   3.16→0.04 by 1987; NIC–USA 1.22→3.80 by 1986; full reversal 1990–93).
+   Outcome honesty: D059 peak (1974) predates E060; E060's entry sign NOT
+   confirmed (no acceleration — war/severance confound, recorded); the
+   1983–89 collapse coincides with E061 but is WAR-CONFOUNDED (Step 7
+   flag); contraction ends 1992 with the reversal (indeterminate).
+3. **Caribbean accessions E064–E067** (entries from colonial status,
+   chosen, R5 richer, R6=0): TTO [1962,1967] (Rio+OAS), JAM [1962,1969]
+   (OAS charter only — NOT Rio, recorded exactly), SUR [1975,1977] (same),
+   GUY [1985,1991] — **medium confidence, flagged**: 1966–85 non-alignment
+   (UN-corroborated drift to the Soviet position without consummation) vs
+   persistent Western economic ties (IMF 1978); borderline with the
+   deepening convention. GUY A022 (1989–2000) overlaps the interval end ✓
+   (E013 convention). JAM's Manley drift 1972–80 = within-sphere politics,
+   no severance (zero families terminated).
+4. **E068 CHL 1970–73 severance_threat (unconsummated)** — the region's
+   negative control, E017 convention. Zero families terminated (no bloc
+   exit, no Soviet treaty; the trade collapse was US-enforced — GSDB 147).
+   UN shows the drift AND its reversal post-coup (USA 1.08, USSR 3.35,
+   1974). Excluded from the Severance regressor. Coup = hierarchy
+   enforcement, context. D015 (1970–76) attributed to polarization +
+   destabilization + coup, not severance. **Convention 8 (threat
+   threshold) registered.**
+5. **Rejections** (batch note): DOM 1960–64, HTI 1986–87/2000–02, CRI
+   1999–2003 (pressure within the sphere; **convention 9 made explicit —
+   F4 is not an R2 family**); TIAR withdrawal wave BOL/NIC 2014, ECU 2016,
+   MEX 2004 (single-family in the R2 set; NIC drift flagged for the
+   reliability subset); drifts without consummation (GTM 1951–54, PER
+   1968–75, SUR 1982–83); hierarchy-enforcement events (BRA 1964, ARG
+   1976, PAN 1989, ARG 1982); ALBA = context per §6.2. CUB 1972 CMEA =
+   deepening of E004. Calibration overlaps (CUB 1991, VEN 2015–21) already
+   coded.
+
+**Batch status:** 68 episodes total (E001–E068). Conventions 7–9 added to
+`docs/OPEN_ISSUES.md` with E067 GUY for user ratification; earlier items
+(E020 AZE, E059 MLT, MDA/UZB, batch-2 conventions) remain open. Next
+batch: East Asia (4 countries — JPN/KOR entries, MNG severance, PRK shadow
+case + VNM candidates per Phase A blind-spot notes), then Phase C audit.

@@ -48,6 +48,8 @@ Between 1989 and 1993 Cuba lost roughly **35% of GDP** ([ResearchGate/energy stu
 
 This is almost a laboratory case for **H2**: major disruption with zero domestic political change, tracking the loss of the patron exactly. The later history strengthens it: Cuba's partial recovery in the 2000s coincides with acquiring a new patron (Venezuela under Chávez, ~100,000 bpd of subsidized oil) — **entry, partial acceleration** — and its renewed crisis after 2019 coincides with the collapse of that patron — **severance, disruption again**, still without domestic structural change. One country, three signed realignments, three matching outcomes.
 
+*(Reconciling note, 2026-11-03: per Coding Protocol §6.2, Venezuela is not a sphere holder, so the 2000s patronage is not a coded sphere-entry episode in `episodes.csv`. It remains a documented patron–client subsidy relationship used in this narrative layer; only the Soviet severance (E005) and the US severance (E003)/entry (E004) are coded episodes.)*
+
 ### Period to analyze
 
 **1985–1995** (subsidy baseline, severance, Special Period trough); **2000–2010** (Venezuelan patronage recovery); **2019–present** (post-Venezuela deterioration) as supporting windows.
@@ -186,7 +188,7 @@ Two further EU sub-cases:
 The first version of this document flagged an "asymmetry problem" for the hypotheses as originally worded (symmetric "entry into or exit from" a sphere). The case survey showed a strongly asymmetric pattern, and the hypotheses have since been revised to make that pattern the theory's central sign prediction:
 
 - **Severance from a patron or sphere → disruption, reliably:** USSR successor states (1989), Cuba (1989–93, 2019–), North Korea (1991–98), Venezuela (post-2014 oil price + post-2017 sanctions), Greece (threatened expulsion from the Eurozone core, 2010–15).
-- **Entry into a richer sphere → acceleration:** the Baltics and Poland (EU/NATO), South Korea (US sphere, 1953–97), Vietnam (US normalization 1995, WTO 2007), Mexico (NAFTA, with the 1995 caveat), Cuba's Venezuelan-patronage recovery (2000s).
+- **Entry into a richer sphere → acceleration:** the Baltics and Poland (EU/NATO), South Korea (US sphere, 1953–97), Vietnam (US normalization 1995, WTO 2007), Mexico (NAFTA, with the 1995 caveat), Cuba's Venezuelan-patronage recovery (2000s; narrative layer only — not a coded sphere entry, CP §6.2).
 - **No realignment → no major discontinuity, regardless of turnover:** Colombia, Hungary, Belarus (stability), Ukraine 2004.
 - **Negotiated partial severance → proportional, sub-threshold effects:** Brexit.
 

@@ -42,6 +42,9 @@ Progress is logged step by step in `docs/PHASE2_LOG.md` (outcomes) and
   episodes (CP §6): Yugoslavia 1948, Spain 1953, Cuba 1960 & 1989–91, Egypt
   1972–76, Vietnam 1989–95, Baltics 1991 & 2004, Venezuela 2002–17, Greece 2015.
   Validate against UN ideal points (divergence/convergence).
+- **Open questions:** coding judgment calls and borderline cases found during
+  Phase B are collected in `docs/OPEN_ISSUES.md` — resolve before Step 6
+  (items 3–5 affect how evidence is counted).
 - **Why:** β₁, β₂ in equation (1), the H2 test (draft2.tex:203); CP §6;
   draft2.tex:216.
 - **Depends on:** step 2 (ATOP, GSDB, DOTS). Judgment-heaviest step; done together.

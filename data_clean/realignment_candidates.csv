@@ -1,0 +1,129 @@
+iso3,patron,window_start,window_end,direction,families,n_events,details,calibration_overlap,region
+JPN,USA,1951,1952,mixed(severance+entry),F1+F2,3,1951:F1:ATOP 3220 enters (weak) | 1951:F2:share vs USA 0.55->0.27 | 1952:F2:share vs USA 0.48->0.32,False,East Asia
+KOR,USA,1959,1961,severance,F2+F4,4,"1959:F2:share vs USA 0.82->0.49 | 1960:F2:share vs USA 0.86->0.39 | 1961:F4:GSDB 67 (USA, democracy,human_rights) | 1961:F2:share vs USA 0.61->0.45",False,East Asia
+MNG,USSR/RUS,1962,1962,entry,F3(+F2 aid constitutive),1,1962:F3:CMEA entry (auto: aid/trade tie constitutive of membership),False,East Asia
+MNG,USSR/RUS,1991,1993,mixed(severance+entry),F1+F3,3,1991:F3:CMEA exit | 1993:F1:ATOP 3535 exits (defense) | 1993:F1:ATOP 4395 enters (weak),False,East Asia
+MNG,USSR/RUS,1993,1995,mixed(severance+entry),F1+F2,3,1993:F1:ATOP 3535 exits (defense) | 1993:F1:ATOP 4395 enters (weak) | 1995:F2:share vs USSR/RUS 0.54->0.31,False,East Asia
+PRK,USSR/RUS,1996,1996,mixed(severance+entry),F1+F2,2,1996:F1:ATOP 3440 exits (defense) | 1996:F2:share vs USSR/RUS 0.10->0.30,False,East Asia
+PRK,USSR/RUS,1999,2000,mixed(severance+entry),F1+F2,2,1999:F2:share vs USSR/RUS 0.30->0.03 | 2000:F1:ATOP 4940 enters (weak),False,East Asia
+VNM,USA,1962,1966,mixed(entry+severance),F1+F2,6,1962:F1:ATOP 3460 enters (weak) | 1963:F2:share vs USA 0.20->0.44 | 1964:F1:ATOP 3460 exits (weak) | 1964:F2:share vs USA 0.22->1.00 | 1965:F2:share vs USA 0.30->1.00 | 1966:F2:share vs USA 0.44->1.00,False,East Asia
+VNM,USSR/RUS,1978,1978,entry,F1+F3,2,1978:F1:ATOP 3825 enters (weak) | 1978:F3:CMEA entry,False,East Asia
+VNM,USSR/RUS,1991,1991,severance,F3(+F2 aid constitutive),1,1991:F3:CMEA severance (auto: aid/trade tie constitutive of membership),True,East Asia
+ALB,USSR/RUS,1949,1949,entry,F3(+F2 aid constitutive),1,1949:F3:CMEA entry (auto: aid/trade tie constitutive of membership),False,Europe
+ALB,USSR/RUS,1960,1961,severance,F3+F4,3,"1960:F4:GSDB 56 (USSR/RUS, policy_change) | 1961:F3:CMEA exit | 1961:F4:GSDB 64 (USSR/RUS, policy_change)",False,Europe
+AUT,USA,1995,1995,entry,F3(+F2 aid constitutive),1,1995:F3:EU/EEA entry (auto: aid/trade tie constitutive of membership),False,Europe
+BEL,USA,1957,1957,entry,F3(+F2 aid constitutive),1,1957:F3:EU/EEA entry (auto: aid/trade tie constitutive of membership),False,Europe
+BGR,USSR/RUS,1948,1949,entry,F1+F3,2,1948:F1:ATOP 3135 enters (defense) | 1949:F3:CMEA entry,False,Europe
+BGR,USSR/RUS,1991,1992,mixed(severance+entry),F1+F3,5,1991:F1:ATOP 3285 exits (defense) | 1991:F1:WarsawPact exit | 1991:F3:CMEA exit | 1992:F1:ATOP 3560 exits (defense) | 1992:F1:ATOP 4305 enters (weak),False,Europe
+BGR,USA,2007,2008,mixed(entry+severance),F3+F4,2,"2007:F3:EU/EEA entry | 2008:F4:GSDB 816 (EU*, other)",False,Europe
+CYP,USA,2004,2004,entry,F3(+F2 aid constitutive),1,2004:F3:EU/EEA entry (auto: aid/trade tie constitutive of membership),False,Europe
+CZE,USSR/RUS,1949,1949,entry,F3(+F2 aid constitutive),1,1949:F3:CMEA entry (auto: aid/trade tie constitutive of membership),False,Europe
+CZE,USSR/RUS,1991,1993,mixed(severance+entry),F1+F3,7,1991:F1:ATOP 3285 exits (defense) | 1991:F1:WarsawPact exit | 1991:F3:CMEA exit | 1992:F1:ATOP 3625 exits (defense) | 1993:F1:ATOP 3625 enters (defense) | 1993:F1:ATOP 3625 exits (defense) | 1993:F1:ATOP 4500 enters (weak),False,Europe
+CZE,USA,2004,2004,entry,F3(+F2 aid constitutive),1,2004:F3:EU/EEA entry (auto: aid/trade tie constitutive of membership),False,Europe
+DEU,USSR/RUS,1950,1950,entry,F3(+F2 aid constitutive),1,1950:F3:CMEA entry (auto: aid/trade tie constitutive of membership),False,Europe
+DEU,USA,1955,1957,entry,F1+F3,2,1955:F1:NATO entry | 1957:F3:EU/EEA entry,False,Europe
+DEU,USSR/RUS,1990,1990,mixed(severance+entry),F1+F3,6,1990:F1:ATOP 3285 exits (defense) | 1990:F1:ATOP 3500 exits (defense) | 1990:F1:ATOP 3745 exits (defense) | 1990:F1:ATOP 4010 enters (weak) | 1990:F1:WarsawPact exit | 1990:F3:CMEA exit,False,Europe
+DNK,USA,1973,1973,entry,F3(+F2 aid constitutive),1,1973:F3:EU/EEA entry (auto: aid/trade tie constitutive of membership),False,Europe
+ESP,USA,1986,1986,entry,F3(+F2 aid constitutive),1,1986:F3:EU/EEA entry (auto: aid/trade tie constitutive of membership),False,Europe
+FIN,USA,1995,1995,entry,F3(+F2 aid constitutive),1,1995:F3:EU/EEA entry (auto: aid/trade tie constitutive of membership),False,Europe
+FRA,USA,1957,1957,entry,F3(+F2 aid constitutive),1,1957:F3:EU/EEA entry (auto: aid/trade tie constitutive of membership),False,Europe
+GBR,USA,1973,1973,entry,F3(+F2 aid constitutive),1,1973:F3:EU/EEA entry (auto: aid/trade tie constitutive of membership),False,Europe
+GRC,USA,1951,1954,mixed(severance+entry),F1+F2,6,1951:F1:ATOP 3180 enters (defense) | 1951:F2:share vs USA 0.41->0.26 | 1952:F1:NATO entry | 1952:F2:share vs USA 0.37->0.20 | 1953:F2:share vs USA 0.30->0.15 | 1954:F2:share vs USA 0.26->0.13,False,Europe
+GRC,USA,1981,1981,entry,F3(+F2 aid constitutive),1,1981:F3:EU/EEA entry (auto: aid/trade tie constitutive of membership),False,Europe
+HRV,USA,2013,2013,entry,F3(+F2 aid constitutive),1,2013:F3:EU/EEA entry (auto: aid/trade tie constitutive of membership),False,Europe
+HUN,USSR/RUS,1948,1949,entry,F1+F3,2,1948:F1:ATOP 3120 enters (defense) | 1949:F3:CMEA entry,False,Europe
+HUN,USSR/RUS,1991,1991,mixed(severance+entry),F1+F3,5,1991:F1:ATOP 3285 exits (defense) | 1991:F1:ATOP 3580 exits (defense) | 1991:F1:ATOP 4115 enters (weak) | 1991:F1:WarsawPact exit | 1991:F3:CMEA exit,False,Europe
+HUN,USA,2004,2004,entry,F3(+F2 aid constitutive),1,2004:F3:EU/EEA entry (auto: aid/trade tie constitutive of membership),False,Europe
+IRL,USA,1973,1973,entry,F3(+F2 aid constitutive),1,1973:F3:EU/EEA entry (auto: aid/trade tie constitutive of membership),False,Europe
+ISL,USA,1994,1994,entry,F3(+F2 aid constitutive),1,1994:F3:EU/EEA entry (auto: aid/trade tie constitutive of membership),False,Europe
+ITA,USA,1957,1957,entry,F3(+F2 aid constitutive),1,1957:F3:EU/EEA entry (auto: aid/trade tie constitutive of membership),False,Europe
+LUX,USA,1957,1957,entry,F3(+F2 aid constitutive),1,1957:F3:EU/EEA entry (auto: aid/trade tie constitutive of membership),False,Europe
+MLT,USA,2004,2004,entry,F3(+F2 aid constitutive),1,2004:F3:EU/EEA entry (auto: aid/trade tie constitutive of membership),False,Europe
+NLD,USA,1957,1957,entry,F3(+F2 aid constitutive),1,1957:F3:EU/EEA entry (auto: aid/trade tie constitutive of membership),False,Europe
+NOR,USA,1994,1994,entry,F3(+F2 aid constitutive),1,1994:F3:EU/EEA entry (auto: aid/trade tie constitutive of membership),False,Europe
+POL,USSR/RUS,1949,1949,entry,F3(+F2 aid constitutive),1,1949:F3:CMEA entry (auto: aid/trade tie constitutive of membership),False,Europe
+POL,USA,1961,1962,mixed(severance+entry),F1+F4,2,"1961:F4:GSDB 69 (USA, destab_regime) | 1962:F1:ATOP 3460 enters (weak)",False,Europe
+POL,USSR/RUS,1991,1992,mixed(severance+entry),F1+F3,5,1991:F1:ATOP 3285 exits (defense) | 1991:F1:ATOP 3520 exits (defense) | 1991:F1:WarsawPact exit | 1991:F3:CMEA exit | 1992:F1:ATOP 4230 enters (weak),False,Europe
+POL,USA,2004,2004,entry,F3(+F2 aid constitutive),1,2004:F3:EU/EEA entry (auto: aid/trade tie constitutive of membership),False,Europe
+PRT,USA,1986,1986,entry,F3(+F2 aid constitutive),1,1986:F3:EU/EEA entry (auto: aid/trade tie constitutive of membership),False,Europe
+ROU,USSR/RUS,1948,1949,entry,F1+F3,2,1948:F1:ATOP 3115 enters (defense) | 1949:F3:CMEA entry,False,Europe
+ROU,USSR/RUS,1991,1991,severance,F1+F3,4,1991:F1:ATOP 3285 exits (defense) | 1991:F1:ATOP 3630 exits (defense) | 1991:F1:WarsawPact exit | 1991:F3:CMEA exit,False,Europe
+ROU,USA,2007,2007,entry,F3(+F2 aid constitutive),1,2007:F3:EU/EEA entry (auto: aid/trade tie constitutive of membership),False,Europe
+SVK,USSR/RUS,1949,1949,entry,F3(+F2 aid constitutive),1,1949:F3:CMEA entry (auto: aid/trade tie constitutive of membership),False,Europe
+SVK,USSR/RUS,1991,1993,mixed(severance+entry),F1+F3,7,1991:F1:ATOP 3285 exits (defense) | 1991:F1:WarsawPact exit | 1991:F3:CMEA exit | 1992:F1:ATOP 3625 exits (defense) | 1993:F1:ATOP 3625 enters (defense) | 1993:F1:ATOP 3625 exits (defense) | 1993:F1:ATOP 4505 enters (weak),False,Europe
+SVK,USA,2003,2004,entry,F1+F3,3,2003:F1:ATOP 3180 enters (defense) | 2004:F1:NATO entry | 2004:F3:EU/EEA entry,False,Europe
+SVN,USA,2003,2004,entry,F1+F3,3,2003:F1:ATOP 3180 enters (defense) | 2004:F1:NATO entry | 2004:F3:EU/EEA entry,False,Europe
+SWE,USA,1995,1995,entry,F3(+F2 aid constitutive),1,1995:F3:EU/EEA entry (auto: aid/trade tie constitutive of membership),False,Europe
+ARG,USA,1947,1948,mixed(entry+severance),F1+F3,4,1947:F1:ATOP 3010 exits (defense) | 1947:F1:ATOP 3075 enters (defense) | 1948:F1:ATOP 3150 enters (defense) | 1948:F3:OAS entry,False,Latin America
+BOL,USA,1947,1948,mixed(entry+severance),F1+F3,4,1947:F1:ATOP 3010 exits (defense) | 1947:F1:ATOP 3075 enters (defense) | 1948:F1:ATOP 3150 enters (defense) | 1948:F3:OAS entry,False,Latin America
+BRA,USA,1947,1948,mixed(entry+severance),F1+F3,4,1947:F1:ATOP 3010 exits (defense) | 1947:F1:ATOP 3075 enters (defense) | 1948:F1:ATOP 3150 enters (defense) | 1948:F3:OAS entry,False,Latin America
+CHL,USA,1947,1948,mixed(entry+severance),F1+F3,4,1947:F1:ATOP 3010 exits (defense) | 1947:F1:ATOP 3075 enters (defense) | 1948:F1:ATOP 3150 enters (defense) | 1948:F3:OAS entry,False,Latin America
+CHL,USA,1970,1972,severance,F2+F4,2,"1970:F4:GSDB 147 (USA, destab_regime) | 1972:F2:share vs USA 0.27->0.14",False,Latin America
+CHL,USA,1972,1974,severance,F2+F4,2,"1972:F2:share vs USA 0.27->0.14 | 1974:F4:GSDB 179 (USA, democracy,human_rights)",False,Latin America
+COL,USA,1947,1948,mixed(entry+severance),F1+F3,4,1947:F1:ATOP 3010 exits (defense) | 1947:F1:ATOP 3075 enters (defense) | 1948:F1:ATOP 3150 enters (defense) | 1948:F3:OAS entry,False,Latin America
+CRI,USA,1947,1948,mixed(entry+severance),F1+F3,4,1947:F1:ATOP 3010 exits (defense) | 1947:F1:ATOP 3075 enters (defense) | 1948:F1:ATOP 3150 enters (defense) | 1948:F3:OAS entry,False,Latin America
+CRI,USA,1999,2003,mixed(severance+entry),F2+F4,5,"1999:F2:share vs USA 0.42->0.20 | 2001:F4:GSDB 674 (USA, other) | 2001:F2:share vs USA 0.25->0.37 | 2002:F2:share vs USA 0.20->0.36 | 2003:F4:GSDB 715 (USA, other)",False,Latin America
+CUB,USA,1947,1948,mixed(entry+severance),F1+F3,4,1947:F1:ATOP 3010 exits (defense) | 1947:F1:ATOP 3075 enters (defense) | 1948:F1:ATOP 3150 enters (defense) | 1948:F3:OAS entry,False,Latin America
+CUB,USA,1960,1963,severance,F1+F3+F4,8,"1960:F4:GSDB 59 (USA, destab_regime) | 1961:F4:GSDB 65 (USA, destab_regime) | 1962:F4:GSDB 74 (USA, destab_regime) | 1962:F4:GSDB 73 (USA, destab_regime) | 1962:F3:OAS exit | 1962:F1:ATOP 3150 exits (defense) | 1962:F1:ATOP 3075 exits (defense) | 1963:F4:GSDB 84 (USA, destab_regime)",True,Latin America
+CUB,USSR/RUS,1972,1972,entry,F3(+F2 aid constitutive),1,1972:F3:CMEA entry (auto: aid/trade tie constitutive of membership),False,Latin America
+CUB,USSR/RUS,1991,1991,severance,F3(+F2 aid constitutive),1,1991:F3:CMEA severance (auto: aid/trade tie constitutive of membership),True,Latin America
+DOM,USA,1947,1948,mixed(entry+severance),F1+F3,4,1947:F1:ATOP 3010 exits (defense) | 1947:F1:ATOP 3075 enters (defense) | 1948:F1:ATOP 3150 enters (defense) | 1948:F3:OAS entry,False,Latin America
+DOM,USA,1960,1964,mixed(severance+entry),F2+F4,4,"1960:F4:GSDB 61 (USA, destab_regime) | 1962:F2:share vs USA 0.59->0.75 | 1963:F4:GSDB 85 (USA, destab_regime) | 1964:F2:share vs USA 0.56->0.70",False,Latin America
+ECU,USA,1947,1949,mixed(entry+severance),F1+F3,4,1947:F1:ATOP 3010 exits (defense) | 1948:F1:ATOP 3150 enters (defense) | 1948:F3:OAS entry | 1949:F1:ATOP 3075 enters (defense),False,Latin America
+ECU,USA,2016,2017,severance,F1+F2,2,2016:F1:ATOP 3075 exits (defense) | 2017:F2:share vs USA 0.38->0.25,False,Latin America
+GTM,USA,1947,1948,mixed(entry+severance),F1+F3,4,1947:F1:ATOP 3010 exits (defense) | 1947:F1:ATOP 3075 enters (defense) | 1948:F1:ATOP 3150 enters (defense) | 1948:F3:OAS entry,False,Latin America
+GUY,USA,1991,1991,entry,F1+F3,2,1991:F1:ATOP 3150 enters (defense) | 1991:F3:OAS entry,False,Latin America
+HND,USA,1947,1948,mixed(entry+severance),F1+F3,4,1947:F1:ATOP 3010 exits (defense) | 1947:F1:ATOP 3075 enters (defense) | 1948:F1:ATOP 3150 enters (defense) | 1948:F3:OAS entry,False,Latin America
+HTI,USA,1947,1948,mixed(entry+severance),F1+F3,4,1947:F1:ATOP 3010 exits (defense) | 1947:F1:ATOP 3075 enters (defense) | 1948:F1:ATOP 3150 enters (defense) | 1948:F3:OAS entry,False,Latin America
+HTI,USA,1986,1987,severance,F2+F4,3,"1986:F4:GSDB 314 (USA, human_rights) | 1987:F2:share vs USA 0.68->0.54 | 1987:F4:GSDB 343 (USA, human_rights,democracy)",False,Latin America
+HTI,USA,2000,2002,severance,F2+F4,4,"2000:F4:GSDB 663 (USA, human_rights) | 2001:F2:share vs USA 0.64->0.49 | 2001:F4:GSDB 675 (EU*, democracy) | 2002:F2:share vs USA 0.64->0.45",False,Latin America
+JAM,USA,1969,1969,entry,F1+F3,2,1969:F1:ATOP 3150 enters (defense) | 1969:F3:OAS entry,False,Latin America
+MEX,USA,1947,1948,mixed(entry+severance),F1+F3,4,1947:F1:ATOP 3010 exits (defense) | 1947:F1:ATOP 3075 enters (defense) | 1948:F1:ATOP 3150 enters (defense) | 1948:F3:OAS entry,False,Latin America
+NIC,USA,1947,1948,mixed(entry+severance),F1+F3,4,1947:F1:ATOP 3010 exits (defense) | 1948:F1:ATOP 3075 enters (defense) | 1948:F1:ATOP 3150 enters (defense) | 1948:F3:OAS entry,False,Latin America
+NIC,USA,1983,1987,severance,F2+F4,5,"1983:F4:GSDB 296 (USA, policy_change) | 1985:F4:GSDB 306 (USA, destab_regime) | 1985:F2:share vs USA 0.20->0.07 | 1986:F2:share vs USA 0.19->0.02 | 1987:F2:share vs USA 0.15->0.02",False,Latin America
+NIC,USA,1991,1993,mixed(entry+severance),F2+F4,4,"1991:F2:share vs USA 0.02->0.22 | 1992:F2:share vs USA 0.03->0.26 | 1992:F4:GSDB 464 (USA, destab_regime) | 1993:F2:share vs USA 0.11->0.31",False,Latin America
+NIC,USA,2014,2015,mixed(severance+entry),F1+F2,2,2014:F1:ATOP 3075 exits (defense) | 2015:F2:share vs USA 0.22->0.35,False,Latin America
+PAN,USA,1947,1948,mixed(entry+severance),F1+F3,4,1947:F1:ATOP 3010 exits (defense) | 1947:F1:ATOP 3075 enters (defense) | 1948:F1:ATOP 3150 enters (defense) | 1948:F3:OAS entry,False,Latin America
+PER,USA,1947,1948,mixed(entry+severance),F1+F3,4,1947:F1:ATOP 3010 exits (defense) | 1947:F1:ATOP 3075 enters (defense) | 1948:F1:ATOP 3150 enters (defense) | 1948:F3:OAS entry,False,Latin America
+PRY,USA,1947,1948,mixed(entry+severance),F1+F3,4,1947:F1:ATOP 3010 exits (defense) | 1947:F1:ATOP 3075 enters (defense) | 1948:F1:ATOP 3150 enters (defense) | 1948:F3:OAS entry,False,Latin America
+SLV,USA,1947,1948,mixed(entry+severance),F1+F3,4,1947:F1:ATOP 3010 exits (defense) | 1947:F1:ATOP 3075 enters (defense) | 1948:F1:ATOP 3150 enters (defense) | 1948:F3:OAS entry,False,Latin America
+SUR,USA,1977,1977,entry,F1+F3,2,1977:F1:ATOP 3150 enters (defense) | 1977:F3:OAS entry,False,Latin America
+TTO,USA,1967,1967,entry,F1+F3,3,1967:F1:ATOP 3075 enters (defense) | 1967:F1:ATOP 3150 enters (defense) | 1967:F3:OAS entry,False,Latin America
+URY,USA,1947,1948,mixed(entry+severance),F1+F3,4,1947:F1:ATOP 3010 exits (defense) | 1947:F1:ATOP 3075 enters (defense) | 1948:F1:ATOP 3150 enters (defense) | 1948:F3:OAS entry,False,Latin America
+VEN,USA,1947,1948,mixed(entry+severance),F1+F3,4,1947:F1:ATOP 3010 exits (defense) | 1947:F1:ATOP 3075 enters (defense) | 1948:F1:ATOP 3150 enters (defense) | 1948:F3:OAS entry,False,Latin America
+VEN,USA,2015,2017,severance,F1+F4,4,"2015:F4:GSDB 1051 (USA, human_rights,democracy) | 2015:F1:ATOP 3075 exits (defense) | 2017:F4:GSDB 1096 (EU*, democracy,human_rights) | 2017:F4:GSDB 1098 (USA, democracy,human_rights,terrorism)",True,Latin America
+VEN,USA,2017,2021,severance,F2+F3+F4,9,"2017:F4:GSDB 1096 (EU*, democracy,human_rights) | 2017:F4:GSDB 1098 (USA, democracy,human_rights,terrorism) | 2018:F4:GSDB 1133 (USA, human_rights,democracy) | 2018:F4:GSDB 1134 (USA, other) | 2019:F4:GSDB 1172 (USA, democracy) | 2019:F3:OAS exit | 2019:F2:share vs USA 0.31->0.13 | 2020:F2:share vs USA 0.33->0.08 | 2021:F2:share vs USA 0.35->0.12",True,Latin America
+ARM,USSR/RUS,1991,1993,entry,F1+F3,5,1991:F1:ATOP 4130 enters (weak) | 1991:F3:CIS entry | 1992:F1:ATOP 4220 enters (defense) | 1992:F1:CST entry | 1993:F1:ATOP 4400 enters (defense),False,Post-Soviet
+ARM,USSR/RUS,1996,1997,mixed(severance+entry),F1+F2,3,1996:F2:share vs USSR/RUS 0.32->0.19 | 1997:F1:ATOP 4130 exits (weak) | 1997:F1:ATOP 4890 enters (defense),False,Post-Soviet
+ARM,USSR/RUS,2015,2015,entry,F3(+F2 aid constitutive),1,2015:F3:EAEU entry (auto: aid/trade tie constitutive of membership),False,Post-Soviet
+AZE,USSR/RUS,1991,1993,entry,F1+F3,5,1991:F3:CIS entry | 1992:F1:ATOP 4342 enters (weak) | 1993:F1:ATOP 4220 enters (defense) | 1993:F1:ATOP 4400 enters (defense) | 1993:F1:CST entry,False,Post-Soviet
+BLR,USSR/RUS,1991,1993,entry,F1+F3,4,1991:F3:CIS entry | 1992:F1:ATOP 4293 enters (weak) | 1993:F1:ATOP 4400 enters (defense) | 1993:F1:CST entry,False,Post-Soviet
+BLR,USSR/RUS,2015,2015,entry,F3(+F2 aid constitutive),1,2015:F3:EAEU entry (auto: aid/trade tie constitutive of membership),False,Post-Soviet
+EST,USA,2003,2004,entry,F1+F3,3,2003:F1:ATOP 3180 enters (defense) | 2004:F1:NATO entry | 2004:F3:EU/EEA entry,True,Post-Soviet
+GEO,USSR/RUS,1993,1993,entry,F1+F3,4,1993:F1:ATOP 4220 enters (defense) | 1993:F1:ATOP 4400 enters (defense) | 1993:F1:CST entry | 1993:F3:CIS entry,False,Post-Soviet
+GEO,USSR/RUS,2009,2009,severance,F1+F3+F4,3,"2009:F1:ATOP 4400 exits (defense) | 2009:F3:CIS exit | 2009:F4:GSDB 834 (USSR/RUS, prevent_war)",False,Post-Soviet
+KAZ,USSR/RUS,1991,1996,mixed(entry+severance),F1+F3+F4,7,"1991:F3:CIS entry | 1992:F1:ATOP 4220 enters (defense) | 1992:F1:ATOP 4235 enters (defense) | 1992:F1:CST entry | 1993:F1:ATOP 4400 enters (defense) | 1994:F4:GSDB 518 (USSR/RUS, other) | 1996:F1:ATOP 4810 enters (weak)",False,Post-Soviet
+KAZ,USSR/RUS,1996,1998,mixed(entry+severance),F1+F2,2,1996:F1:ATOP 4810 enters (weak) | 1998:F2:share vs USSR/RUS 0.47->0.34,False,Post-Soviet
+KAZ,USSR/RUS,1999,2001,mixed(severance+entry),F1+F2,3,1999:F2:share vs USSR/RUS 0.47->0.27 | 2001:F1:ATOP 4810 exits (weak) | 2001:F1:ATOP 4810 enters (weak),False,Post-Soviet
+KAZ,USSR/RUS,2013,2015,entry,F1+F3,2,2013:F1:ATOP 6070 enters (weak) | 2015:F3:EAEU entry,False,Post-Soviet
+KGZ,USSR/RUS,1991,1993,entry,F1+F3,5,1991:F3:CIS entry | 1992:F1:ATOP 4220 enters (defense) | 1992:F1:ATOP 4255 enters (defense) | 1992:F1:CST entry | 1993:F1:ATOP 4400 enters (defense),False,Post-Soviet
+KGZ,USSR/RUS,2007,2007,entry,F1+F2,2,2007:F1:ATOP 6020 enters (weak) | 2007:F2:share vs USSR/RUS 0.26->0.41,False,Post-Soviet
+KGZ,USSR/RUS,2015,2015,entry,F3(+F2 aid constitutive),1,2015:F3:EAEU entry (auto: aid/trade tie constitutive of membership),False,Post-Soviet
+LTU,USSR/RUS,1990,1992,mixed(severance+entry),F1+F4,3,"1990:F4:GSDB 385 (USSR/RUS, territorial_conflict,policy_change) | 1991:F1:ATOP 4055 enters (weak) | 1992:F4:GSDB 457 (USSR/RUS, other)",True,Post-Soviet
+LTU,USA,2003,2004,entry,F1+F3,3,2003:F1:ATOP 3180 enters (defense) | 2004:F1:NATO entry | 2004:F3:EU/EEA entry,True,Post-Soviet
+LVA,USA,2003,2004,entry,F1+F3,3,2003:F1:ATOP 3180 enters (defense) | 2004:F1:NATO entry | 2004:F3:EU/EEA entry,True,Post-Soviet
+MDA,USSR/RUS,2000,2001,mixed(severance+entry),F1+F2,2,2000:F2:share vs USSR/RUS 0.41->0.26 | 2001:F1:ATOP 4990 enters (weak),False,Post-Soviet
+RUS,USA,1991,1992,mixed(severance+entry),F1+F4,3,"1991:F4:GSDB 419 (EU*, policy_change) | 1991:F4:GSDB 422 (USA, democracy) | 1992:F1:ATOP 4265 enters (weak)",False,Post-Soviet
+TJK,USSR/RUS,1991,1993,entry,F1+F3,5,1991:F3:CIS entry | 1992:F1:ATOP 4220 enters (defense) | 1992:F1:CST entry | 1993:F1:ATOP 4400 enters (defense) | 1993:F1:ATOP 4470 enters (defense),False,Post-Soviet
+TJK,USSR/RUS,2000,2003,mixed(entry+severance),F1+F2,8,2000:F2:share vs USSR/RUS 0.11->0.27 | 2001:F1:ATOP 4810 exits (weak) | 2001:F1:ATOP 4810 enters (weak) | 2002:F1:ATOP 4220 exits (defense) | 2002:F1:ATOP 4220 enters (defense) | 2002:F1:CSTO entry | 2002:F1:CST exit | 2003:F2:share vs USSR/RUS 0.27->0.14,False,Post-Soviet
+TKM,USSR/RUS,1991,1993,mixed(severance+entry),F1+F3+F4,5,"1991:F3:CIS entry | 1991:F4:GSDB 426 (USSR/RUS, human_rights,policy_change) | 1992:F1:ATOP 4300 enters (defense) | 1992:F4:GSDB 474 (USSR/RUS, human_rights,policy_change) | 1993:F4:GSDB 505 (USSR/RUS, policy_change)",False,Post-Soviet
+TKM,USSR/RUS,2000,2002,mixed(entry+severance),F1+F2,3,2000:F2:share vs USSR/RUS 0.11->0.27 | 2002:F1:ATOP 4300 exits (defense) | 2002:F1:ATOP 5000 enters (weak),False,Post-Soviet
+TKM,USSR/RUS,2005,2006,severance,F2+F3,2,2005:F3:CIS exit | 2006:F2:share vs USSR/RUS 0.29->0.04,False,Post-Soviet
+TKM,CHN,2013,2014,entry,F1+F2,2,2013:F2:share vs CHN 0.21->0.50 | 2014:F1:ATOP 6085 enters (weak),False,Post-Soviet
+UKR,USSR/RUS,1990,1993,mixed(entry+severance),F1+F3+F4,3,"1990:F1:ATOP 4016 enters (weak) | 1991:F3:CIS entry | 1993:F4:GSDB 506 (USSR/RUS, territorial_conflict)",False,Post-Soviet
+UKR,USSR/RUS,1995,1998,mixed(severance+entry),F1+F2+F4,5,"1995:F4:GSDB 551 (USSR/RUS, territorial_conflict) | 1997:F1:ATOP 4016 exits (weak) | 1997:F1:ATOP 4875 enters (weak) | 1997:F2:share vs USSR/RUS 0.61->0.37 | 1998:F2:share vs USSR/RUS 0.54->0.37",False,Post-Soviet
+UKR,USSR/RUS,2014,2016,severance,F2+F4,3,"2014:F4:GSDB 1031 (USSR/RUS, policy_change) | 2015:F2:share vs USSR/RUS 0.29->0.16 | 2016:F2:share vs USSR/RUS 0.27->0.12",False,Post-Soviet
+UKR,USSR/RUS,2016,2018,severance,F2+F3,2,2016:F2:share vs USSR/RUS 0.27->0.12 | 2018:F3:CIS exit,False,Post-Soviet
+UZB,USSR/RUS,1991,1993,entry,F1+F3,5,1991:F3:CIS entry | 1992:F1:ATOP 4220 enters (defense) | 1992:F1:CST entry | 1992:F1:ATOP 4245 enters (defense) | 1993:F1:ATOP 4400 enters (defense),False,Post-Soviet
+UZB,USSR/RUS,1997,1999,severance,F1+F2,3,1997:F2:share vs USSR/RUS 0.38->0.25 | 1999:F1:ATOP 4220 exits (defense) | 1999:F1:CST exit,False,Post-Soviet
+UZB,USA,2002,2003,mixed(entry+severance),F1+F4,2,"2002:F1:ATOP 4998 enters (weak) | 2003:F4:GSDB 737 (USA, human_rights)",False,Post-Soviet

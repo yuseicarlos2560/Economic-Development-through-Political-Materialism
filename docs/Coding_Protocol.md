@@ -104,6 +104,18 @@ Each candidate episode is decided by answering four narrow factual questions, in
 
 **Calibration episodes (no China):** Yugoslavia–USSR 1948 (severance by expulsion); Spain–US bases agreement 1953 (entry); Cuba–USSR 1960 and 1989–91 (entry, then severance — the full cycle in one country); Egypt 1972–76 (Soviet expulsion followed by US entry — severance *and* entry in sequence); Vietnam 1989–95 (severance absorbed below threshold, then entry — tests both the threshold and the timing rule); the Baltics 1991 and 2004 (severance and entry as two dated episodes); Venezuela–US 2002–17 (interval-coded severance); Greece 2015 (threatened but unconsummated severance — coded with a "threat" flag, matching the sub-threshold outcome).
 
+### 6.2 Patron set and candidate generation for the full sweep (added 2026-11-03)
+
+**Patron set.** Three candidate sphere holders, grounded only in the framework's existing sources:
+
+1. **The US-led Western sphere** — one sphere, not three: the UK and the European allies are subordinate members of the US-centered hierarchy (Lake 2009); NATO and EU alignment is alignment with that sphere (Walt 1987; Buzan & Wæver 2003). The "USA/EU" co-patron convention from calibration (E013–E015) stands.
+2. **The USSR/Russia sphere** — the second pole of the 1945–91 bipolar distribution (Waltz 1979), great-power status resting on military capability (Mearsheimer 2001); Russia inherits the residual sphere (CSTO/EAEU as F3).
+3. **China, from 2013** — a rising great power in Gilpin's (1981) differential-growth logic and Mearsheimer's (2001) great-power sense; activation anchored to the Belt & Road launch (2013), with sensitivity at 2008 recorded in affected case notes. China's pre-2013 relationship with North Korea (1961 treaty) is handled in the PRK shadow-case note, not by moving the activation date.
+
+**Not sphere holders:** Venezuela and other regional powers. ALBA-type blocs are recorded in case notes as context, never coded as spheres. Consistently, Cuba–Venezuela 2000s is a documented patron–client subsidy relationship for the narrative layer (Step 8), not a coded sphere-entry episode; `docs/Cases.md` carries a reconciling note.
+
+**Candidate generation (screen before coding).** The sweep's candidate list is generated mechanically and blind to outcomes. For each panel country × patron, a candidate window opens where **≥2 of the following signal change within a 3-year window**: F1 alliance establishment/termination with the patron (ATOP; COW cross-check ≤2012); F3 bloc entry/exit (Warsaw Pact, CMEA, NATO, EU/EEA, OAS, EAEU — objective dates); F4 GSDB-R5 sanctions episode with sender = patron; F2 DOTS trade-share break with the patron. UN ideal points remain the *validation* layer and are not a screen input. Every candidate is then decided by the four judgments of §6.1; rejected candidates are recorded with their rejection reasons, so the episode table's audit trail covers the whole panel, including countries with no realignment.
+
 ## 7. Q5 — Outcomes
 
 - **Disruption (negative):** Rodrik-style collapse criterion — real GDP per capita contraction ≥ 15% peak-to-trough within ≤ 5 years, **or** deceleration ≥ 3 pp below the prior 5-year average sustained ≥ 3 years; hyperinflation (≥ 500% annual) or a sudden stop qualify independently. (Calibration anchors: Greece −26% in; Spain and Brexit below or near the threshold — the calibration cases exist precisely to fix these bounds.)
