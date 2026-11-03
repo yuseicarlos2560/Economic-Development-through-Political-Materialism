@@ -39,6 +39,8 @@ The critical case is the **structure of political power**. H1 states a null *con
 - **Definition** (Linz & Stepan 1996; Linz 2000): change in the formal rules governing access to and organization of power.
 - **Observable events:** constitutional replacement or suspension (Comparative Constitutions Project; Elkins, Ginsburg & Melton 2009), abolition/suspension of elections, change in executive-selection rules.
 - **Variable:** `RegimeChange` = 1 in the year of such an event. A new constitution that leaves effective arrangements unchanged is coded here and *not* in §4 — that separation is exactly what the framework is for.
+- **Uncodified orders:** a formal political order does not require a single codified constitution. Constitutional statutes, authoritative conventions, parliamentary rules, and succession arrangements can supply the baseline and the formal event. CCP is a catalogue and candidate source, not proof that an uncodified order is absent or unchanged.
+- **Formal dating:** use promulgation or formal entry into force. Keep that date separate from the effective-implementation date used in §4.
 
 ## 4. Q2b — Structure of political power (the hard category)
 
@@ -59,11 +61,23 @@ The critical case is the **structure of political power**. H1 states a null *con
 
 **Validation:** convergence check against V-Dem's judicial-independence and election-quality items, used strictly as a benchmark for inter-coder reliability, never as data.
 
+### 4.1 Operational clarifications from the Spain/UK/US/France calibration
+
+- **Change is not completion.** A positive code records effective change, not arrival at democracy, Trevijano's republican ideal, or complete representation/separation/control. Do not add an unregistered magnitude or democratic-completion threshold.
+- **Representation:** franchise expansion changes access but does not automatically change independence of representation. Vertical devolution changes the allocation of authority but does not by itself change the independence of the existing national representation. Electoral-system changes must affect direct/territorial representation, opposition participation, or representatives' dependence on party leadership.
+- **Party financing:** systematic state financing of permanent party organizations can support dimension (c) only when the record demonstrates durable party–state integration. Candidate-specific subsidies, election-cost reimbursement, and campaign-finance regulation do not qualify automatically. Apply the same organizational-integration test in every country; if that evidence is unresolved, the contributing dimension and episode remain provisional.
+- **Control of rulers:** routine elections, parliamentary resistance, court decisions, and removals under existing rules document the operation of a check, not a change in that check. Formal succession rules are not relabelled as a new capacity to control rulers.
+- **Effective dating:** the principal panel year is the year the second qualifying dimension becomes effective. Preserve the full process interval and endpoint/midpoint robustness for uncertain cases. Persistence does not generate a new event each year.
+- **No relabelling:** one act cannot satisfy two dimensions merely because it has two descriptions. Distinct substantive effects must be independently demonstrated.
+
 ## 5. Q3 — State-apparatus restructuring
 
 - **Anchors:** Skocpol (1979), Tilly (1990), Weber. Distinct from §4: targets the *machinery* (coercive, administrative, judicial, fiscal), not the rules of power.
 - **Observable events:** military leadership purges or reorganizations; creation/abolition of security ministries; mass bureaucratic dismissals or politicization; fiscal centralization reforms. Sources: primary government records, IISS *Military Balance* for the coercive apparatus.
-- Same ≥2-indicators-in-3-years rule.
+- **Decision rule:** documented change in **≥2 distinct components** among coercive, administrative, judicial, and fiscal machinery within a 3-year window. The principal panel year is the year the second component becomes effective; preserve the full interval.
+- **Substantive reorganization required:** record an actual transfer, consolidation, abolition, or politicization of durable functions and authority. Departmental renaming, routine agency creation, and administrative convenience alone do not qualify.
+- **Fiscal boundary:** durable revenue, treasury, budgetary, extraction, and fiscal-control machinery can qualify. Tax rates, annual budgets, spending programs, and other fiscal-policy settings do not.
+- **No relabelling:** one act cannot satisfy two components merely through two descriptions; each component needs its own substantive organizational change.
 
 ## 6. Q4 — External realignment: severance and entry episodes
 

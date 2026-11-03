@@ -697,3 +697,95 @@ USSR–YUG denunciation day (month kept); CMEA founding day (month kept); Cuba C
 Finland 1992 treaty English name varies; PRK shadow-case estimates; E004/E060 grade-C
 construction; GSDB case details not re-pulled (IDs cited as carried); E020 validation
 flag open; UN admission days standard-reference.
+
+---
+
+## Phase C audit — Step 3 closed (3 Nov 2026)
+
+**Script:** `code/audit_episodes.py` — exit 0 (16 PASS, 0 FAIL, 3 warning classes).
+**Report:** `docs/STEP3_AUDIT.md`.
+
+**Coverage.** 73/73 panel countries accounted for: 44 with coded episodes (E001–E073),
+29 with documented no-realignment determinations (PostSoviet/EURO/LATAM batch notes +
+formation note; RUS = patron), 2 calibration-only (EGY, YUG). Screen candidates:
+**128/128 resolved** — 53 episode-matched, 75 documented rejections, 0 orphans.
+
+**Consistency.** IDs contiguous; vocabularies clean (type, patron ∈ CP §6.2 set,
+voluntariness, confidence); intervals valid and matched to year columns; R2 family rule
+holds on all 71 consummated episodes; the 2 threat episodes carry the required
+zero-termination record; chain logic (entry↔severance per country × patron-side) holds
+with no same-side overlaps; R6=1 flags (23) all start 1989–91, the designed window class.
+
+**Warning classes (manually confirmed, not errors).** 16 first-event severances — every
+one has a documented initial condition (formation rosters, 1940 incorporation,
+1945–48 treaties, CIS record). 8 cross-patron transition overlaps — the designed
+overlapping exit/entry intervals.
+
+**Audit-time fix (documentation only).** GEO–USSR/RUS 1993 candidate was undocumented;
+determination added to `PostSoviet_batch_note.md` (rejected: re-engagement with a sphere
+never left; it is E019's documented prior condition). No coded values touched anywhere.
+
+**Deferred.** OPEN_ISSUES.md unchanged: conventions 1–10; E020/E059/E067 flags; MDA/UZB;
+turnover checklist — resolve before Step 6. **Step 3 is DONE pending those rulings.**
+Next: Step 4 (RegimeChange and PowerStructure coding).
+
+---
+
+## 2026-11-04 — Step 4 calibration: Spain, UK, US, France and Trevijano
+
+**Task and non-contamination.** User requested a four-country calibration using the
+Step 4 methodology, followed by a separate comparison with García-Trevijano. CCP and
+primary legal/institutional records were evaluated first; Trevijano sources were read
+second. No outcomes, V-Dem, or Polity were used. Full report:
+`case_notes/Step4_Trevijano_calibration.md`. This is a calibration record, not a
+country-year build or panel merge.
+
+**Operational rulings incorporated.** A political system baseline does not require a
+codified constitution (UK/Westminster); the effective panel date is the year the second
+qualifying dimension/component becomes operative, with the interval retained;
+apparatus restructuring requires >=2 distinct components among coercive,
+administrative, judicial, and fiscal machinery within 3 calendar years; one act cannot
+satisfy 2 dimensions/components through relabelling.
+
+**Calibration determinations.** Power-structure episodes accepted: Spain 1976–78
+(threshold 1977); UK 1948–50 (threshold 1950); France 1958, 1986–88 (threshold 1988),
+and 2008–09 (threshold 2009); none accepted for the US in the calibration record.
+Apparatus episodes accepted: Spain 1977; UK 2005–09 (threshold 2007); US 1947–49 and
+1977–78; France 1958–59. Formal changes were coded separately. Spain 2011 and the US
+27th Amendment were rejected under the access/organization-of-power definition;
+UK 1998–2000 and France 1971–74 were rejected as separate power-structure episodes;
+US Watergate was treated as operation of existing checks.
+
+**Trevijano contrast.** His own statements distinguish: Spain's one-party to
+multi-state-party transition without democratic representation/separation/control;
+UK district representation and effective control without separation; France's
+uninominal representation and direct presidency without complete separation; and US
+representation plus separation. The binary event rule detects partial change, not
+arrival at his democratic ideal. Later MCRC articles applying his theory to France
+were explicitly identified as secondary authors, not direct Trevijano quotations.
+
+**Issues exposed for user review before the full sweep.** (1) Party financing:
+France 1988 accepted as systematic state support for parties, while US candidate
+subsidies were not treated as equivalent; this boundary needs review. (2) Vertical
+devolution alone was not counted as UK independence of representation. (3) The
+calibration detects partial transformation and must not be written as democratic
+completion. (4) Ministry creation/reorganization counts as apparatus evidence only
+when the organizational change and component are explicit. No existing Step 1–3
+values were changed.
+
+## 2026-11-04 — Step 4 calibration: operational update after review
+
+Coding Protocol §§3–4.1 and 5 now register the calibration clarifications:
+uncodified-order baselines; formal versus effective dates; change without democratic
+completion; franchise versus independence of representation; vertical devolution;
+durable organizational party–state integration versus candidate subsidies; normal
+checks versus new control; and substantive administrative reorganization versus
+renaming/routine agency creation. The four dimensions, three-year windows, two-
+dimension/component thresholds, and outcome-blind rules are unchanged.
+
+PS-FRA-02 (France 1986–88) is now **conditional**, not accepted: its dimension (b)
+evidence is clear, but dimension (c) depends on demonstrating that the 1988 law
+integrated permanent party organizations into the state rather than merely subsidizing
+candidates or campaigns. The US candidate-financing rejection is subject to exactly
+the same test. No other calibration determination changed. The calibration note and
+this log were updated; no panel or Step 1–3 coded data were touched.

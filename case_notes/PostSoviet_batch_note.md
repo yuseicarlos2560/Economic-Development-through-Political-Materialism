@@ -59,6 +59,16 @@ material: the framework's capability-flows channel (patron capacity
 collapse, E005 convention) and the year fixed effects are the relevant
 instruments there; no conclusion is drawn in this note.
 
+## Resolved screen candidates (addendum, Phase C audit)
+
+- **GEO–USSR/RUS 1993** (CIS accession Dec 1993; CST accession 1993) →
+  **rejected: re-engagement with the sphere Georgia never left** (no severance
+  1991–93 is in the record; Russian-brokered Abkhazia ceasefire context).
+  Same class as BLR/ARM/KAZ 1991–93 continuation signals. This accession is
+  already carried as the documented *prior condition* of E019 (CIS 1993;
+  CST 1993–99, non-renewal Apr 1999) — coding it as an entry episode would
+  double-count the prior tie. No episode.
+
 **GSDB F4 corroboration:** early-1990s Russian pressure cases exist against
 several republics (UKR 506/551, TKM 426/474/505, Baltics 446–484) — they
 sit inside the R6 window and are cited in the episode notes where relevant.

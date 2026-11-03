@@ -35,13 +35,17 @@ Progress is logged step by step in `docs/PHASE2_LOG.md` (outcomes) and
 - CCP (comparativeconstitutionsproject.org) — constitutional events for RegimeChange.
 - **Why:** CP §6 indicator families F1–F4; CP §3; DSM "Requires manual action".
 
-### Step 3 — Realignment coding (severance/entry)
+### Step 3 — Realignment coding (severance/entry) — DONE (2026-11-03), audit passed
 - **What:** fill `data_clean/episodes.csv` per rules R1–R6 (≥2 of 4 indicator
   families, 3-year windows, interval coding for gradual cases, voluntariness,
   richer-sphere criterion, systemic-shift flag). Start with the calibration
   episodes (CP §6): Yugoslavia 1948, Spain 1953, Cuba 1960 & 1989–91, Egypt
   1972–76, Vietnam 1989–95, Baltics 1991 & 2004, Venezuela 2002–17, Greece 2015.
   Validate against UN ideal points (divergence/convergence).
+- **Status:** 73 episodes (E001–E073: 46 entry, 25 severance, 2 severance_threat);
+  sourcing layer `docs/EPISODE_SOURCES.md` + `data_clean/episode_sources.csv`
+  (grades A 64 / B 7 / C 2); Phase C audit `docs/STEP3_AUDIT.md` — coverage
+  73/73 countries, screen candidates 128/128 resolved, consistency 16/16 PASS.
 - **Open questions:** coding judgment calls and borderline cases found during
   Phase B are collected in `docs/OPEN_ISSUES.md` — resolve before Step 6
   (items 3–5 affect how evidence is counted).
