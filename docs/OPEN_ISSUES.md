@@ -177,6 +177,22 @@ condition + context.
 
 ---
 
+## Batch 4 additions (East Asia, logged 2026-11-03)
+
+**10. Source-dataset country-continuity artifacts.** The screen inherits
+the country-continuity choices of its source datasets; region batches must
+check them against the panel's own continuity. Instance: the VNM–USA
+1962–66 candidate (SEATO protocol ATOP 3460 + DOTS share vs USA rising to
+1.00) describes the Republic of Vietnam (South), not the panel's series
+(VNM = DRV → unified; the DRV was under total US embargo, so a US share of
+1.00 is impossible for it; VNM ideal points begin only at the 1977 UN
+admission). Rejected as artifact, same class as the GDR→DEU fan-out
+(batch 2). No case-level items flagged this batch (all determinations high
+confidence except the window-edge mediums already covered by
+convention 3).
+
+---
+
 *None of this is blocking the next batch — but items 3, 4 and 5
 (window-edge, imposed entries, R5=0) feed directly into how Step 6 counts
 evidence, so they're the ones to rule on before then.*

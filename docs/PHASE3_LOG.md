@@ -588,3 +588,112 @@ America (24 countries).
 (E020 AZE, E059 MLT, MDA/UZB, batch-2 conventions) remain open. Next
 batch: East Asia (4 countries — JPN/KOR entries, MNG severance, PRK shadow
 case + VNM candidates per Phase A blind-spot notes), then Phase C audit.
+
+## 2026-11-03 — Phase B batch 4 (East Asia, 5 countries) coded — PHASE B COMPLETE
+
+**New episodes (5): E069–E073**, documented in five case notes
+(`case_notes/EA_formation_entries.md`, `VNM_1975.md`, `MNG_1990.md`,
+`PRK_1990.md`, `EA_batch_note.md`).
+
+1. **E069 JPN entry USA [1945,1952]** — occupation guarantee + aid
+   (GARIOA/EROA, Korean-War procurement) → Security Treaty 1951 (ATOP
+   3220) in force with the peace treaty Apr 1952; 1960 revision (3375).
+   Chosen (occupation constraint noted). R5 richer (16,125 vs 1,034; thin
+   median n=4 caveat). Window-edge: outcome test indeterminate (convention
+   3); D049 = defeat collapse (causes the entry); **no threshold
+   A-episode for Japan — the 1955–73 miracle fails the episode screen,
+   recorded honestly as mean-growth support (E002 class)**. Screen F2
+   "break" 1951 = occupation-imports normalization, not severance.
+2. **E070 KOR entry USA [1948,1954]** — ROSTER CATCH (the Phase-A-flagged
+   blind spot): screen sees single-family F1 only; F2 is the aid tie
+   (~$4bn grants 1945–61; share 0.70–0.82 aid-financed imports). ROK
+   founding 1948 → Mutual Defense Treaty Oct 1953, in force Nov 1954
+   (ATOP 3240, defense=1). Chosen (armistice-for-treaty bargain). R5
+   richer (16,917 vs 1,226). UN validation impossible (ROK joined UN
+   1991) — validation-limited, recorded. A036/A037 follow — mean-growth
+   support with the Park-policy domestic attribution stated (E002/E007
+   class). **KOR 1959–61 screen candidate rejected**: grant-aid
+   conversion/reduction + GSDB 67 pressure within the sphere (convention
+   9); treaty and troops untouched.
+3. **E071 VNM entry USSR [1975,1978]** — completes the E008 pair
+   (severance 1989–91 presupposed this membership). Soviet aid/trade
+   dominant from 1975–76 → CMEA Jun 1978 + treaty Nov 1978 (ATOP 3825).
+   Chosen (Chinese coercion context). R5 RICHER (10,455 vs 3,697) — H2
+   sign test applies; **outcome NON-CONFIRMING (E004 class): no
+   acceleration follows** (Cambodia war, mid-80s crisis; A069 belongs to
+   Đổi Mới) — recorded honestly. UN passes (1.48→0.44, 1977–80). Pre-1975
+   China alignment = context per §6.2.
+4. **E072 MNG severance USSR [1990,1993]** — initial condition documented
+   (ATOP 2370 pacts from 1936/1946; CMEA 1962 = deepening, no entry).
+   Aid ends 1990–91, CMEA dissolved, troops out by 1992–93, 1966 defense
+   pact (3535) replaced by weak treaty (4395) 1993. Imposed (patron
+   collapse; mixed flag — democratic opening overlaps; cooperative
+   separation). R6=1. UN passes (0.01→1.66 by 1993). Third-neighbor
+   opening = unconsummated entry (MNG–USA flat ~3.0–3.5; E009 logic, no
+   entry coded). D058 contraction 1990–93 coincides (E005 convention);
+   A044 follows — mining boom, indeterminate.
+5. **E073 PRK severance USSR [1990,1991], shadow case** — the patron
+   initiated the break (USSR–ROK normalization 30 Sep 1990) and then
+   collapsed: aid terminated, hard-currency switch Jan 1991. Imposed —
+   cleanest imposed case of the batch. R6=1. 1961 treaty (3440) lapses
+   1996 = formal tail; weak successor (4940) 2000. **CHN 1961 treaty
+   (3445, defense=1, continuous) = context per §6.2** — documented as the
+   extant Chinese defense commitment. UN: patron-driven divergence from
+   first data (2.03→2.99, 1991–94; E005 class). D067 (1990–98, −26.1%)
+   follows — famine era, domestic channel noted.
+
+**New convention (10) registered** — source-dataset country-continuity
+artifacts: the VNM–USA 1962–66 candidate (SEATO + share→1.00) describes
+SOUTH Vietnam, not the panel's DRV series (UN data from 1977; DRV under
+embargo — share 1.00 impossible). Rejected as artifact (GDR→DEU class).
+Added to `docs/OPEN_ISSUES.md`.
+
+**PHASE B COMPLETE** — five region batches done (calibration →
+post-Soviet → Europe → Latin America → East Asia). **73 episodes total
+(E001–E073)**: 46 entry, 25 severance, 2 severance_threat. Open items
+awaiting user ruling are collected in `docs/OPEN_ISSUES.md` (conventions
+1–10; E020 AZE, E059 MLT, E067 GUY; MDA/UZB). Next: Phase C audit —
+coverage statement (every panel country has episodes or a documented
+no-realignment determination), consistency checks across the episode
+table, ROADMAP/log updates closing Step 3.
+
+---
+
+## Sourcing pass — annotated sources for all manual checks (3 Nov 2026)
+
+**Task.** Before Phase C: ensure every judgment-coded determination (four judgments +
+intervals of all 73 episodes; batch-note negative determinations) has annotated sources,
+primary preferred. Deliverables:
+
+1. **`docs/EPISODE_SOURCES.md`** — anchor register: M-series (13 multilateral instruments),
+   B-series (37 bilateral instruments/events), N-series (12 national acts), U-series (UN acts),
+   C-series (GSDB-R5 coercion case IDs), D-series (7 datasets); per-episode mapping table
+   (73 rows, auto-generated); weak-spots list (10 items); verification log.
+2. **`data_clean/episode_sources.csv`** — one row per episode: anchors per judgment area,
+   quality grade, verification status. Generated by `code/build_episode_sources.py`
+   (fails closed on mapping mismatch). `episodes.csv` unchanged — the register is the
+   annotation layer, coded state preserved.
+
+**Web verification (two rounds, ~15 searches).** Confirmed to day precision: EO 12513
+(1 May 1985) / EO 12707 (13 Mar 1990); Guyana OAS accession Jan 1991; CZE/SVK Europe
+Agreements 4 Oct 1993 (EUR-Lex); Mongolia–Russia treaty 20 Jan 1993; Vietnam CMEA
+approval 29 Jun 1978 (32nd Session, Bucharest); Egypt treaty abrogation 14 Mar 1976;
+Sadat expulsion announced 18 Jul / effective 17 Jul 1972 (NATO doc C-M(72)56); Gorbachev
+Cuba brigade 11 Sep 1991; Ukraine CIS decree 19 May 2018 (NSDC 2 May); CMEA dissolution
+protocol Budapest 28 Jun 1991; Mexico TIAR deposited 6 Sep 2002 / effective 6 Sep 2004;
+Russia–DPRK treaty 9 Feb 2000; Venezuela OAS denunciation 27 Apr 2017; Baltic troop
+completions (LTU 31 Aug 1993; EST/LVA 31 Aug 1994); Albania WP withdrawal 13 Sep 1968;
+DPRK 1961 treaties (USSR 6 Jul / PRC 11 Jul); Finland–Russia treaty Jan 1992; WP 1991
+acts (25 Feb Budapest / 1 Jul Prague). 24 episodes carry V-2026-11 tags.
+
+**Grade distribution.** A (primary-instrument anchored) 64; B (dataset+acts, secondary
+dating or pending flag) 7 — E007, E009, E020, E059, E063, E067, E073; C (qualitative by
+construction) 2 — E004, E060. B-grades on E020/E059/E067 coincide with the OPEN_ISSUES
+flags; E073 carries the shadow-case caveat.
+
+**Remaining imprecisions (recorded, not repaired)** — 10 weak spots in the register:
+USSR–YUG denunciation day (month kept); CMEA founding day (month kept); Cuba CMEA
+"11 July" not re-verified (month verified); GEO CIS effective day 17 vs 18 Aug 2009;
+Finland 1992 treaty English name varies; PRK shadow-case estimates; E004/E060 grade-C
+construction; GSDB case details not re-pulled (IDs cited as carried); E020 validation
+flag open; UN admission days standard-reference.
