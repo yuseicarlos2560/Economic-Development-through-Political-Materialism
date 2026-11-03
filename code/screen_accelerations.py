@@ -41,13 +41,16 @@ for iso3, c in df.groupby("iso3"):
             continue
         if win.mean() < prior.mean() + REGIME_PP:   # A3
             continue
-        # A4: within-source level check
+        # A4: within-source level check — ALL comparison cells (prior window +
+        # end year) must share one source (fixed 2026-11-03: previously compared
+        # only the first prior year, which could miss mid-window source switches)
         end_year = s + W - 1
         post_lvl = lvl.reindex([end_year]).iloc[0]
         pre_lvls = lvl.reindex(prior_years)
         if pd.isna(post_lvl) or pre_lvls.isna().any():
             continue
-        if src.reindex([end_year]).iloc[0] != src.reindex(prior_years).iloc[0]:
+        srcs = set(src.reindex(prior_years + [end_year]).dropna())
+        if len(srcs) != 1:
             continue
         if post_lvl <= pre_lvls.max():              # A4 fails
             continue

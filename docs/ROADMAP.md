@@ -28,7 +28,7 @@ Progress is logged step by step in `docs/PHASE2_LOG.md` (outcomes) and
   draft2.tex:214, 232.
 - **Output:** `data_clean/turnover.csv`, merged into the panel.
 
-### Step 2 — Manual data acquisition (user tasks, fire early due to latency)
+### Step 2 — Manual data acquisition (user tasks, fire early due to latency) — DONE (2026-11-02)
 - ATOP (browser download, atopdata.org/data.html) — alliance coding past 2012.
 - GSDB Release 4 (email GSDB@drexel.edu) — sanctions, treatment intensity.
 - IMF DOTS (data.imf.org/DOT) — bilateral trade shares, the Δ-trade variable.

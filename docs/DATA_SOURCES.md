@@ -14,19 +14,25 @@ Project-generated files: `data_clean/countries.csv` (73 countries, 4 regions, Ch
 | IMF WEO (IMF Data Portal API, `IMF.RES:WEO` v9.0.0) | `data_raw/WEO/weo_{NGDP_RPCH,PCPIPCH,LP,NGDPDPC}.csv` | Oct 2026 API pull | 1980–2019, our 73 countries | Real GDP growth, CPI inflation, population, GDP pc (USD); includes staff estimates for Venezuela's recent collapse years | imf_weo |
 | Archigos 4.1 (leaders) | `data_raw/Archigos_4.1_stata14.dta`, `archigos_4_1.csv` (3,409 leader spells) | v4.1 | 1875–2015 | Leader entry/exit/manner of exit: domestic-leadership-change control | goemans_gleditsch_chiozza_2009 |
 | COW Formal Interstate Alliances v4.1 | `data_raw/version4.1_csv/*.csv` | v4.1 | 1816–2012 | Alliance membership: binary realignment coding (severance/entry) | gibler_sarkees_2004 |
-| UN Ideal Points (Bailey–Strezhnev–Voeten) | `data_raw/UN_IdealPoints_Jul2025.tab`, `.csv` (11,440 obs) | Jul 2025 release | 1946–2024, 199 countries | Continuous alignment measure: distance from US/USSR-Russia ideal points; extends beyond alliance data | bailey_strezhnev_voeten_2017 |
 | DPI2020 (Database of Political Institutions) | `data_raw/DPI2020.csv` (+ dictionary) | DPI2020 via IDB CKAN API, downloaded 2026-11-02 | 1975–2020, 182 countries; 73/73 of ours covered (Romania = ROM) | Coalition change: party of chief executive (`execme`) and orientation (`execrlc`) | cruz_keefer_scartascini_2021 |
+| ATOP (Alliance Treaty Obligations and Provisions) v5.1 | `data_raw/ATOP/ATOP 5.1 (.csv)/*.csv` (12 files: members, dyads, directed-dyad-years, state-years) | v5.1, downloaded 2026-11-02 | 1815–2018 | Extends alliance coding past COW's 2012 endpoint; obligation detail | leeds_etal_2002 |
+| GSDB Release 5 (Global Sanctions Data Base) | `data_raw/GSDB-R5/GSDB-R5.csv` (1,794 cases) + codebook | Release 5, downloaded 2026-11-02 | 1949–2025 | Sanctions episodes: treatment intensity, severance enforcement (indicator family F4) | felbermayr_etal_2020 |
+| GSDB-FS | `data_raw/GSDB-FS/GSDB-FS.csv` (1,072 rows) + codebook | downloaded 2026-11-02 | 1950–2025 | Complementary sanctions file (see its codebook) | felbermayr_etal_2020 |
+| CCP Chronology of Constitutional Events v6 | `data_raw/CCP/ccpcce_v6/ccpcce/ccpcce_v6.csv` (+ codebook) | v6, downloaded 2026-11-02 | 1789–present | Constitutional replacement/amendment/suspension events: `RegimeChange` coding (Protocol §3) | elkins_ginsburg_melton_2009 |
+| IMF DOTS (Direction of Trade Statistics) | `data_raw/IMF_DOT.csv` (1.6 GB, SDMX format) | downloaded 2026-11-02 | 1947–present | Bilateral trade shares with patron before/after episodes: the Δ-trade-share variable in episodes.csv | imf_dots |
 
-## Requires manual action (not scriptable)
+## Previously manual — now resolved
 
-| Source | How to get it | Coverage | Purpose | Bib key |
-|---|---|---|---|---|
-| ATOP (Alliance Treaty Obligations and Provisions) | Browser download at atopdata.org/data.html (site blocks scripted downloads; returns 403 to curl) | 1815–2018 | Extends alliance coding past COW's 2012 endpoint; obligation detail | leeds_etal_2002 |
-| Global Sanctions Data Base (GSDB), Release 4 | Email request to GSDB@drexel.edu | 1950–2023 | Sanctions episodes: treatment intensity, a key channel of severance | felbermayr_etal_2020 |
-| IMF DOTS (Direction of Trade Statistics) | data.imf.org/DOT bulk download or API | 1947–present | Bilateral trade shares with patron before/after episodes: the Δ-trade-share variable in episodes.csv | imf_dots |
-| Comparative Constitutions Project | comparativeconstitutionsproject.org (free registration) | 1789–present | Constitutional change: nominal regime-change control for the power-structure distinction | elkins_ginsburg_melton_2009 |
-| EBRD Transition Reports | ebrd.com (annual PDFs, free) | 1989–present | Transition indicators for post-socialist cases; qualitative corroboration | ebrd_transition |
-| ECLAC CEPALSTAT | cepalstat.cepal.org (web query) | varies | Cuban and Latin American series where WDI/WEO have gaps (Cuba national accounts) | eclac_cepalstat |
+All four items formerly listed here (ATOP, GSDB, DOTS, CCP) were downloaded on
+2026-11-02 and moved to the table above. GSDB arrived as Release 5 (newer than
+the Release 4 originally planned).
+
+## Remaining optional sources (grab as needed during case coding)
+
+| Source | How to get it | Purpose | Bib key |
+|---|---|---|---|
+| EBRD Transition Reports | ebrd.com (annual PDFs, free) | Transition indicators for post-socialist cases; qualitative corroboration | ebrd_transition |
+| ECLAC CEPALSTAT | cepalstat.cepal.org (web query) | Cuban and Latin American series where WDI/WEO have gaps | eclac_cepalstat |
 
 ## Known coverage gaps (to flag during coding)
 

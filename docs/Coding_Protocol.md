@@ -78,6 +78,19 @@ The critical case is the **structure of political power**. H1 states a null *con
 
 **Validation layer:** UN General Assembly voting ideal points (Bailey, Strezhnev & Voeten 2017, 1946–present). A coded severance should coincide with ideal-point *divergence* from the patron; an entry with *convergence*. This is the quantitative cross-check on the qualitative coding.
 
+### 6.1 The four judgments, made explicit (added 2026-11-02)
+
+Each candidate episode is decided by answering four narrow factual questions, in order:
+
+1. **Membership (R1):** was the country inside a sphere, and whose? Predominant influence documented in ≥2 indicator families (Keal 1983; Hast 2014; Lake 2009). Formal control is not required — informal spheres are codable.
+2. **Change (R2/R3):** did ≥2 of {security guarantee, subsidized trade/aid, bloc membership} terminate (severance) or establish (entry) within a 3-year window? Gradual processes are interval-coded (earliest and latest defensible years), never forced into a single year.
+3. **Voluntariness (R4):** imposed (patron collapsed/withdrew, or enforced the break by sanctions) or chosen (Walt 1987). Imposed severances carry the causal identification.
+4. **Sign (R5, entry only):** was the new sphere richer — patron GDP pc above the regional median in the entry year (Maddison/WDI)? Mechanical, not judgmental. R6 (systemic-shift flag) is recorded alongside.
+
+**Non-contamination rule.** Outcomes were coded blind to realignment dates (Phase 2). The reverse must also hold: realignment dates are fixed by the documentary record only, and must never be adjusted to fit the already-coded outcomes. An episode whose outcome does not match the prediction is a falsification, not a coding error to be repaired.
+
+**Working order.** The nine calibration episodes below are coded first and fix the conventions; only then the full sweep. Each episode gets: a row in `data_clean/episodes.csv`, a case note in `case_notes/`, a log entry in `docs/PHASE3_LOG.md`, and the UN ideal-point divergence/convergence check.
+
 **Decision rules:**
 
 - **R1 (membership):** a state is inside a sphere when predominant influence is documented in ≥2 indicator families.
