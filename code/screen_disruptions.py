@@ -11,7 +11,10 @@ Rules (any one qualifies):
 Overlapping flagged years for the same country are unioned into the panel
 indicator; for the episode table, an episode ends after 3+ consecutive clean
 years (split rule, decided 2026-10-30 after Venezuela chained 1978-2019).
-Output: data_clean/disruption_episodes.csv
+Outputs: data_clean/disruption_episodes.csv and disruption_years_preliminary.csv.
+The latter is explicitly preliminary, preserves the exact union of flagged
+country-years, including clean gaps inside segmented episodes, and is marked
+analysis_status=preliminary for preliminary Step 5 panel assembly.
 """
 import pandas as pd
 import numpy as np
@@ -92,11 +95,16 @@ for iso3, c in df.groupby("iso3"):
 # and is unaffected by segmentation (panel merging per Protocol 7).
 ep = pd.DataFrame(episodes)
 merged = []
+annual = []
 for iso3, grp in ep.groupby("iso3"):
     flagged = set()
     for _, e in grp.iterrows():
         flagged.update(range(e["start_year"], e["end_year"] + 1))
     years = sorted(flagged)
+    for y in years:
+        hit_year = grp[(grp["start_year"] <= y) & (grp["end_year"] >= y)]
+        rules = "+".join(sorted({r for rs in hit_year["rules"] for r in rs.split("+")}))
+        annual.append(dict(iso3=iso3, year=y, disruption=1, rules=rules))
     segments, cur = [], [years[0]]
     for y in years[1:]:
         if y <= cur[-1] + 2:
@@ -119,6 +127,19 @@ out = pd.DataFrame(merged).sort_values(["iso3", "start_year"]).reset_index(drop=
 out.insert(0, "episode_id", [f"D{i+1:03d}" for i in range(len(out))])
 out["D4_sudden_stop"] = False  # qualitative rule, coded in Phase 3
 out.to_csv(OUT, index=False)
+
+annual_out = pd.DataFrame(annual)
+annual_out["episode_id"] = ""
+for idx, row in annual_out.iterrows():
+    hit = out[(out["iso3"] == row["iso3"]) &
+              (out["start_year"] <= row["year"]) & (out["end_year"] >= row["year"])]
+    assert len(hit) == 1, f"Annual disruption does not map to one episode: {row.to_dict()}"
+    annual_out.at[idx, "episode_id"] = hit.iloc[0]["episode_id"]
+spine = pd.read_csv("data_clean/panel_spine.csv")[["iso3", "year"]]
+annual_out = spine.merge(annual_out, on=["iso3", "year"], how="left", validate="one_to_one")
+annual_out["disruption"] = annual_out["disruption"].fillna(0).astype(int)
+annual_out.insert(0, "analysis_status", "preliminary")
+annual_out.to_csv("data_clean/disruption_years_preliminary.csv", index=False)
 
 print(f"{len(out)} merged disruption episodes across {out['iso3'].nunique()} countries\n")
 

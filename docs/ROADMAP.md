@@ -53,20 +53,34 @@ Progress is logged step by step in `docs/PHASE2_LOG.md` (outcomes) and
   draft2.tex:216.
 - **Depends on:** step 2 (ATOP, GSDB, DOTS). Judgment-heaviest step; done together.
 
-### Step 4 — RegimeChange and PowerStructure coding
+### Step 4 — RegimeChange and PowerStructure coding — DONE (2026-11-04), with documented evidence gaps
+- **Status:** all 73 countries reviewed; 1,460 formal candidates adjudicated (including
+  46 documentary supplements); all three country-year variables built and audited.
+  Unknown amendment content and two conditional substantive episodes remain missing,
+  never zero. See `docs/STEP4_AUDIT.md`; substantive coding subject to user review.
 - **What:** `RegimeChange` from constitutional events (CP §3, uses CCP);
   `PowerStructure` per the four-dimension, ≥2-in-3-years rule (CP §4);
   apparatus restructuring for Table 1 row 2 (CP §5).
 - **Why:** β₄, β₅ (draft2.tex:214); resolves the Venezuela crux determinately (CP §4).
 - **Depends on:** step 2 (CCP) + case-document reading.
 
-### Step 5 — Panel assembly
+### Step 5 — Panel assembly — PRELIMINARY COMPLETE (2026-11-04)
+- **Status:** `data_clean/panel_preliminary.csv` assembles the current accepted coding state on all
+  5,475 spine rows, with WDI controls and preserved missingness. Realignment start,
+  midpoint, and endpoint variants are all retained; threats and calibration-only cases
+  are excluded from treatment indicators. See `docs/STEP5_AUDIT_PRELIMINARY.md`; audit exits 0.
+  Open Step 3/4 judgments and post-2015 turnover verification remain unresolved.
 - **What:** merge outcomes + turnover + realignment episodes + controls
   (oil rents, population, investment share — already in our WDI download)
   onto `data_clean/panel_spine.csv`.
 - **Why:** equation (1) dataset (draft2.tex:201, 234).
 
-### Step 6 — Descriptive layer (no model)
+### Step 6 — Descriptive layer (no model) — PRELIMINARY COMPLETE (2026-11-04)
+- **Status:** preliminary country-year cells, forward outcome frequencies, post-event
+  growth, and interval/open-case/systemic/voluntariness sensitivities are generated and
+  audited. All Step 5/6-specific artifacts use `_preliminary` and all generated CSVs carry
+  `analysis_status=preliminary`. Results are mixed and non-causal; no hypothesis verdict or
+  paper-table update is made. See `docs/STEP6_PRELIMINARY.md`.
 - **What:** classify country-years into Table 1 cells; discontinuity frequencies
   per cell; mean growth after each realignment type.
 - **Why:** draft2.tex §5.2 step 1 (line 191): cheap falsification before any regression.

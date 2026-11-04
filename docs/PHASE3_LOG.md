@@ -789,3 +789,152 @@ integrated permanent party organizations into the state rather than merely subsi
 candidates or campaigns. The US candidate-financing rejection is subject to exactly
 the same test. No other calibration determination changed. The calibration note and
 this log were updated; no panel or Step 1–3 coded data were touched.
+
+## 2026-11-04 — Step 4 full-country substantive sweep and internal audit
+
+**Candidate generation.** CP §4.2 now registers outcome-blind full-sweep coverage and
+country-continuity rules. `code/screen_domestic.py` builds
+`data_clean/ccp_regime_candidates.csv`: 1,414 CCP events across 73/73 countries. CCP
+is a recall floor; effective-power and apparatus records are supplemented from legal
+and institutional documents. Russia inherits the USSR record; Czechia/Slovakia share
+Czechoslovakia through 1992; Germany follows the FRG; Vietnam follows the DRV/unified
+state; other Soviet/Yugoslav successors use their own domestic records.
+
+**Substantive sweep.** All 73 panel countries now have case determinations in
+`case_notes/Step4_PostSoviet.md`, `Step4_Europe.md`, `Step4_LatinAmerica.md`, and
+`Step4_EastAsia.md`. Positive codes mean partial effective change, not Trevijano-style
+democratic completion. Coups, restorations, party laws, electoral administration,
+judicial changes, and apparatus acts are separately assessed; one-dimension reforms
+and routine operation of existing checks are rejected explicitly.
+
+**Outputs.** `code/build_domestic_events.py` extracts the reviewed structured rows into
+`data_clean/domestic_episodes.csv` (300 rows), `power_structure.csv` (177 accepted
+event-years/64 countries), and `apparatus_restructuring.csv` (121 accepted event-years/
+62 countries). PS-FRA-02 and AR-GUY-02 are conditional and excluded. No output is merged
+into the main panel. Venezuela is determinate: power-structure thresholds in 2003,
+2009, and 2017; 1999 remains formal-only.
+
+**Audit.** `code/audit_domestic.py` exits 0 with all internal checks PASS. Full report:
+`docs/STEP4_AUDIT.md`. Audit-time fixes included the Czech apparatus threshold year and
+an explicit Malta apparatus row. Historical process starts in 1944 are retained where
+the principal effective year falls inside the coding window.
+
+**Not closed.** `RegimeChange` is not yet a final country-year variable: 1,335
+non-calibration CCP candidates remain pending content adjudication; pending is not
+negative. Substantive source caveats and user review remain, and reliability
+double-coding remains Step 8. No Step 1–3 values were changed and no outcome data
+were used.
+
+## 2026-11-04 — Step 4 completed with registered evidence gaps
+
+**Source discipline.** `data_clean/domestic_source_register.csv` registers 74 unique
+sources (65 primary legal texts, eight official institutional records, and CCP v6).
+Every formal candidate has a reason, legal anchor, case-note reference, and valid
+source IDs. Primary instruments remain the basis of positive classifications; CCP is
+the candidate catalogue, not substantive proof for amendments.
+
+**Formal adjudication.** `code/adjudicate_regime_candidates.py` adds 46 named
+documentary instruments to the 1,414 CCP candidates, producing 1,460 final candidate
+reviews: 459 accepted, five rejected, and 996 unknown. The supplement corrects
+CCP-only omissions exposed by the Spain 1977 calibration check and includes successor-
+state foundations and documented suspension/restoration orders. Unknown content is a
+final evidence status, not a negative coding.
+
+**Final variables.** `data_clean/regime_change.csv` contains 5,475 rows with 458
+distinct positive country-years and 996 unknown-content years. `power_structure.csv`
+and `apparatus_restructuring.csv` now also preserve their unresolved substantive cases
+as missing: France 1988 and Guyana 1980 respectively. Conditional/unknown evidence is
+never converted to zero.
+
+**Final audit.** `code/audit_domestic.py` exits 0 with 0 FAIL, including candidate
+dispositions, source-ID resolution, documentary anchors, exact positive-year matching,
+and exact missingness matching. `docs/STEP4_AUDIT.md` supersedes the earlier incomplete
+status above; ROADMAP marks Step 4 DONE with documented evidence gaps. No Step 1–3
+values were changed, no outcome data were used, and no Step 5 panel merge was performed.
+Independent double-coding remains Step 8.
+
+---
+
+## 2026-11-04 — Step 5 preliminary panel assembly
+
+**Decision.** Proceed with the current accepted coding state without resolving the open
+Step 3/4 judgments. `code/build_panel_preliminary.py` writes
+`data_clean/panel_preliminary.csv` (5,475 rows, 55 columns) and leaves `panel_spine.csv`
+unchanged. Every Step 5-specific output has a `_preliminary` filename and an
+`analysis_status=preliminary` field. The panel includes outcomes, WDI controls,
+turnover/coalition, all three domestic country-year variables, realignment indicators,
+and annual outcome screens.
+
+**Realignment dating.** Start-year compatibility columns are accompanied by explicit
+midpoint and endpoint variants for severance, entry, richer entry, and imposed severance.
+This is not a final date ruling. Threats remain separate; EGY/YUG remain calibration-only.
+Paired episodes such as Cuba 1960 retain separate severance and entry indicators and both
+patrons. R5 is calculated from the reference table at both endpoints where available;
+all classifications are stable. Seven Soviet formation entries are poorer-sphere entries
+and remain outside the richer-entry H2 subset.
+
+**Evidence handling.** Formal/substantive missingness is preserved exactly (996 regime,
+one France power-structure, one Guyana apparatus year). Current post-2015 turnover values
+are included but all 288 non-Swiss post-2015 rows are marked `hand_unverified`; CHE retains
+its collective-executive status. Open cases E020/E059/E067 and 20 window-edge episodes are
+flagged in `realignment_event_codings_preliminary.csv`, not silently repaired or deleted.
+
+**Outcome fidelity.** `screen_disruptions.py` now also writes
+`disruption_years_preliminary.csv`, the exact annual D1–D3 union required by CP §7. The
+episode file is byte-for-byte unchanged. Using exact annual flags preserves three clean-gap
+years that would otherwise be filled if segmented episode ranges were used: 572 annual
+disruptions rather than 575 span-filled years. D4 remains pending. Acceleration contributes
+788 continuous episode-years.
+
+**Controls and coverage.** WDI oil rents (`NY.GDP.PETR.RT.ZS`), population (`SP.POP.TOTL`),
+and gross capital formation (`NE.GDI.TOTL.ZS`) are written to `controls_preliminary.csv`
+without splicing. Nonmissing cells: 3,014 oil, 4,380 population, 3,128 investment. The
+1960–2019 analysis period has 4,380 rows and 4,036 nonmissing growth observations.
+
+**Audit.** `code/audit_panel_preliminary.py` exits 0 with 0 FAIL; Step 3 and Step 4 audits
+also still exit 0. Full conventions and counts are in `docs/STEP5_AUDIT_PRELIMINARY.md`.
+Step 5 is preliminarily complete; no Step 6 substantive result is claimed.
+
+---
+
+## 2026-11-04 — Step 6 preliminary descriptive layer
+
+**Preliminary labeling.** All Step 5/6-specific scripts, outputs, and reports now use
+`_preliminary`; every generated CSV carries `analysis_status=preliminary`. The earlier
+unlabeled Step 5 outputs were removed after the labeled replacements passed their audit.
+Established Step 1–4 source datasets were not relabelled or substantively changed.
+
+**Analysis rules.** `analyze_step6_preliminary.py` classifies the 4,380 country-years from
+1960–2019 into domestic and external categories. Deep transformation takes precedence;
+shallow turnover/formal change requires known absence of deep change; no domestic change
+requires four observed zeroes; otherwise the row is unknown. Poorer entries, threats, paired
+transitions, and unknown domestic rows remain outside the determinate 3×3 cells. Growth is
+measured strictly after year t over complete 1/3/5-year windows, disruption over t+1..t+5,
+and acceleration onsets over t+1..t+8. Ongoing outcomes at t are flagged, not attributed as
+new effects. Six scenarios cover start/midpoint/end dates, open-case exclusion, systemic-shift
+exclusion, and imposed-only severance.
+
+**Outputs.** `step6_country_year_cells_preliminary.csv` (4,380 baseline rows),
+`step6_cell_frequencies_preliminary.csv` (86 scenario-cell rows), and
+`step6_realignment_outcomes_preliminary.csv` (204 episode-date rows). Full results and
+denominators are in `docs/STEP6_PRELIMINARY.md`.
+
+**Baseline descriptive pattern.** Under start-year coding, 20 bare-severance country-years
+have mean five-year forward growth −3.28% and 75% forward disruption; 20 bare richer-entry
+country-years have mean growth +3.43% and 60% forward acceleration onset. The corresponding
+no-realignment aggregates are +2.23%, 21.1% disruption, and 14.4% acceleration onset. Wrong-sign
+outcomes remain present and visible.
+
+**Sensitivity and timing honesty.** Severance mean growth is −0.16% at midpoints and +2.70%
+at endpoints; excluding systemic shifts leaves five bare-severance cases with +2.53% mean
+growth. Six bare imposed severances have −3.29% mean growth and 83.3% disruption. Richer-entry
+mean growth remains positive across date variants, but its acceleration-onset rate falls to
+13.0% at midpoints and 13.6% at endpoints as paired cases and dates change. Of the 23 start-date
+severances in the primary period, 14 have an outcome already active and three are paired; of
+23 richer entries, 14 have an outcome already active and three are paired. These are not clean
+causal episode effects.
+
+**Audit and verdict.** `audit_step6_preliminary.py` exits 0 with 0 FAIL, including exact baseline
+aggregate recomputation and Cuba/Vietnam/Venezuela timing anchors. Step 5, Step 3, and Step 4
+audits also pass. Step 6 is PRELIMINARY COMPLETE. The results are mixed descriptive diagnostics,
+not a hypothesis-support verdict, not regression estimates, and not yet written into the paper.

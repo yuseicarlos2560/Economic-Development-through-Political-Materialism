@@ -1,0 +1,75 @@
+source_id,iso3,source_title,source_class,url,notes
+SRC-CCP-V6,,CCP Chronology of Constitutional Events v6,D,data_raw/CCP/ccpcce_v6/ccpcce/ccpcce_v6.csv,Candidate catalogue and event dating; never sufficient for amendment content
+SRC-ARG-CONST,ARG,Constitution of the Argentine Nation and reforms,P-text,https://www.unodc.org/cld/uploads/res/uncac/LegalLibrary/Argentina/Laws/Argentina%20Constitution%201853%20(as%20amended%201998).pdf,Legal text reproduction; reform identifiers in case note
+SRC-BOL-CONST,BOL,Constitution of Bolivia 2009 and constitutional instruments,P-text,https://www.constituteproject.org/constitution/Bolivia_2009,Primary legal texts reproduced; earlier instruments in case note
+SRC-BRA-CONST,BRA,Brazilian constitutional and institutional acts,P-text,https://www.oas.org/es/sla/ddi/docs/acceso_informacion_base_dc_leyes_pais_b_1_en.pdf,Consolidated legal text; Institutional Acts identified in case note
+SRC-CHL-CONST,CHL,BCN Chilean constitutional record,P-text,https://www.bcn.cl/leychile/,Official legal portal and historical constitutional texts
+SRC-COL-CONST,COL,Colombia 1991 Constitution and constituent record,P-text,https://pdba.georgetown.edu/Constitutions/Colombia/col91.html,Primary legal text and constituent record
+SRC-CRI-CONST,CRI,Costa Rica 1949 Constitution,P-text,https://faolex.fao.org/docs/pdf/cos127451E.pdf,Primary legal text; Decree 249 separately identified in case note
+SRC-CUB-CONST,CUB,Cuba constitutional instruments,P-text,https://www.constituteproject.org/constitution/Cuba_2019,Primary legal text; historical instruments in case note
+SRC-DOM-CONST,DOM,Dominican Republic constitutional instruments,P-text,https://www.oas.org/juridico/mla/en/dom/en_dom-constitution.html,Primary legal text repository; historical instruments in case note
+SRC-ECU-CONST,ECU,Ecuador 2008 Constitution and constitutional instruments,P-text,https://pdba.georgetown.edu/Constitutions/Ecuador/english08.html,Primary legal text; earlier instruments in case note
+SRC-SLV-CONST,SLV,El Salvador constitutional instruments and Chapultepec Agreement,P-text,https://www.peaceagreements.org/view/474/,Primary peace/legal instrument; constitutional acts in case note
+SRC-GTM-CONST,GTM,Guatemala constitutional instruments,P-text,https://www.constituteproject.org/constitution/Guatemala_1985,Primary legal text; historical instruments in case note
+SRC-GUY-CONST,GUY,Guyana 1980 Constitution,P-text,https://hrlibrary.umn.edu/research/guyana-constitution.html,Primary legal text reproduction
+SRC-HTI-CONST,HTI,Haiti constitutional instruments,P-text,https://www.oas.org/juridico/mla/en/hti/en_hti_constitution.html,Primary legal text repository; historical instruments in case note
+SRC-HND-CONST,HND,Honduras constitutional instruments,P-text,https://www.constituteproject.org/constitution/Honduras_1982,Primary legal text; coup record separately identified in case note
+SRC-JAM-CONST,JAM,Jamaica 1962 Constitution and amendments,P-text,https://www.constituteproject.org/constitution/Jamaica_1962,Primary legal text
+SRC-MEX-CONST,MEX,Mexico Constitution and electoral reforms,P-text,https://www.diputados.gob.mx/LeyesBiblio/pdf/CPEUM.pdf,Official constitutional text; COFIPE/INE acts in case note
+SRC-NIC-CONST,NIC,Nicaragua Constitution and reforms,P-text,https://www.constituteproject.org/constitution/Nicaragua_2014,Primary legal text; Law 854 and associated acts in case note
+SRC-PAN-CONST,PAN,Panama constitutional instruments,P-text,https://www.constituteproject.org/constitution/Panama_1972,Primary legal text; historical instruments in case note
+SRC-PRY-CONST,PRY,Paraguay constitutional instruments,P-text,https://www.constituteproject.org/constitution/Paraguay_1992,Primary legal text; earlier instruments in case note
+SRC-PER-CONST,PER,Peru constitutional instruments and Decree Law 25418,P-text,https://clinregs.niaid.nih.gov/sites/default/files/documents/peru/PeruConstitution_GoogleTranslation.pdf,Primary legal text reproduction; coup decree identified in case note
+SRC-SUR-CONST,SUR,Suriname constitutional instruments,P-text,https://www.constituteproject.org/constitution/Suriname_1987,Primary legal text; earlier instruments in case note
+SRC-TTO-CONST,TTO,Trinidad and Tobago constitutional instruments,P-text,https://www.constituteproject.org/constitution/Trinidad_and_Tobago_1976,Primary legal text; independence instrument in case note
+SRC-URY-CONST,URY,Uruguay constitutional instruments,P-text,https://cjad.nottingham.ac.uk/documents/implementations/pdf/Uruguay-Constitution_amend_2004_EN.pdf,Primary legal text reproduction
+SRC-VEN-CONST,VEN,Venezuela constitutional and legal instruments,P-text,https://pdba.georgetown.edu/Constitutions/Venezuela/enmienda2009.pdf,Primary amendment text; enabling and TSJ acts separately linked in case note
+SRC-ALB-CONST,ALB,Albania Major Constitutional Provisions and constitutional instruments,P-text,https://hrlibrary.umn.edu/research/albania-constitution.html,Primary legal text reproduction; earlier instruments in case note
+SRC-AUT-CONST,AUT,Austrian constitutional restoration record,I-official,https://countrystudies.us/austria/44.htm,Institutional history; Constitutional Transition Act identified in case note
+SRC-BEL-CONST,BEL,Belgian Constitution and reforms,P-text,https://www.senate.be/english/constitution.html,Official legal portal
+SRC-BGR-CONST,BGR,Bulgaria constitutional record,I-official,https://www.parliament.bg/en/15,Official National Assembly constitutional history and instruments
+SRC-HRV-CONST,HRV,Croatia Constitution and amendments,P-text,https://www.sabor.hr/en/about-parliament,Official Sabor record; official gazette identifiers in case note
+SRC-CYP-CONST,CYP,Cyprus 1960 Constitution,P-text,https://www.constituteproject.org/constitution/Cyprus_2013,Primary legal text reproduction
+SRC-CZE-CONST,CZE,Czech constitutional instruments,P-text,https://czecon.law.muni.cz/content/en/ustavy/1960/,Primary constitutional text/history; act identifiers in case note
+SRC-DNK-CONST,DNK,Denmark 1953 Constitution,P-text,https://www.ft.dk/en/about-the-parliament/the-constitution,Official parliamentary legal record
+SRC-FIN-CONST,FIN,Finland Constitution 731/1999,P-text,https://oikeusministerio.fi/en/constitution-of-finland,Official Ministry of Justice legal record
+SRC-FRA-CONST,FRA,France constitutional revision record,P-text,https://www.conseil-constitutionnel.fr/la-constitution/quand-la-constitution-a-t-elle-ete-modifiee,Official constitutional revision chronology and texts
+SRC-DEU-CONST,DEU,German Basic Law and amendments,P-text,https://www.gesetze-im-internet.de/englisch_gg/,Official consolidated legal text; historical acts in case note
+SRC-GRC-CONST,GRC,Greek constitutional instruments,I-official,https://www.hellenicparliament.gr/,Official parliamentary legal record; acts identified in case note
+SRC-HUN-CONST,HUN,Hungary Fundamental Law and constitutional acts,P-text,https://www.refworld.org/sites/default/files/attachments/54412e794.pdf,Primary legal text; associated acts identified in case note
+SRC-ISL-CONST,ISL,Iceland Constitution and amendments,P-text,https://www.government.is/topics/constitution/,Official constitutional record
+SRC-IRL-CONST,IRL,Irish Constitution and amendments,P-text,https://www.irishstatutebook.ie/eli/cons/en/html,Official legal text
+SRC-ITA-CONST,ITA,Italian Constitution and institutional instruments,P-text,https://www.senato.it/istituzione/la-costituzione,Official Senate legal record
+SRC-LUX-CONST,LUX,Luxembourg Constitution and amendments,P-text,https://legilux.public.lu/eli/etat/leg/constitution,Official legal portal
+SRC-MLT-CONST,MLT,Malta Constitution and Article 52 record,P-text,https://aceproject.org/ace-en/topics/es/annex/esy/esy_mt/mobile_browsing/onePag,Electoral legal record; Constitution identified in case note
+SRC-NLD-CONST,NLD,Netherlands Constitution and amendments,P-text,https://www.government.nl/topics/constitution-and-democracy/constitution,Official constitutional record
+SRC-NOR-CONST,NOR,Norway Constitution and amendments,P-text,https://lovdata.no/dokument/NLE/lov/1814-05-17,Official legal text
+SRC-POL-CONST,POL,Polish constitutional and judicial instruments,P-text,https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:52017PC0835,Legal record and act identifiers; earlier acts in case note
+SRC-PRT-CONST,PRT,Portugal Constitution and revisions,P-text,https://hrlibrary.umn.edu/research/portugal-constitution.html,Primary legal text reproduction; Constitutional Law 1/82 in case note
+SRC-ROU-CONST,ROU,Romania constitutional instruments,P-text,https://ecnl.org/sites/default/files/files/2021/RomaniaConstitution.pdf,Primary legal text; earlier instruments in case note
+SRC-SVK-CONST,SVK,Slovakia constitutional instruments,P-text,https://www.constituteproject.org/constitution/Slovakia_1992,Primary legal text; shared Czechoslovak acts in case note
+SRC-SVN-CONST,SVN,Slovenia constitutional and independence instruments,I-official,http://www.slovenija2001.gov.si/10years/path/chronology/,Official independence chronology; Constitution identified in case note
+SRC-ESP-CONST,ESP,Spain constitutional and transition laws,P-text,https://www.boe.es/buscar/act.php?id=BOE-A-1978-31229,Official legal text; transition acts linked in calibration note
+SRC-SWE-CONST,SWE,Sweden constitutional reform record,I-official,https://www.riksdagen.se/en/how-the-riksdag-works/the-history-of-the-riksdag/the-development-of-democracy-in-sweden2/,Official Riksdag institutional record
+SRC-CHE-CONST,CHE,Switzerland Constitution and amendments,P-text,https://www.fedlex.admin.ch/eli/cc/1999/404/en,Official legal text
+SRC-GBR-CONST,GBR,United Kingdom constitutional statutes,P-text,https://www.legislation.gov.uk/,Official legal portal; individual acts linked in calibration note
+SRC-RUS-CONST,RUS,Russian constitutional instruments,P-text,http://constitution.kremlin.ru/,Official constitutional record; historical acts in case note
+SRC-UKR-CONST,UKR,Ukraine Constitution and constitutional acts,P-text,https://zakon.rada.gov.ua/laws/show/254%D0%BA/96-%D0%B2%D1%80,Official legal portal; associated acts in case note
+SRC-BLR-CONST,BLR,Belarus Constitution and amendments,P-text,https://law.by/databank-business/constitution-of-the-republic-of-belarus/,Official legal record
+SRC-EST-CONST,EST,Estonia constitutional instruments,P-text,https://www.unesco.org/en/right-education/observatory/constitution-republic-estonia-1992-amended-2015,Primary legal text reproduction
+SRC-LVA-CONST,LVA,Latvia constitutional instruments,P-text,https://likumi.lv/ta/en/en/constitution,Official legal portal
+SRC-LTU-CONST,LTU,Lithuania constitutional instruments,I-official,https://www.lrs.lt/sip/portal.show?p_k=2&p_r=35403&p_t=282574,Official Seimas constitutional record
+SRC-MDA-CONST,MDA,Moldova Constitution and constitutional acts,P-text,https://www.legis.md/,Official legal portal; act identifiers in case note
+SRC-GEO-CONST,GEO,Georgia constitutional instruments,P-text,https://www.matsne.gov.ge/,Official legal portal; act identifiers in case note
+SRC-ARM-CONST,ARM,Armenia Constitution and amendments,P-text,https://www.president.am/en/constitution-2015/,Official constitutional text
+SRC-AZE-CONST,AZE,Azerbaijan Constitution and referenda,P-text,https://president.az/en/pages/view/azerbaijan/constitution,Official consolidated constitutional text and dates
+SRC-KAZ-CONST,KAZ,Kazakhstan constitutional instruments,P-text,https://www.constituteproject.org/constitution/Kazakhstan_1995,Primary legal text; earlier instruments in case note
+SRC-KGZ-CONST,KGZ,Kyrgyzstan 2010 Constitution and constitutional acts,P-text,https://faolex.fao.org/docs/pdf/kyr127812E.pdf,Primary legal text reproduction
+SRC-TJK-CONST,TJK,Tajikistan constitutional instruments,I-official,https://egov.tj/,Official legal/institutional portal; referendum acts in case note
+SRC-TKM-CONST,TKM,Turkmenistan constitutional instruments,P-text,https://www.constituteproject.org/constitution/Turkmenistan_2016,Primary legal text; earlier instruments in case note
+SRC-UZB-CONST,UZB,Uzbekistan Constitution and amendments,P-text,https://constitution.uz/uploads/constitution_en.pdf,Official constitutional text
+SRC-JPN-CONST,JPN,Japan 1946 Constitution,P-text,https://www.shugiin.go.jp/internet/itdb_english.nsf/html/statics/english/constitution_e.htm,Official constitutional text
+SRC-KOR-CONST,KOR,South Korea constitutional instruments,P-text,https://www.servat.unibe.ch/icl/ks__indx.html,Constitutional text and amendment chronology; acts in case note
+SRC-PRK-CONST,PRK,North Korea constitutional instruments,P-text,https://faolex.fao.org/docs/pdf/prk132809.pdf,Primary legal text reproduction
+SRC-VNM-CONST,VNM,Vietnam constitutional instruments,I-official,https://en.tapchicongsan.org.vn/web/english/focus/detail/-/asset_publisher/FMhwM2oQCZEZ/content/seventy-years-of-the-national-assembly-of-viet-nam-70-years-of-constitutional-history,Official constitutional history and instruments
+SRC-MNG-CONST,MNG,Mongolia constitutional instruments,P-text,https://cjad.nottingham.ac.uk/documents/implementations/pdf/Mongolia_Constitution_2001_EN.pdf,Primary legal text reproduction

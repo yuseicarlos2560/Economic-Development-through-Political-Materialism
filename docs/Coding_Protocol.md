@@ -70,6 +70,14 @@ The critical case is the **structure of political power**. H1 states a null *con
 - **Effective dating:** the principal panel year is the year the second qualifying dimension becomes effective. Preserve the full process interval and endpoint/midpoint robustness for uncertain cases. Persistence does not generate a new event each year.
 - **No relabelling:** one act cannot satisfy two dimensions merely because it has two descriptions. Distinct substantive effects must be independently demonstrated.
 
+### 4.2 Full-sweep candidate generation and country continuity
+
+- **Coverage:** every one of the 73 panel countries is reviewed over 1945–2019. The Spain/UK/France calibration determinations are carried into the sweep; the US remains a non-panel calibration reference. A country with no accepted episode receives an explicit negative determination.
+- **Formal-event candidates:** every mapped CCP `new`, `interim`, `suspension`, `reinstated`, `amendment`, or `samendment` record in the window enters a candidate ledger. CCP event type never substitutes for content review: amendments can qualify or fail, and non-CCP constitutional statutes can qualify in uncodified orders.
+- **Effective-power and apparatus candidates:** CCP is a recall floor, not the universe of cases. Each country review also examines coups and emergency rule, electoral and party laws, enabling acts, judicial restructuring, control-of-rulers rules, and durable coercive, administrative, judicial, and fiscal reorganizations. A CCP `non-event` cannot establish continuity on these dimensions.
+- **Country continuity:** Russia inherits the USSR record; Czechia and Slovakia share the Czechoslovak record through 1992; Germany follows the FRG, not the GDR; Vietnam follows the DRV/unified state; the Koreas follow their respective post-1948 states. Other Soviet and Yugoslav successor states do not import the predecessor's domestic events before independence; their foundational orders and restoration acts are coded on their own documentary records.
+- **Decision record:** accepted, rejected, conditional, and unknown candidates retain their substantive reason and legal/institutional anchors. Formal and effective dates, process intervals, qualifying dimensions/components, coder, and confidence are recorded separately. Unknown content produces a missing country-year value, never a zero. Conditional episodes likewise remain outside the accepted event set and are missing in the country-year output. No outcome series or expert-coded regime index may alter candidate generation, dates, or acceptance.
+
 ## 5. Q3 — State-apparatus restructuring
 
 - **Anchors:** Skocpol (1979), Tilly (1990), Weber. Distinct from §4: targets the *machinery* (coercive, administrative, judicial, fiscal), not the rules of power.

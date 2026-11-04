@@ -196,3 +196,56 @@ convention 3).
 *None of this is blocking the next batch — but items 3, 4 and 5
 (window-edge, imposed entries, R5=0) feed directly into how Step 6 counts
 evidence, so they're the ones to rule on before then.*
+
+---
+
+## Step 4 additions — domestic political events (logged 2026-11-04)
+
+**Status:** OPEN evidence and review items. Step 4 is complete on the best available
+evidence, but the following gaps remain visible in `regime_candidate_review.csv`,
+`domestic_episodes.csv`, and the country-year outputs. Unknown or conditional evidence
+is missing, never zero. See `docs/STEP4_AUDIT.md`.
+
+**S4.1 — Unresolved formal-amendment content.** The formal review has 996 candidates
+whose amendment content could not be established sufficiently from the accessible
+primary record. They have final status `unknown`, with a reason and source reference;
+the corresponding 996 country-years in `regime_change.csv` are missing when no accepted
+formal event exists in that year. Future source recovery may change these values. Do
+not treat the missing years as no-regime-change observations in Steps 5–7.
+
+**S4.2 — PS-FRA-02, France 1986–88.** Dimension (b) is documented. Dimension (c)
+requires evidence that Law 88-227 produced durable organizational integration of
+permanent party organizations into the state, rather than candidate/campaign subsidies
+alone. That evidence remains unavailable/insufficient. The episode is conditional and
+France 1988 is missing in `power_structure.csv`, not accepted or coded zero.
+
+**S4.3 — AR-GUY-02, Guyana 1980.** The executive-presidency reorganization is
+identified, but a sufficiently precise, substantively distinct second apparatus
+component has not been established. The episode is conditional and Guyana 1980 is
+missing in `apparatus_restructuring.csv`. Do not include it without a new legal or
+institutional anchor.
+
+**S4.4 — Russia 2000–05 party–state boundary.** Federal-district, Federation-Council,
+and gubernatorial-selection changes support dimension (a), but do not automatically
+supply (b) or national (d). A United Russia contribution under (c) requires durable
+organizational party–state integration evidence. No episode is accepted on the current
+record; further evidence could reopen this determination.
+
+**S4.5 — Source-precision caveats on accepted apparatus episodes.** Some accepted
+episodes rely on named acts plus official/institutional histories rather than scans of
+every original implementing decree. Priority for source strengthening: AR-TKM-01
+(medium confidence); AR-GEO-01, AR-AZE-01, AR-KAZ-01, AR-TJK-01, and AR-UZB-01
+(medium-high with precision caveats); AR-AUT-01 (restoration of pre-existing machinery);
+and early communist-takeover/repeated-coup apparatus records documented as medium-high
+in the regional notes. These caveats do not change current codes, but original-act
+recovery should precede any claim of full primary-source verification.
+
+**S4.6 — Substantive user review.** The 177 accepted PowerStructure event-years and 121
+accepted apparatus event-years have passed internal consistency and source-reference
+checks, but the substantive country judgments have not yet received user sign-off.
+Independent double-coding and Cohen's κ remain Step 8 and are not represented as
+completed reliability evidence.
+
+*All earlier Step 3 items above remain unchanged. Step 4's evidence gaps do not
+invalidate the completed workflow; they define observations that later analysis must
+exclude or treat as missing rather than as negative cases.*
