@@ -1,0 +1,29 @@
+analysis_status,iso3,country,cultural_region,grouping_basis,analysis_role,classification_status
+preliminary,CUB,Cuba,Hispanic America,Shared Spanish-language and Latin American historical-cultural context,plot_context_only,provisional_plotting_only
+preliminary,NIC,Nicaragua,Hispanic America,Shared Spanish-language and Latin American historical-cultural context,plot_context_only,provisional_plotting_only
+preliminary,VEN,Venezuela,Hispanic America,Shared Spanish-language and Latin American historical-cultural context,plot_context_only,provisional_plotting_only
+preliminary,GUY,Guyana,Caribbean & Guiana,Shared Caribbean-Guiana regional and colonial historical context,plot_context_only,provisional_plotting_only
+preliminary,JAM,Jamaica,Caribbean & Guiana,Shared Caribbean-Guiana regional and colonial historical context,plot_context_only,provisional_plotting_only
+preliminary,SUR,Suriname,Caribbean & Guiana,Shared Caribbean-Guiana regional and colonial historical context,plot_context_only,provisional_plotting_only
+preliminary,TTO,Trinidad and Tobago,Caribbean & Guiana,Shared Caribbean-Guiana regional and colonial historical context,plot_context_only,provisional_plotting_only
+preliminary,CZE,Czechia,Central Europe,Shared Central European historical-cultural context,plot_context_only,provisional_plotting_only
+preliminary,HUN,Hungary,Central Europe,Shared Central European historical-cultural context,plot_context_only,provisional_plotting_only
+preliminary,POL,Poland,Central Europe,Shared Central European historical-cultural context,plot_context_only,provisional_plotting_only
+preliminary,SVK,Slovakia,Central Europe,Shared Central European historical-cultural context,plot_context_only,provisional_plotting_only
+preliminary,ALB,Albania,Southern & Southeastern Europe,Shared Southern or Southeastern European historical-cultural context,plot_context_only,provisional_plotting_only
+preliminary,BGR,Bulgaria,Southern & Southeastern Europe,Shared Southern or Southeastern European historical-cultural context,plot_context_only,provisional_plotting_only
+preliminary,HRV,Croatia,Southern & Southeastern Europe,Shared Southern or Southeastern European historical-cultural context,plot_context_only,provisional_plotting_only
+preliminary,MLT,Malta,Southern & Southeastern Europe,Shared Southern or Southeastern European historical-cultural context,plot_context_only,provisional_plotting_only
+preliminary,ROU,Romania,Southern & Southeastern Europe,Shared Southern or Southeastern European historical-cultural context,plot_context_only,provisional_plotting_only
+preliminary,SVN,Slovenia,Southern & Southeastern Europe,Shared Southern or Southeastern European historical-cultural context,plot_context_only,provisional_plotting_only
+preliminary,EST,Estonia,Northern Europe,Shared Northern European and Baltic-region historical-cultural context,plot_context_only,provisional_plotting_only
+preliminary,FIN,Finland,Northern Europe,Shared Northern European and Baltic-region historical-cultural context,plot_context_only,provisional_plotting_only
+preliminary,LVA,Latvia,Northern Europe,Shared Northern European and Baltic-region historical-cultural context,plot_context_only,provisional_plotting_only
+preliminary,LTU,Lithuania,Northern Europe,Shared Northern European and Baltic-region historical-cultural context,plot_context_only,provisional_plotting_only
+preliminary,MNG,Mongolia,East Asia,Shared East Asian historical-cultural context,plot_context_only,provisional_plotting_only
+preliminary,PRK,North Korea,East Asia,Shared East Asian historical-cultural context,plot_context_only,provisional_plotting_only
+preliminary,VNM,Vietnam,East Asia,Shared East Asian historical-cultural context,plot_context_only,provisional_plotting_only
+preliminary,AZE,Azerbaijan,Caucasus,Shared Caucasus regional historical-cultural context,plot_context_only,provisional_plotting_only
+preliminary,GEO,Georgia,Caucasus,Shared Caucasus regional historical-cultural context,plot_context_only,provisional_plotting_only
+preliminary,TKM,Turkmenistan,Central Asia,Shared Central Asian historical-cultural context,plot_context_only,provisional_plotting_only
+preliminary,UKR,Ukraine,Eastern Europe,Shared Eastern European historical-cultural context,plot_context_only,provisional_plotting_only

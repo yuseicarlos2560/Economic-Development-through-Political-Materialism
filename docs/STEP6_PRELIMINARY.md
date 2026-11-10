@@ -11,6 +11,18 @@ All Step 5/6-specific scripts, datasets, and reports use `_preliminary`; every g
 - `data_clean/step6_country_year_cells_preliminary.csv`
 - `data_clean/step6_cell_frequencies_preliminary.csv`
 - `data_clean/step6_realignment_outcomes_preliminary.csv`
+- `code/plot_realignment_event_time.py`
+- `data_clean/cultural_regions_plotting_preliminary.csv`
+- `paper/figures/event_time/` (PNG/PDF event-time figures)
+- `code/analyze_baseline_contrasts_preliminary.py`
+- `code/analyze_baseline_contrast_sensitivity_preliminary.py`
+- `code/audit_baseline_contrasts_preliminary.py`
+- `code/plot_baseline_contrasts_preliminary.py`
+- `data_clean/baseline_cell_contrasts_preliminary.csv`
+- `data_clean/baseline_contrast_sensitivity_preliminary.csv`
+- `data_clean/baseline_contrast_leave_one_country_out_preliminary.csv`
+- `paper/figures/baseline_contrasts_primary_preliminary.{png,pdf}`
+- `paper/figures/baseline_contrasts_secondary_preliminary.{png,pdf}`
 
 ## Registered preliminary rules
 
@@ -61,6 +73,16 @@ Each row aggregates domestic categories within the indicated external category. 
 
 The date variants change both event timing and whether simultaneous episodes are classified as paired, so N is not constant. The systemic-shift and imposed-only severance cells are especially small.
 
+## Preliminary baseline-cell contrasts
+
+`venv/bin/python code/analyze_baseline_contrasts_preliminary.py --bootstraps 1999` reports raw cell differences and saturated cell models with country and year fixed effects. Growth uses OLS; disruption and acceleration use linear probability models scaled to percentage points. The primary family contains 21 tests per estimator: six within-domestic-row external contrasts across three outcomes plus three H1 turnover/no-realignment contrasts. The secondary family contains 24 common-reference contrasts per estimator against no domestic event/no realignment.
+
+Inference uses an unrestricted country-level wild cluster bootstrap-t with Webb weights and 1,999 replications. Holm p-values are adjusted separately within each family and estimator. Reported 95% bootstrap-t intervals are not multiplicity-adjusted. These are preliminary, exploratory, non-causal estimates; two- and three-country cells and intervals beyond logical probability-difference bounds are warnings about inferential support.
+
+After Holm adjustment, the primary raw contrasts that remain significant are deep-transformation severance growth (−5.94 pp), turnover-only severance disruption (+79.19 pp; two countries), deep-transformation severance disruption (+44.70 pp), turnover-only severance acceleration (−17.38 pp; two countries), and turnover-only richer-entry acceleration (+82.62 pp; three countries). Fixed-effects significant contrasts are turnover-only severance disruption (+47.26 pp; two countries), turnover-only richer-entry acceleration (+55.33 pp; three countries), and the H1 turnover/no-realignment acceleration difference (+4.74 pp). The no-domestic-event severance and richer-entry contrasts do not survive Holm adjustment. H1 equivalence has not been tested; non-significance is not evidence of equivalence.
+
+`code/analyze_baseline_contrast_sensitivity_preliminary.py` reports point-estimate sensitivity across all registered dating/exclusion scenarios and 73 leave-one-country-out refits. These files contain no new p-values. Non-estimable cells remain explicit with missing estimates. In particular, deep-severance growth changes sign in one-observation endpoint/systemic-excluded subsets, and turnover-only richer-entry acceleration falls sharply under midpoint/end dating. These checks reinforce the preliminary status.
+
 ## Episode timing audit
 
 Under start-year coding, 23 severance and 23 richer-entry episodes fall inside 1960–2019:
@@ -69,6 +91,14 @@ Under start-year coding, 23 severance and 23 richer-entry episodes fall inside 1
 - Richer entry: 14 have an outcome already active, three are paired transitions, three show a later acceleration onset, and three do not.
 
 After excluding open cases and paired transitions, the start-date descriptive sets contain 19 severances and 18 richer entries. These counts demonstrate why the aggregate rates cannot be interpreted as clean causal episode effects. Cuba 1989 and Venezuela 2002 are explicitly marked as having ongoing disruption; Vietnam 1994 is marked as having an ongoing acceleration.
+
+## Event-time growth figures
+
+`venv/bin/python code/plot_realignment_event_time.py` generates one pooled figure and nine event-bearing cultural-group figures in `paper/figures/event_time/`, in both PNG and PDF. Each figure shows annual real GDP-per-capita growth from three, five, and eight years before through the same number of years after the realignment start. Severance and richer entry remain separate because their predicted signs differ. Gray lines are country-event trajectories at 0.5 opacity; black lines are equally weighted means of the episodes observed at each event year. Missing annual observations break lines and change the mean's composition; the figures report the per-year observation range.
+
+The pooled figure contains 46 episodes in 28 countries. Paired transitions remain visible in their respective event-type panels. These are descriptive event-time profiles, not causal event-study estimates, and they do not resolve ongoing-outcome or date-sensitivity issues.
+
+`data_clean/cultural_regions_plotting_preliminary.csv` assigns the 28 event countries to mutually exclusive, provisional plotting-only groups based on broad linguistic, historical, and regional-cultural context. The register is labelled `preliminary`, `plot_context_only`, and `provisional_plotting_only`; it is not an analytical variable and is not connected to the treatment, outcome, or Step 5–6 analysis files. Groups without eligible realignments are not plotted. Singleton black means simply reproduce the sole observed trajectory and are not independent aggregate evidence.
 
 ## Preliminary interpretation
 
@@ -80,5 +110,7 @@ After excluding open cases and paired transitions, the start-date descriptive se
 ## Verification and limits
 
 `venv/bin/python code/audit_step6_preliminary.py` exits 0 with 0 FAIL. It checks preliminary labels, domestic missingness, scenario denominators, every baseline aggregate, all 204 episode-date rows, window-edge indeterminacy, ongoing-outcome flags, and Cuba/Vietnam/Venezuela timing anchors. Step 5, Step 3, and Step 4 audits also exit 0.
+
+`venv/bin/python code/audit_baseline_contrasts_preliminary.py` also exits 0. It checks all 90 main contrasts, 252 scenario rows, and 3,066 leave-one-country-out rows; preliminary labels; raw arithmetic identities; Holm adjustments; interval ordering; and exact reproduction of current-scenario point estimates.
 
 D4 sudden stops remain uncoded; formal/substantive missingness and unverified post-2015 turnover remain unchanged; open coding judgments and independent double-coding remain unresolved. No results have been written into `paper/draft2.tex`.

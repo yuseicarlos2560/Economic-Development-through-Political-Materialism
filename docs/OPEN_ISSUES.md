@@ -29,6 +29,23 @@ F1), the same subtype as FIN's E058. I'd recommend adding those 3–4 rows;
 the alternative is declaring OEEC too thin for membership, which would
 re-open AUT/SWE/IRL 1973–95 as entries.
 
+**1a. Preliminary plotting-only deepening register needs classification (added 2026-11-04).**
+Every row of `data_clean/sphere_deepening_events.csv` is tagged
+`analysis_status = preliminary`. The dataset and its documentation are
+preliminary and provisional where indicated. The register has been expanded from the initial
+European cases to all deepening, formalization, continuation, consolidation,
+and re-engagement events identified in the regional batch notes and wider
+project record. The label **deepening is for plotting only** and is not an
+analytical recoding. The register contains 91 records across 59 countries:
+44 `documented_deepening` and 47 `provisional_plotting_only`; five undated
+records are retained in the CSV but omitted from plots. Before any use beyond
+figures, classify whether each provisional act actually strengthens ties or
+merely formalizes/continues an existing relationship, and reconcile the older
+NAFTA-as-entry language in `docs/Cases.md` with the later Step 3 deepening
+determination. This layer does not alter the panel, realignment episodes, or
+Step 5–6 results. Malta and Guyana remain under their existing open
+entry-versus-deepening questions.
+
 **2. Succession ≠ severance.** Slovenia and Croatia exited *Yugoslavia*,
 not a sphere — Yugoslavia had been non-aligned since 1948 (E001). The
 tempting alternative is to code a 1991 "severance from the federation," but
@@ -249,3 +266,34 @@ completed reliability evidence.
 *All earlier Step 3 items above remain unchanged. Step 4's evidence gaps do not
 invalidate the completed workflow; they define observations that later analysis must
 exclude or treat as missing rather than as negative cases.*
+
+---
+
+## Proposed theoretical refinement (logged 2026-11-10)
+
+**T1 — Net material-capability flows and asymmetric relationship terms (OPEN;
+no change to current H2).** Current H2 and the R5 rule use entry into a richer
+sphere as the baseline predictor of acceleration and severance from a dominant
+power as the predictor of disruption. Patron GDP per capita measures potential
+resources within the sphere, but it does not establish how those resources are
+distributed. A richer patron can expand market access, capital, technology, and
+security while also imposing adverse prices, conditionalities, or costly
+obligations. Higher-priced energy sales within an existing patron relationship
+illustrate the potential difference between patron wealth and subordinate gains.
+
+The proposed refinement is: **External realignment shapes economic performance
+by changing a state's net material capabilities. Entry into a richer sphere is
+expected to produce acceleration when its terms expand the subordinate state's
+access to markets, capital, technology, and security. Severance is expected to
+produce disruption when it removes net material support. Extraction, adverse
+prices, and costly obligations can weaken or reverse these baseline
+associations.**
+
+This refinement is not applied to the current H2, event coding, or Step 5–6
+results. The next stage should measure changes in material-capability flows,
+including market access, capital, technology, energy prices, subsidies, and
+security guarantees. Relationship terms must be coded before examining economic
+outcomes; otherwise, extraction or adverse terms could be invoked retrospectively
+to accommodate every anomaly. An open theoretical decision is whether the R5
+richer-sphere proxy remains the primary signed test or becomes a baseline
+prediction subordinate to a separately registered net-capabilities test.
