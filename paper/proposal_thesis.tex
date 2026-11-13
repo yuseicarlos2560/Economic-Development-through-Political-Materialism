@@ -78,7 +78,7 @@ No domestic political change & No major discontinuity & Disruption (H2, H3) & Ac
 \end{threeparttable}
 \end{table}
 
-The design is falsifiable because event categories are coded independently of outcomes. H1 fails when turnover without deeper political or external change is followed by a major discontinuity. H2 and H3 fail when discontinuities arise without realignment, realignment leaves the trajectory intact, or the outcome has the wrong sign. An attributed outcome must postdate realignment, and the acceleration threshold must be symmetric to the disruption threshold.
+The design is falsifiable because event categories are coded independently of outcomes. H1 fails when turnover without deeper political or external change is followed by a major discontinuity. H2 and H3 fail when discontinuities arise without realignment, realignment leaves the trajectory intact, or the outcome has the wrong sign. An attributed outcome must postdate realignment. Disruption and acceleration use different time horizons because a severe collapse and a sustained take-off are different economic processes.
 
 \section{Research Design and Data}
 \label{sec:design}
@@ -91,13 +91,15 @@ Entry into a richer sphere is partly endogenous because patrons may admit states
 
 \subsection{Observable-event coding}
 
-Outcome thresholds are fixed before event coding. Disruption requires a real GDP-per-capita contraction of at least 15 percent peak-to-trough within five years, growth at least three percentage points below its prior five-year average for at least three years, or annual inflation above 500 percent \parencite{rodrik_1999}. Acceleration requires annual growth of at least 3.5 percent for eight years and at least two percentage points above the prior growth regime \parencite{hausmann_pritchett_rodrik_2005}.
+Outcome thresholds are fixed before event coding. Disruption requires a real GDP-per-capita contraction of at least 15 percent peak-to-trough within five years, growth at least three percentage points below its prior five-year average for at least three years, or annual inflation above 500 percent. This measure belongs to the literature on growth collapses after external shocks \parencite{rodrik_1999}; its numerical cutoffs are the project's coding rules. Acceleration requires average annual growth of at least 3.5 percent over eight years, growth at least two percentage points above the prior regime, and output per capita above its pre-episode peak. This rule adapts the growth-episode filter of \textcite{hausmann_pritchett_rodrik_2005}.
 
 Government turnover is coded from leader records and regime change from constitutional documents \parencite{goemans_gleditsch_chiozza_2009,elkins_ginsburg_melton_2009}. Power-structure transformation requires change in at least two of its four dimensions within three years, anchored to primary legal or institutional acts. Sphere membership requires documented influence in at least two of four families: security ties, economic dependence, institutional bloc membership, and coercion \parencite{keal_1983,leeds_etal_2002,gibler_sarkees_2004,felbermayr_etal_2020}. Severance or entry requires termination or establishment of at least two such ties within three years. A sphere is richer when the patron's GDP per capita exceeds the regional median in the entry year. Gradual events are interval-coded and tested at alternative dates; UN voting provides a validation check \parencite{bailey_strezhnev_voeten_2017}. Unknown evidence remains missing rather than being coded as absence.
 
 \subsection{Panel analysis}
 
-The panel covers Latin America, the post-Soviet space, East Asia, and Europe during 1960--2019. Following \textcite{acemoglu_naidu_restrepo_robinson_2019}, the planned specification includes country and year fixed effects and distributed event lags:
+The panel covers Latin America, the post-Soviet space, East Asia, and Europe during 1960--2019. The analysis uses two kinds of dependent variable. The first is real GDP-per-capita growth, measured annually and averaged over the five years after an event. This continuous measure records how much growth rises or falls. The second kind records whether an outcome crosses the thresholds above. These binary variables equal one when a new disruption occurs within five years or a new acceleration begins within eight years, and zero otherwise. Outcomes already underway are not counted as new.
+
+Following \textcite{acemoglu_naidu_restrepo_robinson_2019}, the continuous-growth specification includes country and year fixed effects and distributed event lags:
 \begin{equation}
 \begin{split}
 g_{it} = \alpha_i + \lambda_t &+ \beta_1 \mathrm{Severance}_{it} + \beta_2 \mathrm{Entry}_{it} + \beta_3 \mathrm{Turnover}_{it} \\
@@ -105,7 +107,7 @@ g_{it} = \alpha_i + \lambda_t &+ \beta_1 \mathrm{Severance}_{it} + \beta_2 \math
 \end{split}
 \label{eq:main}
 \end{equation}
-Here $g_{it}$ is annual real GDP-per-capita growth, $X_{it}$ includes oil rents, population, and investment, and standard errors are clustered by country. H1 predicts $\beta_3=\beta_4=0$; H2 predicts $\beta_1<0$ and $\beta_2>0$; H3 requires interactions between domestic events and realignment. The coefficient on power-structure transformation remains unrestricted without realignment. Robustness checks include alternative outcome thresholds, exclusion of the systemic-shock years 1989--1991, and synthetic-control estimates for Venezuela and Cuba \parencite{abadie_diamond_hainmueller_2010}.
+Here $g_{it}$ is annual real GDP-per-capita growth and $X_{it}$ includes oil rents, population, and investment. H1 predicts $\beta_3=\beta_4=0$; H2 predicts $\beta_1<0$ and $\beta_2>0$; H3 requires interactions between domestic events and realignment. The coefficient on power-structure transformation remains unrestricted without realignment. Separate binary-outcome models use the same fixed effects and estimate changes in the probability of disruption or acceleration. Standard errors are clustered by country. Robustness checks include alternative outcome thresholds, exclusion of the systemic-shock years 1989--1991, and synthetic-control estimates for Venezuela and Cuba \parencite{abadie_diamond_hainmueller_2010}.
 
 Economic outcomes come from the World Development Indicators, IMF World Economic Outlook, and Maddison Project, supplemented by ECLAC and national sources where necessary \parencite{worldbank_wdi,imf_weo,bolt_vanzanden_2024,eclac_cepalstat}. Domestic events use Archigos, the Comparative Constitutions Project, and primary legal records. Alliances use ATOP and the Correlates of War, supplemented by historical records of patron--client relationships. The panel is unbalanced, and the replication materials document coverage gaps and coding decisions.
 
