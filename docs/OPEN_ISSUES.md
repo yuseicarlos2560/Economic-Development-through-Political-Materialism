@@ -297,3 +297,94 @@ outcomes; otherwise, extraction or adverse terms could be invoked retrospectivel
 to accommodate every anomaly. An open theoretical decision is whether the R5
 richer-sphere proxy remains the primary signed test or becomes a baseline
 prediction subordinate to a separately registered net-capabilities test.
+
+
+---
+
+## Proposed measurement decision (logged 2026-11-17)
+
+**T2 — Binary realignment events and continuous alignment measures (OPEN;
+preliminary assessment; no change to current coding or results).** The two
+alternatives measure different quantities. Binary events identify a discrete
+change in sphere membership under R1–R3. Continuous measures describe variation
+in material dependence, relationship intensity, or diplomatic alignment. The
+choice concerns their roles in testing H1–H3; it does not require treating one
+as an error-free version of the other.
+
+### Alternative A — Binary event indicators (current primary specification)
+
+`severance`, `entry`, `entry_richer`, and `imposed_severance` equal one in the
+selected event year and zero otherwise. They are event indicators, not
+persistent indicators of sphere membership. A realignment requires establishment
+or termination of at least two distinct ties within three years; gradual
+episodes retain start, midpoint, and endpoint dates.
+
+**Advantages.**
+
+- The indicators correspond directly to H1–H3, which predict outcomes after
+  identifiable political events. They support the baseline cells, distributed
+  event lags, and comparisons of realignment with and without domestic change.
+- Documented acts and a common multi-indicator rule make timing and inclusion
+  decisions reproducible. Outcomes do not determine whether an event qualifies.
+- Entry, severance, richer entry, and imposed severance remain analytically
+  distinct. Imposed severance can therefore receive separate attention in the
+  identification strategy.
+- The rule codes informal relationships and asymmetric ties that a diplomatic
+  distance measure may miss.
+
+**Limitations.**
+
+- Events receive equal weight despite differences in the scale of lost or gained
+  capabilities. A partial exit and a complete break can receive the same code.
+- A one-year indicator does not measure the duration or intensity of the new
+  relationship. Subsequent deepening is outside the current treatment variable.
+- The two-family threshold creates a discrete boundary within an underlying
+  process. Cases near that boundary and gradual episodes can be sensitive to
+  documentary coverage and interval dating.
+- Rare events produce small cells and imprecise estimates. Binary coding does
+  not solve selection into realignment or confounding by wars, crises, and
+  systemic shifts.
+
+### Alternative B — Continuous measures of material exposure and alignment
+
+This alternative would use annual values and pre/post changes in trade exposure,
+aid and subsidies relative to GDP, market access, capital and technology flows,
+energy dependence and prices, security commitments, troop deployments, and the
+availability of alternative partners. Lake's (2009) hierarchy dimensions provide
+the conceptual basis. These measures could test whether larger changes in
+material exposure produce larger growth responses and whether the proposed
+capability flows account for the event estimates. Their coverage and units vary,
+so each component needs a registered definition, direction, normalization rule,
+and missing-data rule. Any composite index requires weights fixed before
+outcome analysis. Trade and capital flows can themselves respond to expected
+growth; changes in these variables should therefore be interpreted as mechanisms
+or treatment intensity rather than automatically exogenous treatments.
+
+Changes in UN General Assembly ideal-point distances offer a second continuous
+measure, following Bailey, Strezhnev, and Voeten (2017). They can summarize the
+magnitude and timing of diplomatic convergence or divergence and serve as an
+independent robustness check on event coding. Voting distance does not measure
+predominant influence or net material support. UN agenda changes, absent states,
+and predecessor/successor transitions can alter the observed series, and voting
+can move without a qualifying change in security or economic ties. Ideal points
+therefore cannot replace the material-dependence measures or the documentary
+event rule.
+
+### Assessment and unresolved decisions
+
+The recommended specification retains Alternative A for the primary H1–H3 tests
+and adds Alternative B as complementary evidence on robustness, intensity, and
+mechanisms. Continuous measures should not replace the event indicators in the
+main specification: doing so would change the estimand from the effect of a
+qualifying realignment to the association between growth and a different
+underlying scale. The continuous measures can show whether binary estimates mask
+substantial heterogeneity and whether outcomes vary with observed capability
+flows.
+
+Before Step 7, the following remain open: (1) which material-flow components are
+available with sufficient coverage; (2) their pre-registered scaling and, if
+used, index weights; (3) whether they enter as treatment-intensity robustness
+checks or as post-treatment mechanism outcomes; and (4) the construction of UN
+ideal-point changes around interval-coded episodes and state succession. Any new
+continuous dataset must be documented separately and labeled preliminary. No
+current episode, panel, or Step 5–6 file is altered by this assessment.
